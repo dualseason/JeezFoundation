@@ -1,0 +1,64 @@
+﻿info: Program[0] @ 2024-09-05T11:43:42.3821408+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T11:44:19.9486053+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T11:44:44.6649391+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T11:45:51.8714980+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T11:50:25.4963856+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T11:50:45.1443150+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T11:51:05.7472499+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T11:53:28.4242109+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T11:53:52.9086501+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T11:57:26.2802628+08:00
+      Hello, YDT_NET8_Logss!
+info: Program[0] @ 2024-09-05T16:02:28.0868975+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+warn: Program[0] @ 2024-09-05T16:02:30.3320736+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+fail: Program[0] @ 2024-09-05T16:02:31.4008227+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+crit: Program[0] @ 2024-09-05T16:02:31.4034577+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+trce: Program[0] @ 2024-09-05T16:03:29.3459404+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+dbug: Program[0] @ 2024-09-05T16:03:30.5627731+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+info: Program[0] @ 2024-09-05T16:03:30.5835765+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+warn: Program[0] @ 2024-09-05T16:03:30.8391958+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+fail: Program[0] @ 2024-09-05T16:03:30.9318140+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+crit: Program[0] @ 2024-09-05T16:03:30.9348777+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+trce: Program[0] @ 2024-09-05T16:04:05.8284070+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+dbug: Program[0] @ 2024-09-05T16:04:07.0647312+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+info: Program[0] @ 2024-09-05T16:04:07.0737463+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+warn: Program[0] @ 2024-09-05T16:04:07.0764457+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+fail: Program[0] @ 2024-09-05T16:04:07.0791536+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+crit: Program[0] @ 2024-09-05T16:04:07.0818873+08:00
+      Hello, YDT_NET8_Logss_LogLevel!
+fail: Program[0] @ 2024-09-05T16:04:07.1476640+08:00
+      系统异常
+trce: Program[0] @ 2024-09-05T16:09:39.0860350+08:00
+      [<Main>$ in E:\code\奕鼎通\学习文档\3、日志组件\LoggerComponent\Program.cs:27] Logger format trace
+fail: Program[0] @ 2024-09-05T16:09:40.1800007+08:00
+      系统异常
+info: LoggerComponent.OrderService[0] @ 2024-09-05T17:51:01.5020648+08:00
+      添加订单
+fail: LoggerComponent.OrderService[0] @ 2024-09-05T17:51:01.8330157+08:00
+      添加订单失败
+System.Exception: 添加订单失败
+   at LoggerComponent.OrderService.AddOrder() in E:\code\奕鼎通\学习文档\3、日志组件\LoggerComponent\OrderService.cs:line 19

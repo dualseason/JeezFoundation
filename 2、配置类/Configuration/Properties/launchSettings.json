@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Configuration": {
+      "commandName": "Project",
+      "commandLineArgs": "--myOption \"value\" --verbose true"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<Configuration>
+	<ApplicationSettings>
+		<AppName>MyConsoleApp</AppName>
+		<Version>1.0</Version>
+	</ApplicationSettings>
+	<Logging>
+		<LogLevel>
+			<Default>Information</Default>
+		</LogLevel>
+	</Logging>
+</Configuration>

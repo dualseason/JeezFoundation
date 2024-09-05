@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|e:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\loggercomponent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|e:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\loggercomponent\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|solutionrelative:orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|e:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\loggercomponent\\loggerformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|solutionrelative:loggerformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|e:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\loggercomponent\\mysqloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|solutionrelative:mysqloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|e:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\loggercomponent\\mysqlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|solutionrelative:mysqlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|e:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\loggercomponent\\mysqlloggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3714F406-E602-4130-8984-C5451B4AB5D2}|LoggerComponent.csproj|solutionrelative:mysqlloggerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 26,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{ebe3f1d5-feac-4131-bf03-0e85ffb89a89}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\OrderService.cs",
+              "RelativeDocumentMoniker": "OrderService.cs",
+              "ToolTip": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\OrderService.cs",
+              "RelativeToolTip": "OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:15:36.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoggerFormat.cs",
+              "DocumentMoniker": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\LoggerFormat.cs",
+              "RelativeDocumentMoniker": "LoggerFormat.cs",
+              "ToolTip": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\LoggerFormat.cs",
+              "RelativeToolTip": "LoggerFormat.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:07:01.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MySQLoggerProvider.cs",
+              "DocumentMoniker": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\MySQLoggerProvider.cs",
+              "RelativeDocumentMoniker": "MySQLoggerProvider.cs",
+              "ToolTip": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\MySQLoggerProvider.cs",
+              "RelativeToolTip": "MySQLoggerProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T02:35:21.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MySQLLoggerExtensions.cs",
+              "DocumentMoniker": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\MySQLLoggerExtensions.cs",
+              "RelativeDocumentMoniker": "MySQLLoggerExtensions.cs",
+              "ToolTip": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\MySQLLoggerExtensions.cs",
+              "RelativeToolTip": "MySQLLoggerExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T02:30:10.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MySQLogger.cs",
+              "DocumentMoniker": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\MySQLogger.cs",
+              "RelativeDocumentMoniker": "MySQLogger.cs",
+              "ToolTip": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\MySQLogger.cs",
+              "RelativeToolTip": "MySQLogger.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T01:44:47.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\code\\\u5955\u9F0E\u901A\\\u5B66\u4E60\u6587\u6863\\3\u3001\u65E5\u5FD7\u7EC4\u4EF6\\LoggerComponent\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T08:15:42.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
