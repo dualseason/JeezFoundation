@@ -1,0 +1,14 @@
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\bin\Debug\net8.0\JadeFramework.Redis.deps.json
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\bin\Debug\net8.0\JadeFramework.Redis.dll
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\bin\Debug\net8.0\JadeFramework.Redis.pdb
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\bin\Debug\net8.0\JadeFramework.Redis.xml
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\JadeFramework.Redis.csproj.AssemblyReference.cache
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\JadeFramework.Redis.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\JadeFramework.Redis.AssemblyInfoInputs.cache
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\JadeFramework.Redis.AssemblyInfo.cs
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\JadeFramework.Redis.csproj.CoreCompileInputs.cache
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\JadeFramework.Redis.sourcelink.json
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\JadeFramework.Redis.dll
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\refint\JadeFramework.Redis.dll
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\JadeFramework.Redis.pdb
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8.0\ref\JadeFramework.Redis.dll

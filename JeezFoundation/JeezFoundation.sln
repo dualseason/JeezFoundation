@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Core", "JadeFramework.Core\JeezFoundation.Core.csproj", "{2510EF86-5A53-4B31-89EB-65133EEBDDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Cache", "JadeFramework.Cache\JeezFoundation.Cache.csproj", "{4B951B17-808C-4E8E-91AA-02C8D6BFCC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Dapper", "JadeFramework.Dapper\JeezFoundation.Dapper.csproj", "{62802564-E38B-4E74-AE17-0CE17DBB167B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Redis", "JadeFramework.Redis\JeezFoundation.Redis.csproj", "{242C2BAB-F3D2-4BBF-923C-D067105D1609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Test", "JadeFramework.Test\JeezFoundation.Test.csproj", "{5610E4E5-71EA-4A41-AF2E-C8A65E2CA3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.WorkFlow", "JadeFramework.WorkFlow\JeezFoundation.WorkFlow.csproj", "{1FEFEC0A-6D10-47F1-A15E-5BC09F3E1819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2510EF86-5A53-4B31-89EB-65133EEBDDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2510EF86-5A53-4B31-89EB-65133EEBDDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2510EF86-5A53-4B31-89EB-65133EEBDDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2510EF86-5A53-4B31-89EB-65133EEBDDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B951B17-808C-4E8E-91AA-02C8D6BFCC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B951B17-808C-4E8E-91AA-02C8D6BFCC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B951B17-808C-4E8E-91AA-02C8D6BFCC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B951B17-808C-4E8E-91AA-02C8D6BFCC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62802564-E38B-4E74-AE17-0CE17DBB167B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62802564-E38B-4E74-AE17-0CE17DBB167B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62802564-E38B-4E74-AE17-0CE17DBB167B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62802564-E38B-4E74-AE17-0CE17DBB167B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242C2BAB-F3D2-4BBF-923C-D067105D1609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242C2BAB-F3D2-4BBF-923C-D067105D1609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242C2BAB-F3D2-4BBF-923C-D067105D1609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242C2BAB-F3D2-4BBF-923C-D067105D1609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5610E4E5-71EA-4A41-AF2E-C8A65E2CA3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5610E4E5-71EA-4A41-AF2E-C8A65E2CA3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5610E4E5-71EA-4A41-AF2E-C8A65E2CA3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5610E4E5-71EA-4A41-AF2E-C8A65E2CA3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEFEC0A-6D10-47F1-A15E-5BC09F3E1819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEFEC0A-6D10-47F1-A15E-5BC09F3E1819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEFEC0A-6D10-47F1-A15E-5BC09F3E1819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEFEC0A-6D10-47F1-A15E-5BC09F3E1819}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

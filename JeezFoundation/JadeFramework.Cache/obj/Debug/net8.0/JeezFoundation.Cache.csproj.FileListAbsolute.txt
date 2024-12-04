@@ -1,0 +1,14 @@
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\bin\Debug\net8.0\JeezFoundation.Cache.deps.json
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\bin\Debug\net8.0\JeezFoundation.Cache.dll
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\bin\Debug\net8.0\JeezFoundation.Cache.pdb
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\bin\Debug\net8.0\JadeFramework.Cache.xml
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\JeezFoundation.Cache.csproj.AssemblyReference.cache
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\JeezFoundation.Cache.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\JeezFoundation.Cache.AssemblyInfoInputs.cache
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\JeezFoundation.Cache.AssemblyInfo.cs
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\JeezFoundation.Cache.csproj.CoreCompileInputs.cache
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\JeezFoundation.Cache.sourcelink.json
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\JeezFoundation.Cache.dll
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\refint\JeezFoundation.Cache.dll
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\JeezFoundation.Cache.pdb
+E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Cache\obj\Debug\net8.0\ref\JeezFoundation.Cache.dll

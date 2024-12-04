@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3OCLS3jBUJM=",
+  "success": true,
+  "projectFilePath": "E:\\code\\奕鼎通\\学习文档\\JeezFoundation\\JadeFramework.Core\\JeezFoundation.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nodatime\\3.2.0\\nodatime.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
