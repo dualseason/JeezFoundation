@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	<TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/wangmaosheng/JeezFramework.git</PackageProjectUrl>
     <Copyright>Jeez</Copyright>
     <Authors>Jeez</Authors>

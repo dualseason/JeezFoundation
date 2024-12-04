@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Jeez")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("基于Dapper扩展封装")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.6")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1.6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1.6+4b7911d501ca611be627ea00379da042d3926706")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeezFoundation.Dapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeezFoundation.Dapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.6")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JeezFoundation.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b7911d501ca611be627ea00379da042d3926706")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeezFoundation.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeezFoundation.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

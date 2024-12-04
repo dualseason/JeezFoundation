@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "HrXS490WD6Q=",
+  "dgSpecHash": "OXaY/okTLIc=",
   "success": true,
   "projectFilePath": "E:\\code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\nodatime\\3.2.0\\nodatime.3.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512"
   ],
   "logs": []
