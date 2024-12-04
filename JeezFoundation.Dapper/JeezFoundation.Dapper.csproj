@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/wangmaosheng/JeezFramework.git</PackageProjectUrl>
+    <Copyright>Jeez</Copyright>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Jeez</Authors>
+    <PackageIconUrl>https://avatars2.githubusercontent.com/u/22044556?s=40&amp;u=d08c24d125e91789e90fe42d1576f1a9d88db8ba&amp;v=4</PackageIconUrl>
+    <Version>1.0.1.6</Version>
+    <Description>基于Dapper扩展封装</Description>
+    <PackageReleaseNotes>
+    </PackageReleaseNotes>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\JeezFramework.Dapper.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\JeezFramework.Dapper.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="DapperRepository.Base.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JeezFoundation.Core\JeezFoundation.Core.csproj" />
+  </ItemGroup>
+</Project>

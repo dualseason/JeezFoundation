@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JadeFramework.Redis</name>
+    </assembly>
+    <members>
+        <member name="M:JadeFramework.Redis.RedisClient.GetConnect(Microsoft.Extensions.Configuration.IConfigurationSection)">
+            <summary>
+            获取ConnectionMultiplexer
+            </summary>
+            <param name="redisConfig">RedisConfig配置文件</param>
+            <returns></returns>
+        </member>
+        <member name="M:JadeFramework.Redis.RedisClient.CheckeConfig(System.String)">
+            <summary>
+            检查入参数
+            </summary>
+            <param name="configName">RedisConfig配置文件中的 Redis_Default/Redis_6 名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:JadeFramework.Redis.RedisClient.GetDatabase(System.String,System.Nullable{System.Int32})">
+            <summary>
+            获取数据库
+            </summary>
+            <param name="configName"></param>
+            <param name="db">默认为0：优先代码的db配置，其次config中的配置</param>
+            <returns></returns>
+        </member>
+        <member name="T:JadeFramework.Redis.RedisClientSingleton">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="T:JadeFramework.Redis.RedisSetting">
+            <summary>
+            Redis JSON Setting
+            </summary>
+        </member>
+    </members>
+</doc>
