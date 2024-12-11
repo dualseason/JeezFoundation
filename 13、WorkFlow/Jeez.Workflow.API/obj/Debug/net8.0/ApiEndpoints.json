@@ -1,0 +1,101 @@
+[
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
+    "Method": "SystemsCreateAsync",
+    "RelativePath": "System/SystemsCreateAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "systemsCreateDto",
+        "Type": "Jeez.Workflow.API.Dtos.Systems.SystemsCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
+    "Method": "SystemsGetListAsync",
+    "RelativePath": "System/SystemsGetListAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "systemsGetListDto",
+        "Type": "Jeez.Workflow.API.Dtos.Systems.SystemsGetListDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[System.Collections.Generic.List\u00601[[Jeez.Workflow.API.Dtos.Systems.SystemsDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
+    "Method": "SystemsGetListPageAsync",
+    "RelativePath": "System/SystemsGetListPageAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "systemsGetListPageDto",
+        "Type": "Jeez.Workflow.API.Dtos.Systems.SystemsGetListPageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonPageResult\u00601[[Jeez.Workflow.API.Dtos.Systems.SystemsDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Jeez.Workflow.API.WeatherForecast, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Jeez.Workflow.API.props" />
+</Project>
