@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using Jeez.Workflow.API.Commons;
 using Jeez.Workflow.API.Contexts;
-using Jeez.Workflow.API.Dtos.Systems;
-using Jeez.Workflow.API.Models.Systems;
+using Jeez.Workflow.API.Dtos;
+using Jeez.Workflow.API.Models;
 using Jeez.Workflow.API.Services.interfaces;
 
 namespace Jeez.Workflow.API.Services.implements
@@ -24,9 +24,9 @@ namespace Jeez.Workflow.API.Services.implements
         /// </summary>
         /// <param name="SystemsCreateDto"></param>
         /// <returns></returns>
-        public async Task<CommonResult<SystemsDto>> SystemsCreateAsync(SystemsCreateDto systemsCreateDto)
+        public async Task<CommonResult> SystemsCreateAsync(SystemsCreateDto systemsCreateDto)
         {
-            CommonResult<SystemsDto> result = new CommonResult<SystemsDto>();
+            CommonResult result = new CommonResult();
             Systems systems = Mapper.Map<Systems>(systemsCreateDto);
             SystemsDto systemsDto = Mapper.Map<SystemsDto>(systemsCreateDto);
             var r = await WorkflowFixtrue.Db.Systems.InsertAsync(systems);
@@ -34,13 +34,11 @@ namespace Jeez.Workflow.API.Services.implements
             {
                 result.Success = true;
                 result.Message = "创建成功";
-                result.Data = systemsDto;
             }
             else
             {
                 result.Success = false;
                 result.Message = "创建失败";
-                result.Data = null;
             }
             return result;
         }
@@ -82,6 +80,21 @@ namespace Jeez.Workflow.API.Services.implements
             var systemList = Mapper.Map<List<SystemsDto>>(data);
             var total = await WorkflowFixtrue.Db.Systems.SystemsGetListCountPageAsync(systemsGetListPageDto);
             return new CommonPageResult<SystemsDto>(systemsGetListPageDto.PageSize, total, systemList);
+        }
+
+        public Task<CommonResult<SystemsDto>> SystemsGetAsync(long SystemId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CommonResult> SystemsUpdateAsync(SystemsUpdateDto SystemsUpdateDto, long SystemId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CommonResult> SystemsDeleteAsync(List<long> SystemIds)
+        {
+            throw new NotImplementedException();
         }
     }
 }

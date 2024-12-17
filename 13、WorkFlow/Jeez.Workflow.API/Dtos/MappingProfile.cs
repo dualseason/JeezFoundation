@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Jeez.Workflow.API.Dtos.Systems;
+using Jeez.Workflow.API.Models;
 
 namespace Jeez.Workflow.API.Dtos
 {
@@ -7,10 +7,13 @@ namespace Jeez.Workflow.API.Dtos
     {
         public MappingProfile()
         {
-            CreateMap<SystemsCreateDto, Models.Systems.Systems>();
-            CreateMap<SystemsCreateDto, SystemsDto>().ForMember(dest => dest.SystemId, opt => opt.Ignore());
-            CreateMap<Models.Systems.Systems, SystemsCreateDto>();
-            CreateMap<Models.Systems.Systems, SystemsDto>();
+            CreateMap<SystemsCreateDto, Systems>();
+            CreateMap<SystemsCreateDto, SystemsDto>().ForMember(System => System.SystemId, opt => opt.Ignore());
+            CreateMap<Systems, SystemsCreateDto>();
+            CreateMap<Systems, SystemsDto>();
+
+            CreateMap<UserCreateDto, User>();
+            CreateMap<User, UserDto>();
         }
     }
 }

@@ -1,4 +1,4 @@
-namespace Jeez.Workflow.API.Dtos.Systems
+namespace Jeez.Workflow.API.Dtos
 {
     /// <summary>
     /// 子系统模型更新Dto
@@ -13,5 +13,6 @@ namespace Jeez.Workflow.API.Dtos.Systems
         public int Sort { get; set; }
         public long CreateTime { get; set; }
         public long CreateUserId { get; set; }
-        public long UpdateTime { get; set; }}
+        public long UpdateTime { get; set; }
+    }
 }

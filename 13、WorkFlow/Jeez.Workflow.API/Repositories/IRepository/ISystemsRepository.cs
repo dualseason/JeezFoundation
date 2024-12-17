@@ -1,6 +1,5 @@
-﻿using Jeez.Workflow.API.Commons;
-using Jeez.Workflow.API.Dtos.Systems;
-using Jeez.Workflow.API.Models.Systems;
+﻿using Jeez.Workflow.API.Dtos;
+using Jeez.Workflow.API.Models;
 using JeezFoundation.Dapper;
 
 namespace Jeez.Workflow.API.Repositories.IRepository

@@ -16,5 +16,4 @@
     <ProjectReference Include="..\..\..\..\JeezFoundation\JeezFoundation.Core\JeezFoundation.Core.csproj" />
     <ProjectReference Include="..\..\..\..\JeezFoundation\JeezFoundation.Dapper\JeezFoundation.Dapper.csproj" />
   </ItemGroup>
-
 </Project>

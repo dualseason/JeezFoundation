@@ -1,5 +1,5 @@
 ﻿using Jeez.Workflow.API.Commons;
-using Jeez.Workflow.API.Dtos.Systems;
+using Jeez.Workflow.API.Dtos;
 using Jeez.Workflow.API.Services.interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,34 +19,58 @@ namespace Jeez.Workflow.API.Controllers
         /// <summary>
         /// 子系统模型创建
         /// </summary>
-        /// <param name="systemsCreateDto"></param>
         /// <returns></returns>
-        [HttpPost("SystemsCreateAsync")]
-        public async Task<CommonResult> SystemsCreateAsync(SystemsCreateDto systemsCreateDto)
+        [HttpPost]
+        public async Task<CommonResult> SystemsCreateAsync(SystemsCreateDto SystemsCreateDto)
         {
-            return await SystemsService.SystemsCreateAsync(systemsCreateDto);
+            return await SystemsService.SystemsCreateAsync(SystemsCreateDto);
         }
 
         /// <summary>
         /// 子系统模型集合查询
         /// </summary>
-        /// <param name="systemsGetListDto"></param>
         /// <returns></returns>
-        [HttpPost("SystemsGetListAsync")]
-        public async Task<CommonResult<List<SystemsDto>>> SystemsGetListAsync(SystemsGetListDto systemsGetListDto)
+        [HttpGet]
+        public async Task<CommonResult<List<SystemsDto>>> SystemsGetListAsync([FromQuery] SystemsGetListDto SystemsGetListDto)
         {
-            return await SystemsService.SystemsGetListAsync(systemsGetListDto);
+            return await SystemsService.SystemsGetListAsync(SystemsGetListDto);
         }
 
         /// <summary>
         /// 子系统模型集合分页查询
         /// </summary>
-        /// <param name="systemsGetListPageDto"></param>
         /// <returns></returns>
-        [HttpPost("SystemsGetListPageAsync")]
-        public async Task<CommonPageResult<SystemsDto>> SystemsGetListPageAsync(SystemsGetListPageDto systemsGetListPageDto)
+        [HttpGet("Page")]
+        public async Task<CommonPageResult<SystemsDto>> SystemsGetListPageAsync([FromQuery] SystemsGetListPageDto SystemsGetListPageDto)
         {
-            return await SystemsService.SystemsGetListPageAsync(systemsGetListPageDto);
+            return await SystemsService.SystemsGetListPageAsync(SystemsGetListPageDto);
+        }
+        /// <summary>
+        /// 子系统模型查询【根据子系统模型Id查询】
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("{SystemId}")]
+        public async Task<CommonResult<SystemsDto>> SystemsGetAsync(long SystemId)
+        {
+            return await SystemsService.SystemsGetAsync(SystemId);
+        }
+        /// <summary>
+        /// 子系统模型更新
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut]
+        public async Task<CommonResult> SystemsUpdateAsync(SystemsUpdateDto SystemsUpdateDto, long SystemId)
+        {
+            return await SystemsService.SystemsUpdateAsync(SystemsUpdateDto, SystemId);
+        }
+        /// <summary>
+        /// 子系统模型删除
+        /// </summary>
+        /// <returns></returns>
+        [HttpDelete]
+        public async Task<CommonResult> SystemsDeleteAsync(List<long> SystemIds)
+        {
+            return await SystemsService.SystemsDeleteAsync(SystemIds);
         }
     }
 }

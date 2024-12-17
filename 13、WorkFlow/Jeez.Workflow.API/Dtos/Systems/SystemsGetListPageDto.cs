@@ -1,4 +1,4 @@
-namespace Jeez.Workflow.API.Dtos.Systems
+namespace Jeez.Workflow.API.Dtos
 {
     /// <summary>
     /// 子系统模型分页查询入参Dto
@@ -18,8 +18,7 @@ namespace Jeez.Workflow.API.Dtos.Systems
         public int PageSize { set; get; }
 
         /// <summary>
-        /// 分页偏移量
-        /// 0 10 20 30 
+        /// 分页偏移量【0 10 20 30】
         /// </summary>
         /// <returns></returns>
         public int OffSet()

@@ -1,4 +1,4 @@
-namespace Jeez.Workflow.API.Dtos.Systems
+namespace Jeez.Workflow.API.Dtos
 {
     /// <summary>
     /// 子系统模型集合查询结果Dto

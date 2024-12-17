@@ -1,4 +1,4 @@
-namespace Jeez.Workflow.API.Dtos.Systems
+namespace Jeez.Workflow.API.Dtos
 {
     /// <summary>
     /// 子系统模型分页查询结果Dto
@@ -8,7 +8,7 @@ namespace Jeez.Workflow.API.Dtos.Systems
         /// <summary>
         /// 1、子系统模型集合
         /// </summary>
-        public List<SystemsDto> Systemss { get; set; }
+        public List<SystemsDto> Systemss { get; set; } = new List<SystemsDto>();
 
 
         public int TotalPages 
@@ -49,10 +49,5 @@ namespace Jeez.Workflow.API.Dtos.Systems
         /// 5、每页显示的条数【默认显示10条】
         /// </summary>
         public int PageSize { set; get; }
-
-        public SystemsPageDto()
-        {
-            Systemss = new List<SystemsDto>();
-        }
     }
 }
