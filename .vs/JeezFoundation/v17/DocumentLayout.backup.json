@@ -71,7 +71,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JeezFoundation.Test",
+              "Title": "JeezFoundation.Test.csproj",
               "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Test\\JeezFoundation.Test.csproj",
               "RelativeDocumentMoniker": "JeezFoundation.Test\\JeezFoundation.Test.csproj",
               "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Test\\JeezFoundation.Test.csproj",
@@ -84,7 +84,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JeezFoundation.WorkFlow",
+              "Title": "JeezFoundation.WorkFlow.csproj",
               "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
               "RelativeDocumentMoniker": "JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
               "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",

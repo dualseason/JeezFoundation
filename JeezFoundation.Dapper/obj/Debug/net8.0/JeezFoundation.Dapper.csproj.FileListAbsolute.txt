@@ -33,3 +33,4 @@ E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\refint\JeezFoundat
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\JeezFoundation.Dapper.pdb
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\ref\JeezFoundation.Dapper.dll
 E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\net8.0\JeezFramework.Dapper.xml
+E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\JeezFoundation.Dapper.sourcelink.json

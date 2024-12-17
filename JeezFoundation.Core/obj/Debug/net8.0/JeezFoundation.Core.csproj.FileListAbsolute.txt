@@ -25,3 +25,4 @@ E:\code\JeezFoundation\JeezFoundation.Core\obj\Debug\net8.0\JeezFoundation.Core.
 E:\code\JeezFoundation\JeezFoundation.Core\obj\Debug\net8.0\refint\JeezFoundation.Core.dll
 E:\code\JeezFoundation\JeezFoundation.Core\obj\Debug\net8.0\JeezFoundation.Core.pdb
 E:\code\JeezFoundation\JeezFoundation.Core\obj\Debug\net8.0\ref\JeezFoundation.Core.dll
+E:\code\JeezFoundation\JeezFoundation.Core\obj\Debug\net8.0\JeezFoundation.Core.sourcelink.json

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Jeez")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("基于工作流封装")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3.4")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3.4+4b7911d501ca611be627ea00379da042d3926706")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3.4+542ece8ae82d312a92873b84cb9bb5e58707bee8")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeezFoundation.WorkFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeezFoundation.WorkFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.3.4")]
