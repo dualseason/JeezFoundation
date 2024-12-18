@@ -1,0 +1,13 @@
+E:\code\JeezFoundation\JeezFoundation.WeChat\bin\Debug\net8.0\JeezFoundation.WeChat.deps.json
+E:\code\JeezFoundation\JeezFoundation.WeChat\bin\Debug\net8.0\JeezFoundation.WeChat.dll
+E:\code\JeezFoundation\JeezFoundation.WeChat\bin\Debug\net8.0\JeezFoundation.WeChat.pdb
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\JeezFoundation.WeChat.csproj.AssemblyReference.cache
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\JeezFoundation.WeChat.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\JeezFoundation.WeChat.AssemblyInfoInputs.cache
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\JeezFoundation.WeChat.AssemblyInfo.cs
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\JeezFoundation.WeChat.csproj.CoreCompileInputs.cache
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\JeezFoundation.WeChat.sourcelink.json
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\JeezFoundation.WeChat.dll
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\refint\JeezFoundation.WeChat.dll
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\JeezFoundation.WeChat.pdb
+E:\code\JeezFoundation\JeezFoundation.WeChat\obj\Debug\net8.0\ref\JeezFoundation.WeChat.dll

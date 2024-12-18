@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XKHSrsV76uA=",
+  "success": true,
+  "projectFilePath": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}
