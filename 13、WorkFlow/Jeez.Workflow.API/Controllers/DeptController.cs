@@ -20,7 +20,7 @@ namespace Jeez.Workflow.API.Controllers
         /// 部门模型创建
         /// </summary>
         /// <returns></returns>
-        [HttpPost]
+        [HttpPost("DeptCreateAsync")]
         public async Task<CommonResult> DeptCreateAsync(DeptCreateDto DeptCreateDto)
         {
             return await DeptService.DeptCreateAsync(DeptCreateDto);
@@ -30,8 +30,8 @@ namespace Jeez.Workflow.API.Controllers
         /// 部门模型集合查询
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
-        public async Task<CommonResult<List<DeptDto>>> DeptGetListAsync([FromQuery] DeptGetListDto DeptGetListDto)
+        [HttpPost("DeptGetListAsync")]
+        public async Task<CommonResult<List<DeptDto>>> DeptGetListAsync(DeptGetListDto DeptGetListDto)
         {
             return await DeptService.DeptGetListAsync(DeptGetListDto);
         }
@@ -40,8 +40,8 @@ namespace Jeez.Workflow.API.Controllers
         /// 部门模型集合分页查询
         /// </summary>
         /// <returns></returns>
-        [HttpGet("Page")]
-        public async Task<CommonPageResult<DeptDto>> DeptGetListPageAsync([FromQuery] DeptGetListPageDto DeptGetListPageDto)
+        [HttpGet("DeptGetListPageAsync")]
+        public async Task<CommonPageResult<DeptDto>> DeptGetListPageAsync(DeptGetListPageDto DeptGetListPageDto)
         {
             return await DeptService.DeptGetListPageAsync(DeptGetListPageDto);
         }
@@ -59,7 +59,7 @@ namespace Jeez.Workflow.API.Controllers
         /// 部门模型更新
         /// </summary>
         /// <returns></returns>
-        [HttpPut]
+        [HttpPut("DeptUpdateAsync")]
         public async Task<CommonResult> DeptUpdateAsync(DeptUpdateDto DeptUpdateDto, long DeptId)
         {
             return await DeptService.DeptUpdateAsync(DeptUpdateDto, DeptId);
@@ -68,7 +68,7 @@ namespace Jeez.Workflow.API.Controllers
         /// 部门模型删除
         /// </summary>
         /// <returns></returns>
-        [HttpDelete]
+        [HttpDelete("DeptDeleteAsync")]
         public async Task<CommonResult> DeptDeleteAsync(List<long> DeptIds)
         {
             return await DeptService.DeptDeleteAsync(DeptIds);

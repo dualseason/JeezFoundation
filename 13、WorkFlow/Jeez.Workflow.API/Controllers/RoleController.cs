@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Jeez.Workflow.API.Controllers
 {
+    [Route("[controller]")]
+    [ApiController]
     public class RoleController
     {
         private IRoleService RoleService { get; set; }

@@ -11,6 +11,8 @@ using System.Security.Claims;
 
 namespace Jeez.Workflow.API.Controllers
 {
+    [Route("[controller]")]
+    [ApiController]
     public class LoginController: ControllerBase
     {
         private ILoginService LoginService { get; set; }

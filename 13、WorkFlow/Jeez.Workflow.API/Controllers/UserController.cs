@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Jeez.Workflow.API.Controllers
 {
+    [Route("[controller]")]
+    [ApiController]
     public class UserController
     {
         private IUserService UsersService { get; set; }

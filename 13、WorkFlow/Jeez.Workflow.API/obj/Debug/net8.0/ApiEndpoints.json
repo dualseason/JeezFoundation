@@ -1,14 +1,599 @@
 [
   {
-    "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
-    "Method": "SystemsCreateAsync",
-    "RelativePath": "System/SystemsCreateAsync",
+    "ContainingType": "Jeez.Workflow.API.Controllers.DeptController",
+    "Method": "DeptGetAsync",
+    "RelativePath": "Dept/{DeptId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DeptId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Dtos.DeptSelectResultDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.DeptController",
+    "Method": "DeptCreateAsync",
+    "RelativePath": "Dept/DeptCreateAsync",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "systemsCreateDto",
+        "Name": "DeptCreateDto",
+        "Type": "Jeez.Workflow.API.Dtos.DeptCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.DeptController",
+    "Method": "DeptDeleteAsync",
+    "RelativePath": "Dept/DeptDeleteAsync",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DeptIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.DeptController",
+    "Method": "DeptGetListAsync",
+    "RelativePath": "Dept/DeptGetListAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DeptGetListDto",
+        "Type": "Jeez.Workflow.API.Dtos.DeptGetListDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[System.Collections.Generic.List\u00601[[Jeez.Workflow.API.Dtos.DeptDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.DeptController",
+    "Method": "DeptGetListPageAsync",
+    "RelativePath": "Dept/DeptGetListPageAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DeptGetListPageDto",
+        "Type": "Jeez.Workflow.API.Dtos.DeptGetListPageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonPageResult\u00601[[Jeez.Workflow.API.Dtos.DeptDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.DeptController",
+    "Method": "DeptUpdateAsync",
+    "RelativePath": "Dept/DeptUpdateAsync",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DeptUpdateDto",
+        "Type": "Jeez.Workflow.API.Dtos.DeptUpdateDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "DeptId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.IndexController",
+    "Method": "IndexGetAsync",
+    "RelativePath": "Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "indexGetDto",
+        "Type": "Jeez.Workflow.API.Dtos.IndexGetDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Dtos.IndexDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.LoginController",
+    "Method": "UserLoginAsync",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLoginDto",
+        "Type": "Jeez.Workflow.API.Dtos.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Dtos.UserLoginResultDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.LoginController",
+    "Method": "Logout",
+    "RelativePath": "Login/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.LoginController",
+    "Method": "GetUserLoginResult",
+    "RelativePath": "Login/SysUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Commons.SystemUser, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.ResourceController",
+    "Method": "ResourceCreateAsync",
+    "RelativePath": "Resource",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ResourceCreateDto",
+        "Type": "Jeez.Workflow.API.Dtos.ResourceCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.ResourceController",
+    "Method": "ResourceGetListAsync",
+    "RelativePath": "Resource",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsDel",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[System.Collections.Generic.List\u00601[[Jeez.Workflow.API.Dtos.ResourceDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.ResourceController",
+    "Method": "ResourceUpdateAsync",
+    "RelativePath": "Resource",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ResourceUpdateDto",
+        "Type": "Jeez.Workflow.API.Dtos.ResourceUpdateDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "ResourceId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.ResourceController",
+    "Method": "ResourceDeleteAsync",
+    "RelativePath": "Resource",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ResourceIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.ResourceController",
+    "Method": "ResourceGetAsync",
+    "RelativePath": "Resource/{ResourceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ResourceId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Dtos.ResourceSelectResultDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.ResourceController",
+    "Method": "ResourceGetListPageAsync",
+    "RelativePath": "Resource/Page",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsDel",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonPageResult\u00601[[Jeez.Workflow.API.Dtos.ResourceDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.RoleController",
+    "Method": "RoleUpdateAsync",
+    "RelativePath": "Role",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleUpdateDto",
+        "Type": "Jeez.Workflow.API.Dtos.RoleUpdateDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "RoleId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.RoleController",
+    "Method": "RoleDeleteAsync",
+    "RelativePath": "Role",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.RoleController",
+    "Method": "RoleGetAsync",
+    "RelativePath": "Role/{RoleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Dtos.RoleDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.RoleController",
+    "Method": "RoleCreateAsync",
+    "RelativePath": "Role/RoleCreateAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleCreateDto",
+        "Type": "Jeez.Workflow.API.Dtos.RoleCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.RoleController",
+    "Method": "RoleGetListAsync",
+    "RelativePath": "Role/RoleGetListAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleGetListDto",
+        "Type": "Jeez.Workflow.API.Dtos.RoleGetListDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Jeez.Workflow.API.Dtos.RoleDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.RoleController",
+    "Method": "RoleGetListPageAsync",
+    "RelativePath": "Role/RoleGetListPageAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleGetListPageDto",
+        "Type": "Jeez.Workflow.API.Dtos.RoleGetListPageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Dtos.RolePageDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
+    "Method": "SystemsCreateAsync",
+    "RelativePath": "System",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SystemsCreateDto",
         "Type": "Jeez.Workflow.API.Dtos.SystemsCreateDto",
         "IsRequired": true
       }
@@ -27,36 +612,16 @@
   },
   {
     "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
-    "Method": "SystemsException",
-    "RelativePath": "System/SystemsException",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Boolean",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
     "Method": "SystemsGetListAsync",
-    "RelativePath": "System/SystemsGetListAsync",
-    "HttpMethod": "POST",
+    "RelativePath": "System",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "systemsGetListDto",
-        "Type": "Jeez.Workflow.API.Dtos.SystemsGetListDto",
-        "IsRequired": true
+        "Name": "IsDel",
+        "Type": "System.Boolean",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -73,21 +638,379 @@
   },
   {
     "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
-    "Method": "SystemsGetListPageAsync",
-    "RelativePath": "System/SystemsGetListPageAsync",
-    "HttpMethod": "POST",
+    "Method": "SystemsUpdateAsync",
+    "RelativePath": "System",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "systemsGetListPageDto",
-        "Type": "Jeez.Workflow.API.Dtos.SystemsGetListPageDto",
+        "Name": "SystemsUpdateDto",
+        "Type": "Jeez.Workflow.API.Dtos.SystemsUpdateDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "SystemId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
+    "Method": "SystemsDeleteAsync",
+    "RelativePath": "System",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SystemIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
+    "Method": "SystemsGetAsync",
+    "RelativePath": "System/{SystemId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SystemId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Dtos.SystemsDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.SystemController",
+    "Method": "SystemsGetListPageAsync",
+    "RelativePath": "System/Page",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsDel",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
         "Type": "Jeez.Workflow.API.Commons.CommonPageResult\u00601[[Jeez.Workflow.API.Dtos.SystemsDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserCreateAsync",
+    "RelativePath": "User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCreateDto",
+        "Type": "Jeez.Workflow.API.Dtos.UserCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserGetListAsync",
+    "RelativePath": "User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userGetListDto",
+        "Type": "Jeez.Workflow.API.Dtos.UserGetListDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[System.Collections.Generic.List\u00601[[Jeez.Workflow.API.Dtos.UserDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserUpdateAsync",
+    "RelativePath": "User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userUpdateDto",
+        "Type": "Jeez.Workflow.API.Dtos.UserUpdateDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserDeleteAsync",
+    "RelativePath": "User",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserGetAsync",
+    "RelativePath": "User/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Dtos.UserDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserGetListPageAsync",
+    "RelativePath": "User/Page",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userGetListPageDto",
+        "Type": "Jeez.Workflow.API.Dtos.UserGetListPageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonPageResult\u00601[[Jeez.Workflow.API.Dtos.UserDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserDeptGetAsync",
+    "RelativePath": "User/UserDept",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Dtos.UserDeptDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserDeptAssignAsync",
+    "RelativePath": "User/UserDept",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDeptAssignDto",
+        "Type": "Jeez.Workflow.API.Dtos.UserDeptAssignDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserRoleGetAsync",
+    "RelativePath": "User/UserRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Dtos.UserRoleDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Jeez.Workflow.API.Controllers.UserController",
+    "Method": "UserRoleAssignAsync",
+    "RelativePath": "User/UserRole",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRoleAssignDto",
+        "Type": "Jeez.Workflow.API.Dtos.UserRoleAssignDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Jeez.Workflow.API.Commons.CommonResult",
         "MediaTypes": [
           "text/plain",
           "application/json",

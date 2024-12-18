@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Jeez.Workflow.API.Controllers
 {
-    [ApiController]
     [Route("[controller]")]
+    [ApiController]
     public class SystemController
     {
         private ISystemsService SystemsService { get; set; }
