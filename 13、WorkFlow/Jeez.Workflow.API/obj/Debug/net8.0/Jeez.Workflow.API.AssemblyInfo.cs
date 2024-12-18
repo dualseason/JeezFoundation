@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jeez.Workflow.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3add02d0918d1b561bea3190f5d96a4117dd2fef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28a53b785b3f68e004e588d06a144643b654cbae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jeez.Workflow.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jeez.Workflow.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
