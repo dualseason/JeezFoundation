@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "E:\\code\\JeezFoundation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8108E4FF-978F-4BBB-9CCF-F32E409697B0}|JeezFoundation.Test\\JeezFoundation.Test.csproj|e:\\code\\jeezfoundation\\jeezfoundation.test\\jeezfoundation.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8108E4FF-978F-4BBB-9CCF-F32E409697B0}|JeezFoundation.Test\\JeezFoundation.Test.csproj|solutionrelative:jeezfoundation.test\\jeezfoundation.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|e:\\code\\jeezfoundation\\jeezfoundation.consul\\consulextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|solutionrelative:jeezfoundation.consul\\consulextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A16D7581-17CD-4752-BCFB-8DCAF7A5360C}|JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj|e:\\code\\jeezfoundation\\jeezfoundation.workflow\\jeezfoundation.workflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A16D7581-17CD-4752-BCFB-8DCAF7A5360C}|JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj|solutionrelative:jeezfoundation.workflow\\jeezfoundation.workflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|e:\\code\\jeezfoundation\\jeezfoundation.consul\\servicecheckoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|solutionrelative:jeezfoundation.consul\\servicecheckoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{102C6BC4-C5A7-4B69-8DDF-CEC59788FAF9}|JeezFoundation.Redis\\JeezFoundation.Redis.csproj|e:\\code\\jeezfoundation\\jeezfoundation.redis\\jeezfoundation.redis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{102C6BC4-C5A7-4B69-8DDF-CEC59788FAF9}|JeezFoundation.Redis\\JeezFoundation.Redis.csproj|solutionrelative:jeezfoundation.redis\\jeezfoundation.redis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B03F08DB-A95A-44D3-836B-BCACBF4EA75C}|JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj|e:\\code\\jeezfoundation\\jeezfoundation.dapper\\jeezfoundation.dapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B03F08DB-A95A-44D3-836B-BCACBF4EA75C}|JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj|solutionrelative:jeezfoundation.dapper\\jeezfoundation.dapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EAEAB4D-CB89-468D-AC20-EA1F489D02EC}|JeezFoundation.Cache\\JeezFoundation.Cache.csproj|e:\\code\\jeezfoundation\\jeezfoundation.cache\\jeezfoundation.cache.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6EAEAB4D-CB89-468D-AC20-EA1F489D02EC}|JeezFoundation.Cache\\JeezFoundation.Cache.csproj|solutionrelative:jeezfoundation.cache\\jeezfoundation.cache.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4801BA65-7D1C-4D4E-8567-DBDC55BAE029}|JeezFoundation.Core\\JeezFoundation.Core.csproj|e:\\code\\jeezfoundation\\jeezfoundation.core\\jeezfoundation.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4801BA65-7D1C-4D4E-8567-DBDC55BAE029}|JeezFoundation.Core\\JeezFoundation.Core.csproj|solutionrelative:jeezfoundation.core\\jeezfoundation.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|e:\\code\\jeezfoundation\\jeezfoundation.consul\\jeezfoundation.consul.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|solutionrelative:jeezfoundation.consul\\jeezfoundation.consul.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,81 +57,46 @@
               "Name": "ST:22:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JeezFoundation.Test.csproj",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Test\\JeezFoundation.Test.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.Test\\JeezFoundation.Test.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Test\\JeezFoundation.Test.csproj",
-              "RelativeToolTip": "JeezFoundation.Test\\JeezFoundation.Test.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T09:19:27.863Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JeezFoundation.WorkFlow.csproj",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
-              "RelativeToolTip": "JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T09:19:18.295Z",
+              "Title": "ServiceCheckOptions.cs",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\ServiceCheckOptions.cs",
+              "RelativeDocumentMoniker": "JeezFoundation.Consul\\ServiceCheckOptions.cs",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\ServiceCheckOptions.cs",
+              "RelativeToolTip": "JeezFoundation.Consul\\ServiceCheckOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:42:48.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JeezFoundation.Redis.csproj",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Redis\\JeezFoundation.Redis.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.Redis\\JeezFoundation.Redis.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Redis\\JeezFoundation.Redis.csproj",
-              "RelativeToolTip": "JeezFoundation.Redis\\JeezFoundation.Redis.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Title": "JeezFoundation.Consul",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj*",
+              "RelativeToolTip": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T09:19:02.089Z",
+              "WhenOpened": "2024-12-18T06:38:46.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JeezFoundation.Dapper.csproj",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj",
-              "RelativeToolTip": "JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T09:18:45.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JeezFoundation.Core.csproj",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.Core\\JeezFoundation.Core.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj",
-              "RelativeToolTip": "JeezFoundation.Core\\JeezFoundation.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T09:17:19.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JeezFoundation.Cache.csproj",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "RelativeToolTip": "JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T09:16:48.221Z",
+              "DocumentIndex": 0,
+              "Title": "ConsulExtension.cs",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\ConsulExtension.cs",
+              "RelativeDocumentMoniker": "JeezFoundation.Consul\\ConsulExtension.cs",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\ConsulExtension.cs",
+              "RelativeToolTip": "JeezFoundation.Consul\\ConsulExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:35:18.805Z",
               "EditorCaption": ""
             }
           ]
