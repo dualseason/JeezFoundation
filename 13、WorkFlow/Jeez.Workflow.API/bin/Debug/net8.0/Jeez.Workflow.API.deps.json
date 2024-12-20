@@ -11,6 +11,7 @@
           "AutoMapper": "13.0.1",
           "JeezFoundation.Core": "1.0.2.3",
           "JeezFoundation.Dapper": "1.0.1.6",
+          "JeezFoundation.WorkFlow": "1.0.3.4",
           "MySqlConnector": "2.4.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -182,6 +183,18 @@
             "fileVersion": "1.0.1.6"
           }
         }
+      },
+      "JeezFoundation.WorkFlow/1.0.3.4": {
+        "dependencies": {
+          "JeezFoundation.Core": "1.0.2.3",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "JeezFoundation.WorkFlow.dll": {
+            "assemblyVersion": "1.0.3.4",
+            "fileVersion": "1.0.3.4"
+          }
+        }
       }
     }
   },
@@ -330,6 +343,11 @@
       "sha512": ""
     },
     "JeezFoundation.Dapper/1.0.1.6": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JeezFoundation.WorkFlow/1.0.3.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

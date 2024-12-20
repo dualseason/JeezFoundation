@@ -5,8 +5,9 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using System.Security.Claims;
+using JeezFoundation.Core.Extensions;
+using JeezFoundation.Core.Domain.Entities;
 
 
 namespace Jeez.Workflow.API.Controllers
@@ -17,7 +18,7 @@ namespace Jeez.Workflow.API.Controllers
     {
         private ILoginService LoginService { get; set; }
 
-        private SystemUser SystemUser => base.User.ToSystemUser();
+        private UserIdentity UserIdentity => base.User.ToUserIdentity();
 
         public LoginController(ILoginService loginService)
         {
@@ -28,21 +29,16 @@ namespace Jeez.Workflow.API.Controllers
         /// 用户登录接口
         /// </summary>
         [HttpPost]
-        public async Task<CommonResult<UserLoginResultDto>> UserLoginAsync(UserLoginDto userLoginDto)
+        public async Task<CommonResult<UserIdentity>> UserLoginAsync(UserLoginDto userLoginDto)
         {
-            // 1、登录结果获取
-            CommonResult<UserLoginResultDto> result = await LoginService.UserLoginAsync(userLoginDto);
+            CommonResult<UserIdentity> result = await LoginService.UserLoginAsync(userLoginDto);
+
             if (result.Success && result.Data != null) 
             {
-                UserLoginResultDto dto = result.Data;
-                List<Claim> list = new List<Claim>();
-                list.Add(new Claim(ClaimTypes.Name, dto.UserName ?? ""));
-                list.Add(new Claim(ClaimTypes.Gender, dto.Sex.ToString()));
-                list.Add(new Claim(ClaimTypes.Sid, dto.UserId.ToString()));
-                list.Add(new Claim(ClaimTypes.Uri, dto.HeadImg ?? ""));
-                list.Add(new Claim(ClaimTypes.UserData, JsonConvert.SerializeObject(dto.Other)));
+                UserIdentity userIdentity = result.Data;
+                var list = userIdentity.ToClaims();
 
-                ClaimsIdentity identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme);
+                ClaimsIdentity identity = new(CookieAuthenticationDefaults.AuthenticationScheme);
                 identity.AddClaims(list);
 
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(identity));
@@ -55,17 +51,15 @@ namespace Jeez.Workflow.API.Controllers
         /// </summary>
         [HttpPost("SysUser")]
         [Authorize]
-        public CommonResult<SystemUser> GetUserLoginResult()
+        public CommonResult<UserIdentity> GetUserLoginResult()
         {
-            return new CommonResult<SystemUser>(true, "查询成功", SystemUser);
+            return new CommonResult<UserIdentity>(true, "查询成功", UserIdentity);
         }
 
         [HttpPost("Logout")]
         public async Task<CommonResult> Logout()
         {
-            //1、用户注销
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-
             return new CommonResult(true, "注销成功");
         }
     }

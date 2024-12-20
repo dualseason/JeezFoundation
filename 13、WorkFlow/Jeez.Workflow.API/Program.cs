@@ -27,7 +27,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseMiddleware<HttpGlobalExceptionMiddleware>();
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

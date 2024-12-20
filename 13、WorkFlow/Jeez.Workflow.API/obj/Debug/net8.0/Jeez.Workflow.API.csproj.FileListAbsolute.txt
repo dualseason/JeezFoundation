@@ -48,3 +48,6 @@ E:\code\奕鼎通\学习文档\13、WorkFlow\Jeez.Workflow.API\bin\Debug\net8.0\
 E:\code\奕鼎通\学习文档\13、WorkFlow\Jeez.Workflow.API\bin\Debug\net8.0\JeezFoundation.Core.xml
 E:\code\奕鼎通\学习文档\13、WorkFlow\Jeez.Workflow.API\bin\Debug\net8.0\JeezFoundation.Dapper.pdb
 E:\code\奕鼎通\学习文档\13、WorkFlow\Jeez.Workflow.API\bin\Debug\net8.0\AutoMapper.dll
+E:\code\奕鼎通\学习文档\13、WorkFlow\Jeez.Workflow.API\bin\Debug\net8.0\JeezFoundation.WorkFlow.dll
+E:\code\奕鼎通\学习文档\13、WorkFlow\Jeez.Workflow.API\bin\Debug\net8.0\JeezFoundation.WorkFlow.pdb
+E:\code\奕鼎通\学习文档\13、WorkFlow\Jeez.Workflow.API\bin\Debug\net8.0\JeezFoundation.WorkFlow.xml

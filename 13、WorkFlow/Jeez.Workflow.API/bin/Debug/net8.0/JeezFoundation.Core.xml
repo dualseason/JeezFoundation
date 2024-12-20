@@ -1634,6 +1634,25 @@
             <param name="buttonType"></param>
             <returns></returns>
         </member>
+        <member name="T:JeezFoundation.Core.Extensions.ClaimsPrincipalExtentions">
+            <summary>
+            Claims extentions
+            </summary>
+        </member>
+        <member name="M:JeezFoundation.Core.Extensions.ClaimsPrincipalExtentions.ToUserIdentity(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            ClaimsPrincipal 转 UserIdentity
+            </summary>
+            <param name="principal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JeezFoundation.Core.Extensions.ClaimsPrincipalExtentions.ToClaims(JeezFoundation.Core.Domain.Entities.UserIdentity)">
+            <summary>
+            UserIdentity 转 Claim
+            </summary>
+            <param name="userIdentity"></param>
+            <returns></returns>
+        </member>
         <member name="T:JeezFoundation.Core.Extensions.CollectionExtensions">
             <summary>
             Extension methods for Collections.
