@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "Ynp+V5OUZxQ=",
+  "dgSpecHash": "4vxLCD4oSa8=",
   "success": true,
   "projectFilePath": "E:\\code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\nodatime\\3.2.0\\nodatime.3.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",

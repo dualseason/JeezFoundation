@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JeezFoundation.Consul")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be3c60860056d3da1f19eeaac1fa613a8b8a1a78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5edb383c42b0c726fa353f448b5b32765edbaca")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeezFoundation.Consul")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeezFoundation.Consul")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

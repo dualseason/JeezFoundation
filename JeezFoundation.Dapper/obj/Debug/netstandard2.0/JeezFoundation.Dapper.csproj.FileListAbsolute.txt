@@ -1,10 +1,8 @@
-E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\netstandard2.0\JeezFramework.Dapper.xml
 E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\netstandard2.0\JeezFoundation.Dapper.deps.json
 E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\netstandard2.0\JeezFoundation.Dapper.dll
 E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\netstandard2.0\JeezFoundation.Dapper.pdb
 E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\netstandard2.0\JeezFoundation.Core.dll
 E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\netstandard2.0\JeezFoundation.Core.pdb
-E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\netstandard2.0\JeezFoundation.Core.xml
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\netstandard2.0\JeezFoundation.Dapper.csproj.AssemblyReference.cache
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\netstandard2.0\JeezFoundation.Dapper.GeneratedMSBuildEditorConfig.editorconfig
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\netstandard2.0\JeezFoundation.Dapper.AssemblyInfoInputs.cache

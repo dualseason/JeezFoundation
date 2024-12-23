@@ -15,7 +15,6 @@ E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Redis\obj\Debug\net8
 E:\code\JeezFoundation\JeezFoundation.Redis\bin\Debug\net8.0\JeezFoundation.Redis.deps.json
 E:\code\JeezFoundation\JeezFoundation.Redis\bin\Debug\net8.0\JeezFoundation.Redis.dll
 E:\code\JeezFoundation\JeezFoundation.Redis\bin\Debug\net8.0\JeezFoundation.Redis.pdb
-E:\code\JeezFoundation\JeezFoundation.Redis\bin\Debug\net8.0\JeezFoundation.Redis.xml
 E:\code\JeezFoundation\JeezFoundation.Redis\obj\Debug\net8.0\JeezFoundation.Redis.csproj.AssemblyReference.cache
 E:\code\JeezFoundation\JeezFoundation.Redis\obj\Debug\net8.0\JeezFoundation.Redis.GeneratedMSBuildEditorConfig.editorconfig
 E:\code\JeezFoundation\JeezFoundation.Redis\obj\Debug\net8.0\JeezFoundation.Redis.AssemblyInfoInputs.cache
@@ -25,3 +24,4 @@ E:\code\JeezFoundation\JeezFoundation.Redis\obj\Debug\net8.0\JeezFoundation.Redi
 E:\code\JeezFoundation\JeezFoundation.Redis\obj\Debug\net8.0\refint\JeezFoundation.Redis.dll
 E:\code\JeezFoundation\JeezFoundation.Redis\obj\Debug\net8.0\JeezFoundation.Redis.pdb
 E:\code\JeezFoundation\JeezFoundation.Redis\obj\Debug\net8.0\ref\JeezFoundation.Redis.dll
+E:\code\JeezFoundation\JeezFoundation.Redis\obj\Debug\net8.0\JeezFoundation.Redis.sourcelink.json

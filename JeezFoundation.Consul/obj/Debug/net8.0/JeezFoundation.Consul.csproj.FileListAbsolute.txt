@@ -3,7 +3,6 @@ E:\code\JeezFoundation\JeezFoundation.Consul\bin\Debug\net8.0\JeezFoundation.Con
 E:\code\JeezFoundation\JeezFoundation.Consul\bin\Debug\net8.0\JeezFoundation.Consul.pdb
 E:\code\JeezFoundation\JeezFoundation.Consul\bin\Debug\net8.0\JeezFoundation.Core.dll
 E:\code\JeezFoundation\JeezFoundation.Consul\bin\Debug\net8.0\JeezFoundation.Core.pdb
-E:\code\JeezFoundation\JeezFoundation.Consul\bin\Debug\net8.0\JeezFoundation.Core.xml
 E:\code\JeezFoundation\JeezFoundation.Consul\obj\Debug\net8.0\JeezFoundation.Consul.csproj.AssemblyReference.cache
 E:\code\JeezFoundation\JeezFoundation.Consul\obj\Debug\net8.0\JeezFoundation.Consul.GeneratedMSBuildEditorConfig.editorconfig
 E:\code\JeezFoundation\JeezFoundation.Consul\obj\Debug\net8.0\JeezFoundation.Consul.AssemblyInfoInputs.cache

@@ -3,124 +3,44 @@
   "WorkspaceRootPath": "E:\\code\\JeezFoundation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\model\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\model\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A16D7581-17CD-4752-BCFB-8DCAF7A5360C}|JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj|e:\\code\\jeezfoundation\\jeezfoundation.workflow\\jeezfoundation.workflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A16D7581-17CD-4752-BCFB-8DCAF7A5360C}|JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj|solutionrelative:jeezfoundation.workflow\\jeezfoundation.workflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\util\\idutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\util\\idutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\jeezfoundation.wechat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\jeezfoundation.wechat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\text\\unicodeutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\text\\unicodeutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\jeezfoundation.tool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\jeezfoundation.tool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\text\\strsplitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\text\\strsplitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8108E4FF-978F-4BBB-9CCF-F32E409697B0}|JeezFoundation.Test\\JeezFoundation.Test.csproj|e:\\code\\jeezfoundation\\jeezfoundation.test\\jeezfoundation.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8108E4FF-978F-4BBB-9CCF-F32E409697B0}|JeezFoundation.Test\\JeezFoundation.Test.csproj|solutionrelative:jeezfoundation.test\\jeezfoundation.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\text\\csvutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\text\\csvutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{102C6BC4-C5A7-4B69-8DDF-CEC59788FAF9}|JeezFoundation.Redis\\JeezFoundation.Redis.csproj|e:\\code\\jeezfoundation\\jeezfoundation.redis\\jeezfoundation.redis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{102C6BC4-C5A7-4B69-8DDF-CEC59788FAF9}|JeezFoundation.Redis\\JeezFoundation.Redis.csproj|solutionrelative:jeezfoundation.redis\\jeezfoundation.redis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\net\\netutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\net\\netutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B03F08DB-A95A-44D3-836B-BCACBF4EA75C}|JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj|e:\\code\\jeezfoundation\\jeezfoundation.dapper\\jeezfoundation.dapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B03F08DB-A95A-44D3-836B-BCACBF4EA75C}|JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj|solutionrelative:jeezfoundation.dapper\\jeezfoundation.dapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\net\\httpclientextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\net\\httpclientextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\language\\treeutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\language\\treeutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\language\\singletonutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\language\\singletonutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\language\\bcdutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\language\\bcdutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\ienumerable\\ienumerableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\ienumerable\\ienumerableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\collection\\queueextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\collection\\queueextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\collection\\listutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\collection\\listutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\collection\\listextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\collection\\listextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\collection\\linkedlistutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\collection\\linkedlistutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\collection\\linkedlistextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\collection\\linkedlistextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\collection\\iteratorutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\collection\\iteratorutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\collection\\dictionaryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\collection\\dictionaryextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\crypt\\punycodeutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\crypt\\punycodeutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\crypt\\morseutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\crypt\\morseutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\crypt\\desutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\crypt\\desutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\crypt\\base64util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\crypt\\base64util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\crypt\\base62util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\crypt\\base62util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\crypt\\base32util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\crypt\\base32util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\crypt\\aesutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\crypt\\aesutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\model\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\model\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\model\\querypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\model\\querypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\clone\\cloneextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\clone\\cloneextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4801BA65-7D1C-4D4E-8567-DBDC55BAE029}|JeezFoundation.Core\\JeezFoundation.Core.csproj|e:\\code\\jeezfoundation\\jeezfoundation.core\\jeezfoundation.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4801BA65-7D1C-4D4E-8567-DBDC55BAE029}|JeezFoundation.Core\\JeezFoundation.Core.csproj|solutionrelative:jeezfoundation.core\\jeezfoundation.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|e:\\code\\jeezfoundation\\jeezfoundation.consul\\jeezfoundation.consul.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|solutionrelative:jeezfoundation.consul\\jeezfoundation.consul.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EAEAB4D-CB89-468D-AC20-EA1F489D02EC}|JeezFoundation.Cache\\JeezFoundation.Cache.csproj|e:\\code\\jeezfoundation\\jeezfoundation.cache\\jeezfoundation.cache.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6EAEAB4D-CB89-468D-AC20-EA1F489D02EC}|JeezFoundation.Cache\\JeezFoundation.Cache.csproj|solutionrelative:jeezfoundation.cache\\jeezfoundation.cache.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\model\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\model\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\util\\idutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\util\\idutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,392 +90,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IdUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Util\\IdUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Util\\IdUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Util\\IdUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Util\\IdUtil.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwJkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T03:08:13.544Z",
+              "DocumentIndex": 0,
+              "Title": "JeezFoundation.WorkFlow",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
+              "RelativeToolTip": "JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T05:58:21.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnicodeUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Text\\UnicodeUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Text\\UnicodeUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Text\\UnicodeUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Text\\UnicodeUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T03:07:29.77Z",
+              "DocumentIndex": 1,
+              "Title": "JeezFoundation.WeChat.csproj",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj",
+              "RelativeToolTip": "JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T05:58:01.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StrSplitter.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Text\\StrSplitter.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Text\\StrSplitter.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Text\\StrSplitter.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Text\\StrSplitter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T03:07:21.312Z",
+              "Title": "JeezFoundation.Test.csproj",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Test\\JeezFoundation.Test.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Test\\JeezFoundation.Test.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Test\\JeezFoundation.Test.csproj",
+              "RelativeToolTip": "JeezFoundation.Test\\JeezFoundation.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T05:56:43.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CsvUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Text\\CsvUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Text\\CsvUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Text\\CsvUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Text\\CsvUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T03:07:17.297Z",
+              "Title": "JeezFoundation.Redis.csproj",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Redis\\JeezFoundation.Redis.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Redis\\JeezFoundation.Redis.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Redis\\JeezFoundation.Redis.csproj",
+              "RelativeToolTip": "JeezFoundation.Redis\\JeezFoundation.Redis.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T05:56:37.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "NetUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Net\\NetUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Net\\NetUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Net\\NetUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Net\\NetUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:43:26.138Z",
+              "Title": "JeezFoundation.Dapper.csproj",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj",
+              "RelativeToolTip": "JeezFoundation.Dapper\\JeezFoundation.Dapper.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T05:56:33.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HttpClientExtension.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Net\\HttpClientExtension.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Net\\HttpClientExtension.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Net\\HttpClientExtension.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Net\\HttpClientExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:43:19.568Z",
+              "Title": "JeezFoundation.Core.csproj",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Core\\JeezFoundation.Core.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj",
+              "RelativeToolTip": "JeezFoundation.Core\\JeezFoundation.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T05:56:26.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "TreeUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Language\\TreeUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Language\\TreeUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Language\\TreeUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Language\\TreeUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:42:43.769Z",
+              "Title": "JeezFoundation.Consul.csproj",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "RelativeToolTip": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T05:56:21.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "SingletonUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Language\\SingletonUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Language\\SingletonUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Language\\SingletonUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Language\\SingletonUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:42:38.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BCDUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Language\\BCDUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Language\\BCDUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Language\\BCDUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Language\\BCDUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:42:35.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IEnumerableExtensions.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\IEnumerable\\IEnumerableExtensions.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\IEnumerable\\IEnumerableExtensions.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\IEnumerable\\IEnumerableExtensions.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\IEnumerable\\IEnumerableExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:41:46.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Option.cs",
               "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Model\\Option.cs",
               "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Model\\Option.cs",
               "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Model\\Option.cs",
               "RelativeToolTip": "Jeez.Foundation.Tool\\Model\\Option.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:36:41.971Z",
+              "WhenOpened": "2024-12-23T05:50:20.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "QueueExtension.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\QueueExtension.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Collection\\QueueExtension.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\QueueExtension.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Collection\\QueueExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IdUtil.cs",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Util\\IdUtil.cs",
+              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Util\\IdUtil.cs",
+              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Util\\IdUtil.cs",
+              "RelativeToolTip": "Jeez.Foundation.Tool\\Util\\IdUtil.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:40:03.899Z",
+              "WhenOpened": "2024-12-23T05:49:49.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ListUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\ListUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Collection\\ListUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\ListUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Collection\\ListUtil.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:39:54.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ListExtension.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\ListExtension.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Collection\\ListExtension.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\ListExtension.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Collection\\ListExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:39:49.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LinkedListUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\LinkedListUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Collection\\LinkedListUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\LinkedListUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Collection\\LinkedListUtil.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:39:43.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LinkedListExtension.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\LinkedListExtension.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Collection\\LinkedListExtension.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\LinkedListExtension.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Collection\\LinkedListExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:39:39.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IteratorUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\IteratorUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Collection\\IteratorUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\IteratorUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Collection\\IteratorUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:39:30.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DictionaryExtension.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\DictionaryExtension.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Collection\\DictionaryExtension.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Collection\\DictionaryExtension.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Collection\\DictionaryExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:39:20.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PunycodeUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\PunycodeUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Crypt\\PunycodeUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\PunycodeUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Crypt\\PunycodeUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:37:47.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MorseUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\MorseUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Crypt\\MorseUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\MorseUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Crypt\\MorseUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:37:44.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DesUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\DesUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Crypt\\DesUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\DesUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Crypt\\DesUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:37:43.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Base64Util.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\Base64Util.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Crypt\\Base64Util.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\Base64Util.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Crypt\\Base64Util.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:37:41.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Base62Util.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\Base62Util.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Crypt\\Base62Util.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\Base62Util.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Crypt\\Base62Util.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:37:39.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Base32Util.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\Base32Util.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Crypt\\Base32Util.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\Base32Util.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Crypt\\Base32Util.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:37:38.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AesUtil.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\AesUtil.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Crypt\\AesUtil.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Crypt\\AesUtil.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Crypt\\AesUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:37:35.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Result.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Model\\Result.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Model\\Result.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Model\\Result.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Model\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:36:45.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "QueryPage.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Model\\QueryPage.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Model\\QueryPage.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Model\\QueryPage.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Model\\QueryPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:36:43.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CloneExtension.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Clone\\CloneExtension.cs",
-              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Clone\\CloneExtension.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Clone\\CloneExtension.cs",
-              "RelativeToolTip": "Jeez.Foundation.Tool\\Clone\\CloneExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:32:05.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "JeezFoundation.Consul",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
-              "RelativeToolTip": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "JeezFoundation.Tool.csproj",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj",
+              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj",
+              "RelativeToolTip": "Jeez.Foundation.Tool\\JeezFoundation.Tool.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T02:03:26.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "JeezFoundation.Cache",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "RelativeToolTip": "JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T02:01:50.036Z",
+              "WhenOpened": "2024-12-23T05:46:23.318Z",
               "EditorCaption": ""
             }
           ]

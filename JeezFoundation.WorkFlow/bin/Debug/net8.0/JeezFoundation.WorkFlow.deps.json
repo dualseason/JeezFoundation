@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "JeezFoundation.WorkFlow/1.0.3.4": {
+      "JeezFoundation.WorkFlow/1.0.0": {
         "dependencies": {
-          "JeezFoundation.Core": "1.0.2.3",
+          "JeezFoundation.Core": "1.0.0",
           "System.ComponentModel.Annotations": "4.5.0"
         },
         "runtime": {
@@ -32,22 +32,22 @@
         }
       },
       "System.ComponentModel.Annotations/4.5.0": {},
-      "JeezFoundation.Core/1.0.2.3": {
+      "JeezFoundation.Core/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "NodaTime": "3.2.0"
         },
         "runtime": {
           "JeezFoundation.Core.dll": {
-            "assemblyVersion": "1.0.2.3",
-            "fileVersion": "1.0.2.3"
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "JeezFoundation.WorkFlow/1.0.3.4": {
+    "JeezFoundation.WorkFlow/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -73,7 +73,7 @@
       "path": "system.componentmodel.annotations/4.5.0",
       "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
     },
-    "JeezFoundation.Core/1.0.2.3": {
+    "JeezFoundation.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

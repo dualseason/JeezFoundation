@@ -9,7 +9,7 @@
       "JeezFoundation.Consul/1.0.0": {
         "dependencies": {
           "Consul": "1.7.14.6",
-          "JeezFoundation.Core": "1.0.2.3",
+          "JeezFoundation.Core": "1.0.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
@@ -207,15 +207,15 @@
         }
       },
       "System.Text.Encodings.Web/4.5.0": {},
-      "JeezFoundation.Core/1.0.2.3": {
+      "JeezFoundation.Core/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "NodaTime": "3.2.0"
         },
         "runtime": {
           "JeezFoundation.Core.dll": {
-            "assemblyVersion": "1.0.2.3",
-            "fileVersion": "1.0.2.3"
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -360,7 +360,7 @@
       "path": "system.text.encodings.web/4.5.0",
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
     },
-    "JeezFoundation.Core/1.0.2.3": {
+    "JeezFoundation.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -19,10 +19,8 @@ E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.WorkFlow\obj\Debug\n
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\bin\Debug\net8.0\JeezFoundation.WorkFlow.deps.json
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\bin\Debug\net8.0\JeezFoundation.WorkFlow.dll
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\bin\Debug\net8.0\JeezFoundation.WorkFlow.pdb
-E:\code\JeezFoundation\JeezFoundation.WorkFlow\bin\Debug\net8.0\JeezFoundation.WorkFlow.xml
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\bin\Debug\net8.0\JeezFoundation.Core.dll
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\bin\Debug\net8.0\JeezFoundation.Core.pdb
-E:\code\JeezFoundation\JeezFoundation.WorkFlow\bin\Debug\net8.0\JeezFoundation.Core.xml
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\obj\Debug\net8.0\JeezFoundation.WorkFlow.csproj.AssemblyReference.cache
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\obj\Debug\net8.0\JeezFoundation.WorkFlow.GeneratedMSBuildEditorConfig.editorconfig
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\obj\Debug\net8.0\JeezFoundation.WorkFlow.AssemblyInfoInputs.cache

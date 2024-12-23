@@ -1,22 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-	<TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/wangmaosheng/JeezFoundation.git</PackageProjectUrl>
-    <Copyright>Jeez</Copyright>
-    <Authors>Jeez</Authors>
-    <PackageIconUrl>https://avatars2.githubusercontent.com/u/22044556?s=40&amp;u=d08c24d125e91789e90fe42d1576f1a9d88db8ba&amp;v=4</PackageIconUrl>
-    <Version>1.0.1.5</Version>
-    <Description>基于Redis简单封装</Description>
-    <PackageReleaseNotes>
-    </PackageReleaseNotes>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\JeezFoundation.Redis.xml</DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\JeezFoundation.Redis.xml</DocumentationFile>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>12</LangVersion>
+	</PropertyGroup>
   <ItemGroup>
     <PackageReference Include="StackExchange.Redis" Version="2.8.22" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.0" />

@@ -20,16 +20,11 @@ E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Test\obj\Debug\net8.
 E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Test\obj\Debug\net8.0\JeezFoundation.Test.pdb
 E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Test\obj\Debug\net8.0\JeezFoundation.Test.genruntimeconfig.cache
 E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Test\obj\Debug\net8.0\ref\JeezFoundation.Test.dll
-E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\JeezFoundation.Test.exe
 E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\JeezFoundation.Test.deps.json
-E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\JeezFoundation.Test.runtimeconfig.json
 E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\JeezFoundation.Test.dll
 E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\JeezFoundation.Test.pdb
-E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\Newtonsoft.Json.dll
-E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\NodaTime.dll
 E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\JeezFoundation.Core.dll
 E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\JeezFoundation.Core.pdb
-E:\code\JeezFoundation\JeezFoundation.Test\bin\Debug\net8.0\JeezFoundation.Core.xml
 E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\JeezFoundation.Test.csproj.AssemblyReference.cache
 E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\JeezFoundation.Test.GeneratedMSBuildEditorConfig.editorconfig
 E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\JeezFoundation.Test.AssemblyInfoInputs.cache
@@ -39,5 +34,5 @@ E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\JeezFoun.9055275D.Up
 E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\JeezFoundation.Test.dll
 E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\refint\JeezFoundation.Test.dll
 E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\JeezFoundation.Test.pdb
-E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\JeezFoundation.Test.genruntimeconfig.cache
 E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\ref\JeezFoundation.Test.dll
+E:\code\JeezFoundation\JeezFoundation.Test\obj\Debug\net8.0\JeezFoundation.Test.sourcelink.json

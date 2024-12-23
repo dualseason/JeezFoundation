@@ -21,7 +21,6 @@ E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\net8.0\JeezFoundation.Dap
 E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\net8.0\JeezFoundation.Dapper.pdb
 E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\net8.0\JeezFoundation.Core.dll
 E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\net8.0\JeezFoundation.Core.pdb
-E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\net8.0\JeezFoundation.Core.xml
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\JeezFoundation.Dapper.csproj.AssemblyReference.cache
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\JeezFoundation.Dapper.GeneratedMSBuildEditorConfig.editorconfig
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\JeezFoundation.Dapper.AssemblyInfoInputs.cache
@@ -32,5 +31,4 @@ E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\JeezFoundation.Dap
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\refint\JeezFoundation.Dapper.dll
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\JeezFoundation.Dapper.pdb
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\ref\JeezFoundation.Dapper.dll
-E:\code\JeezFoundation\JeezFoundation.Dapper\bin\Debug\net8.0\JeezFramework.Dapper.xml
 E:\code\JeezFoundation\JeezFoundation.Dapper\obj\Debug\net8.0\JeezFoundation.Dapper.sourcelink.json

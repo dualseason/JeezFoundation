@@ -15,7 +15,6 @@ E:\code\奕鼎通\学习文档\JeezFoundation\JadeFramework.Core\obj\Debug\net8.
 E:\code\JeezFoundation\JeezFoundation.Core\bin\Debug\net8.0\JeezFoundation.Core.deps.json
 E:\code\JeezFoundation\JeezFoundation.Core\bin\Debug\net8.0\JeezFoundation.Core.dll
 E:\code\JeezFoundation\JeezFoundation.Core\bin\Debug\net8.0\JeezFoundation.Core.pdb
-E:\code\JeezFoundation\JeezFoundation.Core\bin\Debug\net8.0\JeezFoundation.Core.xml
 E:\code\JeezFoundation\JeezFoundation.Core\obj\Debug\net8.0\JeezFoundation.Core.csproj.AssemblyReference.cache
 E:\code\JeezFoundation\JeezFoundation.Core\obj\Debug\net8.0\JeezFoundation.Core.GeneratedMSBuildEditorConfig.editorconfig
 E:\code\JeezFoundation\JeezFoundation.Core\obj\Debug\net8.0\JeezFoundation.Core.AssemblyInfoInputs.cache

@@ -1,4 +1,3 @@
-E:\code\JeezFoundation\JeezFoundation.Core\bin\Debug\netstandard2.0\JeezFoundation.Core.xml
 E:\code\JeezFoundation\JeezFoundation.Core\bin\Debug\netstandard2.0\JeezFoundation.Core.deps.json
 E:\code\JeezFoundation\JeezFoundation.Core\bin\Debug\netstandard2.0\JeezFoundation.Core.dll
 E:\code\JeezFoundation\JeezFoundation.Core\bin\Debug\netstandard2.0\JeezFoundation.Core.pdb

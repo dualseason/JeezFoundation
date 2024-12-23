@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "JeezFoundation.Redis/1.0.1.5": {
+      "JeezFoundation.Redis/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
           "StackExchange.Redis": "2.8.22"
@@ -76,7 +76,7 @@
     }
   },
   "libraries": {
-    "JeezFoundation.Redis/1.0.1.5": {
+    "JeezFoundation.Redis/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

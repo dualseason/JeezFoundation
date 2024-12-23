@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "JeezFoundation.Core/1.0.2.3": {
+      "JeezFoundation.Core/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "NodaTime": "3.2.0"
@@ -34,7 +34,7 @@
     }
   },
   "libraries": {
-    "JeezFoundation.Core/1.0.2.3": {
+    "JeezFoundation.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

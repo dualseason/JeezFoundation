@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>12</LangVersion>
+	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Consul" Version="1.7.14.6" />
@@ -16,7 +17,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\JeezFoundation.Core\JeezFoundation.Core.csproj" />
+		<ProjectReference Include="..\JeezFoundation.Core\JeezFoundation.Core.csproj" />
 	</ItemGroup>
 	
 </Project>
