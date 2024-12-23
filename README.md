@@ -1,5 +1,3 @@
----
-
 # JeezFoundation 使用文档
 
 ## 1. 项目简介
@@ -166,6 +164,4 @@ dotnet test
 ```bash
 dotnet restore
 ```
-
----
 
