@@ -51,21 +51,37 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "EmitMapper.Core": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.2, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.1, )"
+              "version": "[13.0.3, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[3.116.1, )"
             },
             "System.ComponentModel.Composition": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "System.Diagnostics.PerformanceCounter": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "System.Net.Http.Json": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "E:\\code\\JeezFoundation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|e:\\code\\jeezfoundation\\jeezfoundation.consul\\jeezfoundation.consul.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|solutionrelative:jeezfoundation.consul\\jeezfoundation.consul.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\npoi\\npoiutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\npoi\\npoiutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EAEAB4D-CB89-468D-AC20-EA1F489D02EC}|JeezFoundation.Cache\\JeezFoundation.Cache.csproj|e:\\code\\jeezfoundation\\jeezfoundation.cache\\jeezfoundation.cache.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6EAEAB4D-CB89-468D-AC20-EA1F489D02EC}|JeezFoundation.Cache\\JeezFoundation.Cache.csproj|solutionrelative:jeezfoundation.cache\\jeezfoundation.cache.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\npoi\\excelworkbooktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\npoi\\excelworkbooktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\jeez.foundation.tool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\jeez.foundation.tool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\img\\imgutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\img\\imgutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|e:\\code\\jeezfoundation\\jeez.foundation.tool\\img\\imgextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F339F8A-A807-4F99-A234-6ADEFE71CE38}|Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj|solutionrelative:jeez.foundation.tool\\img\\imgextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExcelWorkbookType.cs",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\NPOI\\ExcelWorkbookType.cs",
+              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\NPOI\\ExcelWorkbookType.cs",
+              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\NPOI\\ExcelWorkbookType.cs",
+              "RelativeToolTip": "Jeez.Foundation.Tool\\NPOI\\ExcelWorkbookType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T03:50:55.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NPOIUtil.cs",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\NPOI\\NPOIUtil.cs",
+              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\NPOI\\NPOIUtil.cs",
+              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\NPOI\\NPOIUtil.cs",
+              "RelativeToolTip": "Jeez.Foundation.Tool\\NPOI\\NPOIUtil.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAAKcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T03:48:12.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Jeez.Foundation.Tool",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj",
+              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj*",
+              "RelativeToolTip": "Jeez.Foundation.Tool\\Jeez.Foundation.Tool.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T03:47:43.273Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
@@ -58,28 +109,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JeezFoundation.Consul",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
-              "RelativeToolTip": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T02:03:26.051Z",
+              "DocumentIndex": 3,
+              "Title": "ImgUtil.cs",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Img\\ImgUtil.cs",
+              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Img\\ImgUtil.cs",
+              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Img\\ImgUtil.cs",
+              "RelativeToolTip": "Jeez.Foundation.Tool\\Img\\ImgUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T03:40:33.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JeezFoundation.Cache",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "RelativeDocumentMoniker": "JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "RelativeToolTip": "JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T02:01:50.036Z",
+              "DocumentIndex": 4,
+              "Title": "ImgExtension.cs",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Img\\ImgExtension.cs",
+              "RelativeDocumentMoniker": "Jeez.Foundation.Tool\\Img\\ImgExtension.cs",
+              "ToolTip": "E:\\code\\JeezFoundation\\Jeez.Foundation.Tool\\Img\\ImgExtension.cs",
+              "RelativeToolTip": "Jeez.Foundation.Tool\\Img\\ImgExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T03:40:28.495Z",
               "EditorCaption": ""
             }
           ]
