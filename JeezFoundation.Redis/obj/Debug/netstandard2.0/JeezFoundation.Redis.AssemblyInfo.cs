@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Jeez")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("基于Redis简单封装")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.5")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1.5+22bb89e19f85f1c11dce2e205cdb4ca22d388ae4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1.5+be3c60860056d3da1f19eeaac1fa613a8b8a1a78")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeezFoundation.Redis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeezFoundation.Redis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.5")]

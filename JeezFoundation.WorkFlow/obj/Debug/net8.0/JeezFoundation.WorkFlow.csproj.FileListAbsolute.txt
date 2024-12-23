@@ -33,3 +33,4 @@ E:\code\JeezFoundation\JeezFoundation.WorkFlow\obj\Debug\net8.0\JeezFoundation.W
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\obj\Debug\net8.0\refint\JeezFoundation.WorkFlow.dll
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\obj\Debug\net8.0\JeezFoundation.WorkFlow.pdb
 E:\code\JeezFoundation\JeezFoundation.WorkFlow\obj\Debug\net8.0\ref\JeezFoundation.WorkFlow.dll
+E:\code\JeezFoundation\JeezFoundation.WorkFlow\obj\Debug\net8.0\JeezFoundation.WorkFlow.sourcelink.json

@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "E:\\code\\JeezFoundation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\convert\\requestmsgfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\convert\\requestmsgfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|e:\\code\\jeezfoundation\\jeezfoundation.consul\\jeezfoundation.consul.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4013BB98-0A96-4B5A-A0D3-CCE1B5FAA08D}|JeezFoundation.Consul\\JeezFoundation.Consul.csproj|solutionrelative:jeezfoundation.consul\\jeezfoundation.consul.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\models\\requestunsubscribeeventmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\models\\requestunsubscribeeventmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\models\\requestsubscribeeventmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\models\\requestsubscribeeventmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\models\\requesteventrootmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\models\\requesteventrootmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\models\\requestlinkmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\models\\requestlinkmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\models\\requestlocationmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\models\\requestlocationmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\enums\\requestmsgtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\enums\\requestmsgtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\enums\\requesteventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\enums\\requesteventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\models\\requesttextmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\models\\requesttextmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\models\\requestrootmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\models\\requestrootmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|e:\\code\\jeezfoundation\\jeezfoundation.wechat\\models\\accesstoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D0CDCF8-8CFD-424A-ABEE-DAAE21DEFED2}|JeezFoundation.WeChat\\JeezFoundation.WeChat.csproj|solutionrelative:jeezfoundation.wechat\\models\\accesstoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EAEAB4D-CB89-468D-AC20-EA1F489D02EC}|JeezFoundation.Cache\\JeezFoundation.Cache.csproj|e:\\code\\jeezfoundation\\jeezfoundation.cache\\jeezfoundation.cache.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6EAEAB4D-CB89-468D-AC20-EA1F489D02EC}|JeezFoundation.Cache\\JeezFoundation.Cache.csproj|solutionrelative:jeezfoundation.cache\\jeezfoundation.cache.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,145 +58,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RequestUnSubscribeEventMsg.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestUnSubscribeEventMsg.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Models\\RequestUnSubscribeEventMsg.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestUnSubscribeEventMsg.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Models\\RequestUnSubscribeEventMsg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:23:24.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RequestEventRootMsg.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestEventRootMsg.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Models\\RequestEventRootMsg.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestEventRootMsg.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Models\\RequestEventRootMsg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:22:19.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RequestSubscribeEventMsg.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestSubscribeEventMsg.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Models\\RequestSubscribeEventMsg.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestSubscribeEventMsg.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Models\\RequestSubscribeEventMsg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:21:25.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RequestLinkMsg.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestLinkMsg.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Models\\RequestLinkMsg.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestLinkMsg.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Models\\RequestLinkMsg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:19:20.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RequestLocationMsg.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestLocationMsg.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Models\\RequestLocationMsg.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestLocationMsg.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Models\\RequestLocationMsg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:17:39.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RequestMsgType.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Enums\\RequestMsgType.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Enums\\RequestMsgType.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Enums\\RequestMsgType.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Enums\\RequestMsgType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T06:58:56.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RequestMsgFactory.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Convert\\RequestMsgFactory.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Convert\\RequestMsgFactory.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Convert\\RequestMsgFactory.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Convert\\RequestMsgFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T06:54:46.221Z",
+              "Title": "JeezFoundation.Consul",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "RelativeToolTip": "JeezFoundation.Consul\\JeezFoundation.Consul.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T02:03:26.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RequestEventType.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Enums\\RequestEventType.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Enums\\RequestEventType.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Enums\\RequestEventType.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Enums\\RequestEventType.cs",
+              "DocumentIndex": 1,
+              "Title": "JeezFoundation.Cache",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
+              "RelativeToolTip": "JeezFoundation.Cache\\JeezFoundation.Cache.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:01:44.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RequestTextMsg.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestTextMsg.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Models\\RequestTextMsg.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestTextMsg.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Models\\RequestTextMsg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:05:47.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RequestRootMsg.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestRootMsg.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Models\\RequestRootMsg.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\RequestRootMsg.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Models\\RequestRootMsg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T06:57:14.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AccessToken.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\AccessToken.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.WeChat\\Models\\AccessToken.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.WeChat\\Models\\AccessToken.cs",
-              "RelativeToolTip": "JeezFoundation.WeChat\\Models\\AccessToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T06:52:52.007Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T02:01:50.036Z",
               "EditorCaption": ""
             }
           ]

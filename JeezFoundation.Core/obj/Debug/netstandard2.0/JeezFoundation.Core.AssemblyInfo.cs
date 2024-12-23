@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Jeez")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("通用帮助类、扩展等等。")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.3")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2.3+22bb89e19f85f1c11dce2e205cdb4ca22d388ae4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2.3+be3c60860056d3da1f19eeaac1fa613a8b8a1a78")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeezFoundation.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeezFoundation.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.3")]
