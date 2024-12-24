@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using JeezFoundation.Dapper.Attributes;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
-using JeezFoundation.Dapper.Attributes;
 
 namespace JeezFoundation.Dapper.SqlGenerator
 {

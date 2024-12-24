@@ -20,35 +20,43 @@ namespace JeezFoundation.Core.Extensions
                 case ButtonType.View:
                     cls = "fa fa-search";
                     break;
+
                 case ButtonType.Add:
                     cls = "fa fa-plus";
                     break;
+
                 case ButtonType.Edit:
                     cls = "fa fa-edit";
                     break;
+
                 case ButtonType.Delete:
                     cls = "fa fa-trash";
                     break;
+
                 case ButtonType.Print:
                     cls = "fa fa-print";
                     break;
+
                 case ButtonType.Check:
                     cls = "fa fa-check";
                     break;
+
                 case ButtonType.Cancle:
                     cls = "";
                     break;
+
                 case ButtonType.Finish:
                     cls = "";
                     break;
+
                 case ButtonType.Extend:
                     cls = "";
                     break;
+
                 default:
                     break;
             }
             return cls;
         }
     }
-
 }

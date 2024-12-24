@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 
@@ -41,13 +38,16 @@ namespace JeezFoundation.Core.Dapper
                     case ExpressionType.Lambda:
                         expr = ((LambdaExpression)expr).Body;
                         break;
+
                     case ExpressionType.Convert:
                         expr = ((UnaryExpression)expr).Operand;
                         break;
+
                     case ExpressionType.MemberAccess:
                         MemberExpression memberExpression = (MemberExpression)expr;
                         MemberInfo mi = memberExpression.Member;
                         return mi;
+
                     default:
                         return null;
                 }
@@ -61,7 +61,6 @@ namespace JeezFoundation.Core.Dapper
             {
                 return result;
             }
-
 
             foreach (var propertyInfo in obj.GetType().GetProperties())
             {

@@ -12,36 +12,43 @@ namespace JeezFoundation.Core.Domain.Enum
         /// </summary>
         [Description("Trace")]
         Trace,
+
         /// <summary>
         /// 调试
         /// </summary>
         [Description("Debug")]
         Debug,
+
         /// <summary>
         /// 信息
         /// </summary>
         [Description("Info")]
         Info,
+
         /// <summary>
         /// 警告
         /// </summary>
         [Description("Warn")]
         Warn,
+
         /// <summary>
         /// 错误
         /// </summary>
         [Description("Error")]
         Error,
+
         /// <summary>
         /// 严重
         /// </summary>
         [Description("Fatal")]
         Fatal,
+
         /// <summary>
         /// 无
         /// </summary>
         [Description("Off")]
         Off,
+
         /// <summary>
         /// 登录
         /// </summary>

@@ -1,5 +1,4 @@
 ﻿using JeezFoundation.Core.Domain.Entities;
-using System.Threading.Tasks;
 
 namespace JeezFoundation.Core.Domain.Uow
 {
@@ -8,14 +7,12 @@ namespace JeezFoundation.Core.Domain.Uow
     /// </summary>
     public interface IUnitOfWork
     {
-
         /// <summary>
         /// 新增
         /// </summary>
         /// <param name="entity">实体表</param>
         /// <returns>返回更新后的实体</returns>
         IEntity Insert(IEntity entity);
-
 
         /// <summary>
         /// Updates an existing entity.
@@ -39,6 +36,5 @@ namespace JeezFoundation.Core.Domain.Uow
         /// </summary>
         /// <returns></returns>
         Task<int> CommitAsync();
-
     }
 }

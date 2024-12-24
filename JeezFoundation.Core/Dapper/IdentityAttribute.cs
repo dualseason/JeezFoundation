@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JeezFoundation.Core.Dapper
+﻿namespace JeezFoundation.Core.Dapper
 {
     /// <summary>
     ///     Identity key

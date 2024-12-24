@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace JeezFoundation.Core.Domain.Permission
+﻿namespace JeezFoundation.Core.Domain.Permission
 {
     /// <summary>
     /// 菜单
@@ -11,18 +9,22 @@ namespace JeezFoundation.Core.Domain.Permission
         /// 菜单ID
         /// </summary>
         public long MenuId { get; set; }
+
         /// <summary>
         /// 父级ID
         /// </summary>
         public long ParentId { get; set; }
+
         /// <summary>
         /// 所属系统ID
         /// </summary>
         public long SystemId { get; set; }
+
         /// <summary>
         /// 菜单名称
         /// </summary>
         public string MenuName { get; set; }
+
         /// <summary>
         /// 菜单地址
         /// </summary>
@@ -43,10 +45,12 @@ namespace JeezFoundation.Core.Domain.Permission
         /// 按钮ID
         /// </summary>
         public long Id { get; set; }
+
         /// <summary>
         /// 按钮名称
         /// </summary>
         public string ButtonName { get; set; }
+
         /// <summary>
         /// 按钮类别
         /// </summary>
@@ -66,6 +70,5 @@ namespace JeezFoundation.Core.Domain.Permission
         /// 按钮图标样式
         /// </summary>
         public string Icon { get; set; }
-
     }
 }

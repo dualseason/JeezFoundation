@@ -12,6 +12,7 @@ namespace JeezFoundation.WorkFlow
         /// </summary>
         [Description("并行")]
         Parallel = 0,
+
         /// <summary>
         /// 串行
         /// </summary>
@@ -45,11 +46,11 @@ namespace JeezFoundation.WorkFlow
         /// </summary>
         [Description("百分百")]
         OneHundredPercent = 0,
+
         /// <summary>
         /// 超过一半
         /// </summary>
         [Description("超过一半")]
         MoreThenHalf = 1,
     }
-
 }

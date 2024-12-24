@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 
 namespace DapperExtensions.Sql
 {
@@ -38,7 +35,6 @@ namespace DapperExtensions.Sql
 
             result.AppendFormat("{0}{1}", tableName, CloseQuote);
 
-
             if (!string.IsNullOrWhiteSpace(alias))
             {
                 result.AppendFormat(" AS {0}{1}{2}", OpenQuote, alias, CloseQuote);
@@ -63,7 +59,7 @@ namespace DapperExtensions.Sql
             string result = string.Format("{0} OFFSET @firstResult ROWS FETCH NEXT @maxResults ROWS ONLY", sql);
             parameters.Add("@firstResult", firstResult);
             parameters.Add("@maxResults", maxResults);
-            return result;            
+            return result;
         }
     }
 }

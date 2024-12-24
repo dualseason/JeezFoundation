@@ -1,20 +1,20 @@
 using Microsoft.Extensions.Configuration;
 using StackExchange.Redis;
-using System;
 using System.Collections.Concurrent;
 
 namespace JeezFoundation.Redis
 {
-
     public class RedisClient : IDisposable
     {
         private IConfiguration _config;
         private ConcurrentDictionary<string, ConnectionMultiplexer> _connections;
+
         public RedisClient(IConfiguration config)
         {
             _config = config;
             _connections = new ConcurrentDictionary<string, ConnectionMultiplexer>();
         }
+
         /// <summary>
         /// 获取ConnectionMultiplexer
         /// </summary>
@@ -26,6 +26,7 @@ namespace JeezFoundation.Redis
             var connStr = redisConfig["Connection"];
             return _connections.GetOrAdd(redisInstanceName, p => ConnectionMultiplexer.Connect(connStr));
         }
+
         /// <summary>
         /// 检查入参数
         /// </summary>
@@ -50,6 +51,7 @@ namespace JeezFoundation.Redis
             }
             return redisConfig;
         }
+
         /// <summary>
         /// 获取数据库
         /// </summary>

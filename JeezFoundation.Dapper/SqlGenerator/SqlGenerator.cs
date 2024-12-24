@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
-using System.Text;
-using JeezFoundation.Core.Dapper;
+﻿using JeezFoundation.Core.Dapper;
 using JeezFoundation.Dapper.Attributes;
 using JeezFoundation.Dapper.Attributes.Joins;
 using JeezFoundation.Dapper.Attributes.LogicalDelete;
 using JeezFoundation.Dapper.Extensions;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq.Expressions;
+using System.Reflection;
+using System.Text;
 
 namespace JeezFoundation.Dapper.SqlGenerator
 {
@@ -287,7 +284,6 @@ namespace JeezFoundation.Dapper.SqlGenerator
             return query;
         }
 
-        
         /// <inheritdoc />
         public virtual SqlQuery GetUpdate(Expression<Func<TEntity, bool>> predicate, TEntity entity)
         {
@@ -302,7 +298,6 @@ namespace JeezFoundation.Dapper.SqlGenerator
 
             return query;
         }
-        
 
         /// <inheritdoc />
         public virtual SqlQuery GetBulkUpdate(IEnumerable<TEntity> entities)
@@ -326,7 +321,7 @@ namespace JeezFoundation.Dapper.SqlGenerator
 
                 if (i > 0)
                     query.SqlBuilder.Append("; ");
-                
+
                 query.SqlBuilder.Append("UPDATE " + TableName + " SET " + string.Join(", ", properties.Select(p => p.ColumnName + " = @" + p.PropertyName + i))
                     + " WHERE " + string.Join(" AND ", KeySqlProperties.Where(p => !p.IgnoreUpdate).Select(p => p.ColumnName + " = @" + p.PropertyName + i)));
 
@@ -382,7 +377,6 @@ namespace JeezFoundation.Dapper.SqlGenerator
                     else
                         sqlQuery.SqlBuilder.Append(tableName + "." + columnName + " " + item.QueryOperator + " @" + item.PropertyName + " ");
 
-
                     dictionaryParams[item.PropertyName] = item.PropertyValue;
                 }
 
@@ -434,7 +428,6 @@ namespace JeezFoundation.Dapper.SqlGenerator
                 UpdatedAtProperty = props.FirstOrDefault(p => p.GetCustomAttributes<UpdatedAtAttribute>().Any());
                 UpdatedAtPropertyMetadata = new SqlPropertyMetadata(UpdatedAtProperty);
             }
-
         }
 
         /// <summary>
@@ -656,7 +649,6 @@ namespace JeezFoundation.Dapper.SqlGenerator
             }
             return joinBuilder.ToString();
         }
-
 
         private static string GetFieldsSelect(string tableName, IEnumerable<SqlPropertyMetadata> properties)
         {

@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.ComponentModel;
 
 namespace JeezFoundation.WorkFlow
@@ -13,30 +12,37 @@ namespace JeezFoundation.WorkFlow
         /// 开始
         /// </summary>
         public const string START = "start round mix";
+
         /// <summary>
         /// 结束
         /// </summary>
         public const string END = "end round";
+
         /// <summary>
         /// 自动节点 =>条件判断 SQL、结果值判断
         /// </summary>
         public const string NODE = "node";
+
         /// <summary>
         /// 任务节点
         /// </summary>
         public const string Task = "task";
+
         /// <summary>
         /// 分流 =>代表一个任务可以走多个分支
         /// </summary>
         public const string FORK = "fork";
+
         /// <summary>
         /// 合流 =>代表合并多个分支得出最终的结果
         /// </summary>
         public const string JOIN = "join";
+
         /// <summary>
         /// 会签 串行/并行两种方式
         /// </summary>
         public const string Chat = "chat";
+
         /// <summary>
         /// 通知节点
         /// </summary>
@@ -76,20 +82,28 @@ namespace JeezFoundation.WorkFlow
             {
                 case FlowNode.START:
                     return WorkFlowInstanceNodeType.BeginRound;
+
                 case FlowNode.END:
                     return WorkFlowInstanceNodeType.EndRound;
+
                 case FlowNode.Task:
                     return WorkFlowInstanceNodeType.Normal;
+
                 case FlowNode.FORK:
                     return WorkFlowInstanceNodeType.ForkNode;
+
                 case FlowNode.JOIN:
                     return WorkFlowInstanceNodeType.JoinNode;
+
                 case FlowNode.Chat:
                     return WorkFlowInstanceNodeType.ChatNode;
+
                 case FlowNode.NODE:
                     return WorkFlowInstanceNodeType.ConditionNode;
+
                 case FlowNode.View:
                     return WorkFlowInstanceNodeType.ViewNode;
+
                 default:
                     return WorkFlowInstanceNodeType.NotRun;
             }
@@ -111,22 +125,27 @@ namespace JeezFoundation.WorkFlow
         /// 指定用户
         /// </summary>
         public const string SPECIAL_USER = "SPECIAL_USER";
+
         /// <summary>
         /// 所有用户
         /// </summary>
         public const string ALL_USER = "ALL_USER";
+
         /// <summary>
         /// 制定角色
         /// </summary>
         public const string SPECIAL_ROLE = "SPECIAL_ROLE";
+
         /// <summary>
         /// SQL自动获取
         /// </summary>
         public const string SQL = "SQL";
+
         /// <summary>
         /// 流程发起人
         /// </summary>
         public const string CREATEUSER = "CREATEUSER";
+
         /// <summary>
         /// 节点执行权限类型 SPECIAL_USER ALL_USER SPECIAL_ROLE SQL CREATEUSER
         /// </summary>
@@ -136,6 +155,7 @@ namespace JeezFoundation.WorkFlow
         ///  是否是会签
         /// </summary>
         public bool IsChat { get; set; } = false;
+
         /// <summary>
         /// 会签数据
         /// </summary>
@@ -182,16 +202,19 @@ namespace JeezFoundation.WorkFlow
         /// </summary>
         [Description("前一步")]
         PreviousStep = 0,
+
         /// <summary>
         /// 第一步
         /// </summary>
         [Description("第一步")]
         FirstStep = 1,
+
         /// <summary>
         /// 某一步
         /// </summary>
         [Description("某一步")]
         ForOneStep = 2,
+
         /// <summary>
         /// 不处理
         /// </summary>

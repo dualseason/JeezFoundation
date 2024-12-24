@@ -1,29 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using JeezFoundation.Core.Dapper;
 using System.Text;
-using DapperExtensions.Mapper;
-using JeezFoundation.Core.Dapper;
 
 namespace DapperExtensions.Sql
 {
     public interface ISqlGenerator
     {
         IDapperExtensionsConfiguration Configuration { get; }
-        
+
         string Select(IClassMapper classMap, IPredicate predicate, IList<ISort> sort, IDictionary<string, object> parameters);
+
         string SelectPaged(IClassMapper classMap, IPredicate predicate, IList<ISort> sort, int page, int resultsPerPage, IDictionary<string, object> parameters);
+
         string SelectSet(IClassMapper classMap, IPredicate predicate, IList<ISort> sort, int firstResult, int maxResults, IDictionary<string, object> parameters);
+
         string Count(IClassMapper classMap, IPredicate predicate, IDictionary<string, object> parameters);
 
         string Insert(IClassMapper classMap);
+
         string Update(IClassMapper classMap, IPredicate predicate, IDictionary<string, object> parameters);
+
         string Delete(IClassMapper classMap, IPredicate predicate, IDictionary<string, object> parameters);
 
         string IdentitySql(IClassMapper classMap);
+
         string GetTableName(IClassMapper map);
+
         string GetColumnName(IClassMapper map, IPropertyMap property, bool includeAlias);
+
         string GetColumnName(IClassMapper map, string propertyName, bool includeAlias);
+
         bool SupportsMultipleStatements();
     }
 
@@ -117,7 +122,6 @@ namespace DapperExtensions.Sql
             return sql;
         }
 
-
         public virtual string Count(IClassMapper classMap, IPredicate predicate, IDictionary<string, object> parameters)
         {
             if (parameters == null)
@@ -137,7 +141,7 @@ namespace DapperExtensions.Sql
 
             return sql.ToString();
         }
-        
+
         public virtual string Insert(IClassMapper classMap)
         {
             var columns = classMap.Properties.Where(p => !(p.Ignored || p.IsReadOnly || p.KeyType == KeyType.Identity));
@@ -186,7 +190,7 @@ namespace DapperExtensions.Sql
                 setSql.AppendStrings(),
                 predicate.GetSql(this, parameters));
         }
-        
+
         public virtual string Delete(IClassMapper classMap, IPredicate predicate, IDictionary<string, object> parameters)
         {
             if (predicate == null)
@@ -203,7 +207,7 @@ namespace DapperExtensions.Sql
             sql.Append(" WHERE ").Append(predicate.GetSql(this, parameters));
             return sql.ToString();
         }
-        
+
         public virtual string IdentitySql(IClassMapper classMap)
         {
             return Configuration.Dialect.GetIdentitySql(GetTableName(classMap));

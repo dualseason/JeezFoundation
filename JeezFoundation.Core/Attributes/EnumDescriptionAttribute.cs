@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JeezFoundation.Core.Attributes
+﻿namespace JeezFoundation.Core.Attributes
 {
     /// <summary>
     /// 枚举描述特性

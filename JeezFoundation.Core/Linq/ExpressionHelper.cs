@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 
 namespace JeezFoundation.Core.Linq
 {
@@ -12,17 +10,20 @@ namespace JeezFoundation.Core.Linq
         /// <summary>
         /// Creates a predicate that evaluates to true.
         /// </summary>
-        public static Expression<Func<T, bool>> True<T>() { return param => true; }
+        public static Expression<Func<T, bool>> True<T>()
+        { return param => true; }
 
         /// <summary>
         /// Creates a predicate that evaluates to false.
         /// </summary>
-        public static Expression<Func<T, bool>> False<T>() { return param => false; }
+        public static Expression<Func<T, bool>> False<T>()
+        { return param => false; }
 
         /// <summary>
         /// Creates a predicate expression from the specified lambda expression.
         /// </summary>
-        public static Expression<Func<T, bool>> Create<T>(Expression<Func<T, bool>> predicate) { return predicate; }
+        public static Expression<Func<T, bool>> Create<T>(Expression<Func<T, bool>> predicate)
+        { return predicate; }
 
         /// <summary>
         /// Combines the first predicate with the second using the logical "and".
@@ -52,7 +53,7 @@ namespace JeezFoundation.Core.Linq
         /// <summary>
         /// Combines the first expression with the second using the specified merge function.
         /// </summary>
-        static Expression<T> Compose<T>(this Expression<T> first, Expression<T> second, Func<Expression, Expression, Expression> merge)
+        private static Expression<T> Compose<T>(this Expression<T> first, Expression<T> second, Func<Expression, Expression, Expression> merge)
         {
             // zip parameters (map from parameters of second to parameters of first)
             var map = first.Parameters
@@ -65,9 +66,6 @@ namespace JeezFoundation.Core.Linq
             // create a merged lambda expression with parameters from the first expression
             return Expression.Lambda<T>(merge(first.Body, secondBody), first.Parameters);
         }
-
-
-
 
         //public static string GetWhereClause<T>(Expression<Func<T, bool>> expression)
         //{

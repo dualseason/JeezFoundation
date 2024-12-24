@@ -28,6 +28,7 @@
                 Data = null
             };
         }
+
         public static WorkFlowResult Success(string message, object data)
         {
             return new WorkFlowResult()
@@ -37,6 +38,7 @@
                 Data = data
             };
         }
+
         public static WorkFlowResult Error(string message)
         {
             return new WorkFlowResult()
@@ -46,6 +48,7 @@
                 Data = null
             };
         }
+
         public static WorkFlowResult Error(string message, object data)
         {
             return new WorkFlowResult()

@@ -1,8 +1,5 @@
 ﻿using JeezFoundation.Core.Domain.Entities;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace JeezFoundation.Core.Extensions
 {
@@ -161,10 +158,10 @@ namespace JeezFoundation.Core.Extensions
         /// <param name="valueSelector">用于从每个元素中提取值的函数</param>
         /// <param name="textSelector">用于从每个元素中提取文本的函数</param>
         /// <returns></returns>
-        public static List<SelectListItem> ToSelectListItem<TSource,TValue,TText>(this IEnumerable<TSource> source,
-            Func<TSource, TValue> valueSelector,Func<TSource,TText> textSelector)
+        public static List<SelectListItem> ToSelectListItem<TSource, TValue, TText>(this IEnumerable<TSource> source,
+            Func<TSource, TValue> valueSelector, Func<TSource, TText> textSelector)
         {
-            if (source==null)
+            if (source == null)
             {
                 throw new ArgumentException(nameof(source));
             }

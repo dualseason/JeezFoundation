@@ -1,9 +1,5 @@
 ﻿using JeezFoundation.Core.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 
 namespace JeezFoundation.Core.Domain.Repositories
 {
@@ -14,7 +10,6 @@ namespace JeezFoundation.Core.Domain.Repositories
     /// <typeparam name="TPrimaryKey">主键类型</typeparam>
     public interface IRepository<TEntity, TPrimaryKey> where TEntity : class, IEntity
     {
-
         #region Select/Get/Query/Page
 
         /// <summary>
@@ -29,14 +24,13 @@ namespace JeezFoundation.Core.Domain.Repositories
         /// <returns></returns>
         IQueryable<TEntity> LoadEntities();
 
-
         IQueryable<TEntity> AsQueryable();
 
         IQueryable<TEntity> AsQueryable(Expression<Func<TEntity, bool>> predicate);
 
         /// <summary>
         /// Used to get a IQueryable that is used to retrieve entities from entire table.
-        /// One or more 
+        /// One or more
         /// </summary>
         /// <param name="propertySelectors">A list of include expressions.</param>
         /// <returns>IQueryable to be used to select entities from database</returns>
@@ -246,8 +240,8 @@ namespace JeezFoundation.Core.Domain.Repositories
         /// <returns></returns>
         Task<Page<TEntity>> PageDescAsync<TKey>(int pageIndex, int pageSize, Func<TEntity, TKey> keySelector,
             Expression<Func<TEntity, bool>> predicate);
-        #endregion
 
+        #endregion Select/Get/Query/Page
 
         #region Insert
 
@@ -257,8 +251,7 @@ namespace JeezFoundation.Core.Domain.Repositories
         /// <param name="entity">Inserted entity</param>
         TEntity Insert(TEntity entity);
 
-
-        #endregion
+        #endregion Insert
 
         #region Update
 
@@ -267,7 +260,8 @@ namespace JeezFoundation.Core.Domain.Repositories
         /// </summary>
         /// <param name="entity">Entity</param>
         TEntity Update(TEntity entity);
-        #endregion
+
+        #endregion Update
 
         #region Delete
 
@@ -295,7 +289,7 @@ namespace JeezFoundation.Core.Domain.Repositories
         /// <param name="predicate">A condition to filter entities</param>
         Task DeleteAsync(Expression<Func<TEntity, bool>> predicate);
 
-        #endregion
+        #endregion Delete
 
         #region Aggregates
 
@@ -353,7 +347,7 @@ namespace JeezFoundation.Core.Domain.Repositories
         /// <returns>Count of entities</returns>
         Task<long> LongCountAsync(Expression<Func<TEntity, bool>> predicate);
 
-        #endregion
+        #endregion Aggregates
 
         #region SQL Query
 
@@ -374,6 +368,6 @@ namespace JeezFoundation.Core.Domain.Repositories
         /// <returns></returns>
         List<T> ToSqlList<T>(string sql, string connectionString);
 
-        #endregion
+        #endregion SQL Query
     }
 }

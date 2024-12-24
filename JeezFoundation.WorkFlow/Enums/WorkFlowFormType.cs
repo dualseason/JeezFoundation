@@ -12,6 +12,7 @@ namespace JeezFoundation.WorkFlow
         /// </summary>
         [Description("自定义表单")]
         Custom = 0,
+
         /// <summary>
         /// 系统表单
         /// </summary>

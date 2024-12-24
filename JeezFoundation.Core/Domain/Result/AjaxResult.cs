@@ -10,7 +10,8 @@
         /// <summary>
         /// 是否产生错误
         /// </summary>
-        public bool IsError { get { return iserror; } }
+        public bool IsError
+        { get { return iserror; } }
 
         /// <summary>
         /// 错误信息，或者成功信息
@@ -23,6 +24,7 @@
         public object Data { get; set; }
 
         #region Error
+
         /// <summary>
         /// 错误
         /// </summary>
@@ -34,6 +36,7 @@
                 iserror = true
             };
         }
+
         /// <summary>
         /// 错误
         /// </summary>
@@ -47,9 +50,11 @@
                 Message = message
             };
         }
-        #endregion
+
+        #endregion Error
 
         #region Success
+
         /// <summary>
         /// Success
         /// </summary>
@@ -61,6 +66,7 @@
                 iserror = false
             };
         }
+
         /// <summary>
         /// Success
         /// </summary>
@@ -73,6 +79,7 @@
                 Message = message
             };
         }
+
         /// <summary>
         /// Success
         /// </summary>
@@ -85,6 +92,7 @@
                 Data = data
             };
         }
+
         /// <summary>
         /// Success
         /// </summary>
@@ -98,6 +106,7 @@
                 Message = message
             };
         }
-        #endregion
+
+        #endregion Success
     }
 }

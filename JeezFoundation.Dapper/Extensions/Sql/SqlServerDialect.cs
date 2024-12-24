@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 
 namespace DapperExtensions.Sql
 {
@@ -46,7 +43,6 @@ namespace DapperExtensions.Sql
             {
                 orderByClause = "ORDER BY CURRENT_TIMESTAMP";
             }
-
 
             string projectedColumns = GetColumnNames(sql).Aggregate(new StringBuilder(), (sb, s) => (sb.Length == 0 ? sb : sb.Append(", ")).Append(GetColumnName("_proj", s, null)), sb => sb.ToString());
             string newSql = sql

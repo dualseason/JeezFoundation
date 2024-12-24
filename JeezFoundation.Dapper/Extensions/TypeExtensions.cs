@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Linq;
+﻿using System.Collections.Concurrent;
 using System.Reflection;
 
 namespace JeezFoundation.Dapper.Extensions
@@ -20,7 +18,6 @@ namespace JeezFoundation.Dapper.Extensions
 
             return result;
         }
-
 
         public static bool IsGenericType(this Type type)
         {

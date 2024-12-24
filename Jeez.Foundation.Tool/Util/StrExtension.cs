@@ -14,6 +14,7 @@
             return string.IsNullOrWhiteSpace(value);
         }
 
-        #endregion 
+        #endregion 文本可为空判断
+
     }
 }

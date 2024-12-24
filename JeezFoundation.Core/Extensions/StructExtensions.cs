@@ -56,6 +56,7 @@
         {
             return val == default(int);
         }
+
         /// <summary>
         /// 是否是默认值
         /// </summary>
@@ -65,6 +66,7 @@
         {
             return val == default(int?);
         }
+
         /// <summary>
         /// 是否是默认值
         /// </summary>
@@ -74,6 +76,7 @@
         {
             return val == default(long);
         }
+
         /// <summary>
         /// 是否是默认值
         /// </summary>
@@ -83,6 +86,7 @@
         {
             return val == default(long?);
         }
+
         /// <summary>
         /// 是否是默认值
         /// </summary>
@@ -92,6 +96,7 @@
         {
             return val == default(string);
         }
+
         /// <summary>
         /// 是否是默认值
         /// </summary>
@@ -101,6 +106,7 @@
         {
             return val == default(decimal);
         }
+
         /// <summary>
         /// 是否是默认值
         /// </summary>
@@ -111,7 +117,6 @@
             return val == default(decimal?);
         }
 
-        #endregion
-
+        #endregion 是否是默认值判断
     }
 }

@@ -6,6 +6,7 @@
         /// accesstoken
         /// </summary>
         public string? access_token { get; set; }
+
         /// <summary>
         /// 过期时间
         /// </summary>

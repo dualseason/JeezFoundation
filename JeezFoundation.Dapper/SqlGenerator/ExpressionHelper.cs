@@ -1,9 +1,7 @@
-﻿using System;
-using System.Globalization;
+﻿using JeezFoundation.Dapper.Extensions;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
-using JeezFoundation.Dapper.Extensions;
 
 namespace JeezFoundation.Dapper.SqlGenerator
 {
@@ -121,7 +119,6 @@ namespace JeezFoundation.Dapper.SqlGenerator
             var constExprType = constExpr.Value.GetType();
             return constExprType.GetField(expr.Member.Name).GetValue(constExpr.Value);
         }
-
 
         public static MemberExpression GetMemberExpression(Expression expression)
         {

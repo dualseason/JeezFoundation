@@ -16,6 +16,5 @@
                 ? (int)WorkFlowInstanceStatus.Finish
                 : (int)WorkFlowInstanceStatus.Running;
         }
-
     }
 }

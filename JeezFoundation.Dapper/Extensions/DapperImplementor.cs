@@ -1,30 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Dynamic;
-using System.Linq;
-using System.Text;
-using Dapper;
-using DapperExtensions.Mapper;
+﻿using Dapper;
 using DapperExtensions.Sql;
-using System.Data.Common;
 using JeezFoundation.Core.Dapper;
+using System.Data;
+using System.Data.Common;
+using System.Dynamic;
+using System.Text;
 
 namespace DapperExtensions
 {
     public interface IDapperImplementor
     {
         ISqlGenerator SqlGenerator { get; }
+
         T Get<T>(DbConnection connection, dynamic id, DbTransaction transaction, int? commandTimeout) where T : class;
+
         void Insert<T>(DbConnection connection, IEnumerable<T> entities, DbTransaction transaction, int? commandTimeout) where T : class;
+
         dynamic Insert<T>(DbConnection connection, T entity, DbTransaction transaction, int? commandTimeout) where T : class;
+
         bool Update<T>(DbConnection connection, T entity, DbTransaction transaction, int? commandTimeout) where T : class;
+
         bool Delete<T>(DbConnection connection, T entity, DbTransaction transaction, int? commandTimeout) where T : class;
+
         bool Delete<T>(DbConnection connection, object predicate, DbTransaction transaction, int? commandTimeout) where T : class;
-        IEnumerable<T> GetList<T>(DbConnection connection, object predicate, IList<ISort> sort, DbTransaction transaction, int? commandTimeout, bool buffered) where T : class;        
+
+        IEnumerable<T> GetList<T>(DbConnection connection, object predicate, IList<ISort> sort, DbTransaction transaction, int? commandTimeout, bool buffered) where T : class;
+
         IEnumerable<T> GetPage<T>(DbConnection connection, object predicate, IList<ISort> sort, int page, int resultsPerPage, DbTransaction transaction, int? commandTimeout, bool buffered) where T : class;
+
         IEnumerable<T> GetSet<T>(DbConnection connection, object predicate, IList<ISort> sort, int firstResult, int maxResults, DbTransaction transaction, int? commandTimeout, bool buffered) where T : class;
+
         int Count<T>(DbConnection connection, object predicate, DbTransaction transaction, int? commandTimeout) where T : class;
+
         IMultipleResultReader GetMultiple(DbConnection connection, GetMultiplePredicate predicate, DbTransaction transaction, int? commandTimeout);
     }
 
@@ -298,10 +305,10 @@ namespace DapperExtensions
             return predicates.Count == 1
                        ? predicates[0]
                        : new PredicateGroup
-                             {
-                                 Operator = GroupOperator.And,
-                                 Predicates = predicates
-                             };
+                       {
+                           Operator = GroupOperator.And,
+                           Predicates = predicates
+                       };
         }
 
         protected IPredicate GetKeyPredicate<T>(IClassMapper classMap, T entity) where T : class
@@ -314,20 +321,20 @@ namespace DapperExtensions
 
             IList<IPredicate> predicates = (from field in whereFields
                                             select new FieldPredicate<T>
-                                                       {
-                                                           Not = false,
-                                                           Operator = Operator.Eq,
-                                                           PropertyName = field.Name,
-                                                           Value = field.PropertyInfo.GetValue(entity, null)
-                                                       }).Cast<IPredicate>().ToList();
+                                            {
+                                                Not = false,
+                                                Operator = Operator.Eq,
+                                                PropertyName = field.Name,
+                                                Value = field.PropertyInfo.GetValue(entity, null)
+                                            }).Cast<IPredicate>().ToList();
 
             return predicates.Count == 1
                        ? predicates[0]
                        : new PredicateGroup
-                             {
-                                 Operator = GroupOperator.And,
-                                 Predicates = predicates
-                             };
+                       {
+                           Operator = GroupOperator.And,
+                           Predicates = predicates
+                       };
         }
 
         protected IPredicate GetEntityPredicate(IClassMapper classMap, object entity)

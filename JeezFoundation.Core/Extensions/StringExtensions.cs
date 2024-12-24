@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -12,7 +9,6 @@ namespace JeezFoundation.Core.Extensions
     /// </summary>
     public static class StringExtentions
     {
-
         #region 字符转换操作
 
         /// <summary>
@@ -171,6 +167,7 @@ namespace JeezFoundation.Core.Extensions
             bool.TryParse(source, out reValue);
             return reValue;
         }
+
         /// <summary>
         /// 转化为Byte型
         /// </summary>
@@ -181,6 +178,7 @@ namespace JeezFoundation.Core.Extensions
             Byte.TryParse(source, out reValue);
             return reValue;
         }
+
         /// <summary>
         /// 转化为Short型
         /// </summary>
@@ -191,6 +189,7 @@ namespace JeezFoundation.Core.Extensions
             short.TryParse(source, out reValue);
             return reValue;
         }
+
         /// <summary>
         /// 转化为Short型
         /// </summary>
@@ -201,6 +200,7 @@ namespace JeezFoundation.Core.Extensions
             short.TryParse(source, out reValue);
             return reValue;
         }
+
         /// <summary>
         /// 转化为int32型
         /// </summary>
@@ -211,6 +211,7 @@ namespace JeezFoundation.Core.Extensions
             Int32.TryParse(source, out reValue);
             return reValue;
         }
+
         /// <summary>
         /// 转化为int64型
         /// </summary>
@@ -221,6 +222,7 @@ namespace JeezFoundation.Core.Extensions
             Int64.TryParse(source, out reValue);
             return reValue;
         }
+
         /// <summary>
         /// 转化为Double型
         /// </summary>
@@ -231,6 +233,7 @@ namespace JeezFoundation.Core.Extensions
             Double.TryParse(source, out reValue);
             return reValue;
         }
+
         /// <summary>
         /// 转化为decimal型
         /// </summary>
@@ -326,7 +329,7 @@ namespace JeezFoundation.Core.Extensions
             return text;
         }
 
-        #endregion
+        #endregion Substring扩展
 
         /// <summary>
         /// 字符串拼接成的数组转换成集合
@@ -397,7 +400,7 @@ namespace JeezFoundation.Core.Extensions
             return o.ToString();
         }
 
-        #endregion
+        #endregion 字符转换操作
 
         #region 字符串判断/验证
 
@@ -483,6 +486,7 @@ namespace JeezFoundation.Core.Extensions
         {
             return Regex.IsMatch(source, @"^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$", RegexOptions.Compiled);
         }
+
         /// <summary>
         /// 判断是否是正确的身份证编码格式
         /// </summary>
@@ -492,6 +496,7 @@ namespace JeezFoundation.Core.Extensions
         {
             return Regex.IsMatch(source, @"^\d{17}(\d|x)$|^\d{15}$", RegexOptions.Compiled);
         }
+
         /// <summary>
         /// 判断是否是15位身份证号
         /// </summary>
@@ -522,6 +527,7 @@ namespace JeezFoundation.Core.Extensions
             mesage = "正确";
             return true;//符合15位身份证标准
         }
+
         /// <summary>
         /// 判断是否是正确的邮政编码格式
         /// </summary>
@@ -531,6 +537,7 @@ namespace JeezFoundation.Core.Extensions
         {
             return Regex.IsMatch(source, @"^[1-9]{1}(\d){5}$", RegexOptions.Compiled);
         }
+
         /// <summary>
         /// 判断是否是正确的中国移动或联通电话
         /// </summary>
@@ -540,6 +547,7 @@ namespace JeezFoundation.Core.Extensions
         {
             return Regex.IsMatch(source, @"^(86)*0*13\d{9}$", RegexOptions.Compiled);
         }
+
         /// <summary>
         /// 判断是否是正确的中国固定电话
         /// </summary>
@@ -549,6 +557,7 @@ namespace JeezFoundation.Core.Extensions
         {
             return Regex.IsMatch(source, @"^((\d{3,4})|\d{3,4}-|\s)?\d{8}$", RegexOptions.Compiled);
         }
+
         /// <summary>
         /// 包含html标签
         /// </summary>
@@ -559,6 +568,7 @@ namespace JeezFoundation.Core.Extensions
             Regex reg = new Regex(@"<|>");
             return reg.IsMatch(source);
         }
+
         /// <summary>
         /// 是否匹配正则表达式，匹配返回true，否则false
         /// </summary>
@@ -570,6 +580,7 @@ namespace JeezFoundation.Core.Extensions
             Regex r = new Regex(regex);
             return r.IsMatch(source);
         }
+
         /// <summary>
         /// 判断字符串是否是IP，如果是返回True，不是返回False
         /// </summary>
@@ -581,6 +592,7 @@ namespace JeezFoundation.Core.Extensions
                 + @"\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$", RegexOptions.Compiled);
             return regex.Match(source).Success;
         }
+
         /// <summary>
         /// 是否包含中文或全角字符
         /// </summary>
@@ -591,9 +603,10 @@ namespace JeezFoundation.Core.Extensions
             ASCIIEncoding n = new ASCIIEncoding();
             byte[] b = n.GetBytes(checkStr);
             for (int i = 0; i <= b.Length - 1; i++)
-                if (b[i] == 63) return true;  //判断是否(T)为汉字或全脚符号 
+                if (b[i] == 63) return true;  //判断是否(T)为汉字或全脚符号
             return false;
         }
+
         /// <summary>
         /// 是否是中文
         /// </summary>
@@ -606,6 +619,7 @@ namespace JeezFoundation.Core.Extensions
             Regex reg = new Regex(@"^([\u4e00-\u9fa5]*)$", RegexOptions.Compiled);
             return reg.IsMatch(checkStr);
         }
+
         /// <summary>
         /// 是否为正整数
         /// </summary>
@@ -616,6 +630,7 @@ namespace JeezFoundation.Core.Extensions
             Regex regex = new Regex("^\\d+$", RegexOptions.Compiled);
             return regex.IsMatch(intStr.Trim());
         }
+
         /// <summary>
         /// 非负整数
         /// </summary>
@@ -625,6 +640,7 @@ namespace JeezFoundation.Core.Extensions
         {
             return Regex.IsMatch(intStr, @"^\\d+$", RegexOptions.Compiled);
         }
+
         /// <summary>
         /// 是否是数字
         /// </summary>
@@ -634,6 +650,7 @@ namespace JeezFoundation.Core.Extensions
         {
             return Regex.IsMatch(checkStr, @"^[+-]?[0123456789]*[.]?[0123456789]*$", RegexOptions.Compiled);
         }
+
         /// <summary>
         /// 是否是Decimal类型数据
         /// </summary>
@@ -643,6 +660,7 @@ namespace JeezFoundation.Core.Extensions
         {
             return Regex.IsMatch(checkStr, @"^[0-9]+/.?[0-9]{0,2}$", RegexOptions.Compiled);
         }
+
         /// <summary>
         /// 是否是DateTime类型数据
         /// </summary>
@@ -653,6 +671,7 @@ namespace JeezFoundation.Core.Extensions
             return Regex.IsMatch(checkStr, @"^[ ]*[012 ]?[0123456789]?[0123456789]{2}[ ]*[-]{1}[ ]*[01]?[0123456789]{1}[ ]*[-]{1}[ ]*[0123]?[0123456789]"
                 + @"{1}[ ]*[012]?[0123456789]{1}[ ]*[:]{1}[ ]*[012345]?[0123456789]{1}[ ]*[:]{1}[ ]*[012345]?[0123456789]{1}[ ]*$", RegexOptions.Compiled);
         }
+
         /// <summary>
         /// 判断是否是XML 1.0允许的字符
         /// </summary>
@@ -670,6 +689,7 @@ namespace JeezFoundation.Core.Extensions
                 (character >= 0x10000 && character <= 0x10FFFF)
             );
         }
+
         /// <summary>
         /// 判断是否是合法的 XML 1.0标准允许的字符串 true：标准 false：包含不标准的字符
         /// </summary>
@@ -679,13 +699,15 @@ namespace JeezFoundation.Core.Extensions
         {
             return string.IsNullOrEmpty(xml) || xml.All(c => IsLegalXmlChar(c));
         }
-        #endregion
+
+        #endregion 字符串判断/验证
 
         private static string[] strs =
         {
             "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v","w", "x", "y", "z",
             "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V","W", "X", "Y", "Z"
         };
+
         /// <summary>
         /// 创建伪随机字符串
         /// </summary>

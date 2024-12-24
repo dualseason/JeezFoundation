@@ -5,7 +5,7 @@ namespace JeezFoundation.WeChat.Models
     /// <summary>
     /// 图片消息
     /// </summary>
-    public class RequestImageMsg: RequestRootMsg
+    public class RequestImageMsg : RequestRootMsg
     {
         /// <summary>
         /// 图片类型

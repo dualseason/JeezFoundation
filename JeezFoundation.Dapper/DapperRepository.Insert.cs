@@ -1,9 +1,6 @@
-﻿using System;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using Dapper;
+﻿using Dapper;
 using Dapper.Contrib.Extensions;
+using System.Data;
 
 namespace JeezFoundation.Dapper
 {
@@ -43,7 +40,7 @@ namespace JeezFoundation.Dapper
         /// <returns></returns>
         public virtual async Task<int> InsertReturnIdAsync(TEntity instance)
         {
-            return await Connection.InsertAsync(instance,null);
+            return await Connection.InsertAsync(instance, null);
         }
 
         /// <summary>

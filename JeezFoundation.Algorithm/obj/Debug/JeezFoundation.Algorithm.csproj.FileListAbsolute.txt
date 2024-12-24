@@ -1,0 +1,12 @@
+E:\code\Towel\Sources\Towel\bin\Debug\JeezFoundation.Algorithm.deps.json
+E:\code\Towel\Sources\Towel\bin\Debug\JeezFoundation.Algorithm.dll
+E:\code\Towel\Sources\Towel\bin\Debug\JeezFoundation.Algorithm.pdb
+E:\code\Towel\Sources\Towel\obj\Debug\JeezFoundation.Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\Towel\Sources\Towel\obj\Debug\JeezFoundation.Algorithm.AssemblyInfoInputs.cache
+E:\code\Towel\Sources\Towel\obj\Debug\JeezFoundation.Algorithm.AssemblyInfo.cs
+E:\code\Towel\Sources\Towel\obj\Debug\JeezFoundation.Algorithm.csproj.CoreCompileInputs.cache
+E:\code\Towel\Sources\Towel\obj\Debug\JeezFoundation.Algorithm.sourcelink.json
+E:\code\Towel\Sources\Towel\obj\Debug\JeezFoundation.Algorithm.dll
+E:\code\Towel\Sources\Towel\obj\Debug\refint\JeezFoundation.Algorithm.dll
+E:\code\Towel\Sources\Towel\obj\Debug\JeezFoundation.Algorithm.pdb
+E:\code\Towel\Sources\Towel\obj\Debug\ref\JeezFoundation.Algorithm.dll

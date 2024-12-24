@@ -23,7 +23,6 @@ namespace JeezFoundation.Core.PinYin
             return chars.ToString().ToUpper();
         }
 
-
         /// <summary>
         /// 取中文文本的拼音首字母
         /// </summary>
@@ -35,8 +34,6 @@ namespace JeezFoundation.Core.PinYin
             string temp = ConvertEncoding(text, encoding, Encoding.UTF8);
             return ConvertEncoding(GetInitials(temp), Encoding.UTF8, encoding);
         }
-
-
 
         /// <summary>
         /// 取中文文本的拼音
@@ -87,7 +84,6 @@ namespace JeezFoundation.Core.PinYin
             return "";
         }
 
-
         /// <summary>
         /// 取和拼音相同的汉字列表，编码同参数encoding
         /// </summary>
@@ -99,8 +95,6 @@ namespace JeezFoundation.Core.PinYin
             string text = ConvertEncoding(pinyin, encoding, Encoding.UTF8);
             return ConvertEncoding(GetChineseText(text), Encoding.UTF8, encoding);
         }
-
-
 
         /// <summary>
         /// 返回单个字符的汉字拼音
@@ -133,7 +127,7 @@ namespace JeezFoundation.Core.PinYin
         }
 
         /// <summary>
-        /// 转换编码 
+        /// 转换编码
         /// </summary>
         /// <param name="text">文本</param>
         /// <param name="srcEncoding">源编码</param>

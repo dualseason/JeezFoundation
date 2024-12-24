@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Data;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection;
-using System.Threading.Tasks;
-using Dapper;
+﻿using Dapper;
 using JeezFoundation.Dapper.Extensions;
 using JeezFoundation.Dapper.SqlGenerator;
+using System.Collections;
+using System.ComponentModel.DataAnnotations;
+using System.Data;
+using System.Linq.Expressions;
+using System.Reflection;
 
 namespace JeezFoundation.Dapper
 {
     /// <summary>
     ///     Base Repository
     /// </summary>
-    public partial class DapperRepository<TEntity> 
+    public partial class DapperRepository<TEntity>
         where TEntity : class
     {
         public virtual int Execute(CommandDefinition command)
@@ -28,10 +24,12 @@ namespace JeezFoundation.Dapper
         {
             return Connection.Execute(sql, param, transaction, commandTimeout, commandType);
         }
+
         public virtual IEnumerable<TEntity> Query(string sql, object param = null)
         {
             return Connection.Query<TEntity>(sql, param);
         }
+
         public virtual async Task<IEnumerable<TEntity>> QueryAsync(string sql, object param = null)
         {
             return await Connection.QueryAsync<TEntity>(sql, param);
@@ -41,10 +39,12 @@ namespace JeezFoundation.Dapper
         {
             return Connection.ExecuteScalar<T>(sql, param, transaction, commandTimeout, commandType);
         }
+
         public virtual async Task<T> ExecuteScalarAsync<T>(string sql, object param = null, IDbTransaction transaction = null, int? commandTimeout = null, CommandType? commandType = null)
         {
             return await Connection.ExecuteScalarAsync<T>(sql, param, transaction, commandTimeout, commandType);
         }
+
         public virtual object ExecuteScalar(string sql, object param = null, IDbTransaction transaction = null, int? commandTimeout = null, CommandType? commandType = null)
         {
             return Connection.ExecuteScalar(sql, param, transaction, commandTimeout, commandType);
@@ -134,7 +134,6 @@ namespace JeezFoundation.Dapper
             return lookup.Values;
         }
 
-
         /// <summary>
         ///     Execute Join query
         /// </summary>
@@ -213,7 +212,6 @@ namespace JeezFoundation.Dapper
 
             return lookup.Values;
         }
-
 
         private static TEntity EntityJoinMapping<TChild1, TChild2, TChild3, TChild4, TChild5, TChild6>(IDictionary<object, TEntity> lookup, PropertyInfo[] keyProperties,
             IList<PropertyInfo> childKeyProperties, IList<PropertyInfo> childProperties, IList<string> propertyNames, Type entityType, TEntity entity, params object[] childs)

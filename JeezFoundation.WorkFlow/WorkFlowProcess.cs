@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace JeezFoundation.WorkFlow
+﻿namespace JeezFoundation.WorkFlow
 {
     /// <summary>
     /// 流程进程实体
@@ -12,43 +9,53 @@ namespace JeezFoundation.WorkFlow
         /// 流程id
         /// </summary>
         public Guid FlowId { get; set; }
+
         /// <summary>
         /// 流程名称
         /// </summary>
         public string FlowName { get; set; }
+
         /// <summary>
         /// 实例id
         /// </summary>
         public Guid InstanceId { get; set; }
+
         /// <summary>
         /// 用户id
         /// </summary>
         public string UserId { get; set; }
+
         /// <summary>
         /// 用户名
         /// </summary>
         public string UserName { get; set; }
+
         /// <summary>
         /// 可操作按钮集合
         /// <see cref="WorkFlowMenu"/>集合
         /// </summary>
         public List<int> Menus { get; set; }
+
         /// <summary>
         /// 表单id
         /// </summary>
         public Guid FormId { get; set; }
+
         /// <summary>
         /// 表单类型
         /// </summary>
         public WorkFlowFormType FormType { get; set; }
+
         /// <summary>
         /// 表单内容
         /// </summary>
         public string FormContent { get; set; }
+
         /// <summary>
         /// 表单数据
         /// </summary>
         public string FormData { get; set; }
+
         /// <summary>
         /// 表单地址
         /// </summary>

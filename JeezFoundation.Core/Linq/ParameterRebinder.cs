@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 
 namespace JeezFoundation.Core.Linq
 {
@@ -11,13 +10,13 @@ namespace JeezFoundation.Core.Linq
         /// <summary>
         /// The ParameterExpression map
         /// </summary>
-        readonly Dictionary<ParameterExpression, ParameterExpression> map;
+        private readonly Dictionary<ParameterExpression, ParameterExpression> map;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ParameterRebinder"/> class.
         /// </summary>
         /// <param name="map">The map.</param>
-        ParameterRebinder(Dictionary<ParameterExpression, ParameterExpression> map)
+        private ParameterRebinder(Dictionary<ParameterExpression, ParameterExpression> map)
         {
             this.map = map ?? new Dictionary<ParameterExpression, ParameterExpression>();
         }

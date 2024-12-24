@@ -9,10 +9,12 @@
         /// 主键
         /// </summary>
         public virtual int Id { get; set; }
+
         /// <summary>
         /// 是否删除
         /// </summary>
         public virtual byte IsDelete { get; set; }
+
         /// <summary>
         /// 创建时间
         /// </summary>

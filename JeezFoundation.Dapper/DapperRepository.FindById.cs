@@ -1,7 +1,5 @@
-﻿using System.Data;
-using System.Threading.Tasks;
-using Dapper;
-
+﻿using Dapper;
+using System.Data;
 
 namespace JeezFoundation.Dapper
 {

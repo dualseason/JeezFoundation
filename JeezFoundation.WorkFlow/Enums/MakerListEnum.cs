@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace JeezFoundation.WorkFlow
+﻿namespace JeezFoundation.WorkFlow
 {
     /// <summary>
     /// 审核人类型
@@ -11,23 +9,28 @@ namespace JeezFoundation.WorkFlow
         /// 未找到任何类型
         /// </summary>
         None,
+
         /// <summary>
         /// 所有人
         /// </summary>
         AllUser,
+
         /// <summary>
         /// 指定某些人
         /// </summary>
         Users,
+
         /// <summary>
         /// 指定某些角色
         /// </summary>
         Roles,
+
         /// <summary>
         /// 通过SQL获取
         /// </summary>
         SQL
     }
+
     /// <summary>
     /// 审核人实体
     /// </summary>

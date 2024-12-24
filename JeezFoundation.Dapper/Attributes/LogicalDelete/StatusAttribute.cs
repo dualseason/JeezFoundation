@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JeezFoundation.Dapper.Attributes.LogicalDelete
+﻿namespace JeezFoundation.Dapper.Attributes.LogicalDelete
 {
     /// <summary>
     ///     Use with "Deleted" for logical delete

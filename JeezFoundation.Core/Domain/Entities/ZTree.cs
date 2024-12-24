@@ -9,6 +9,7 @@
         /// id
         /// </summary>
         public string id { get; set; }
+
         /// <summary>
         /// 父级ID
         /// </summary>
@@ -27,6 +28,6 @@
         /// <summary>
         /// 是否选中
         /// </summary>
-        public bool @checked {get;set;}
+        public bool @checked { get; set; }
     }
 }

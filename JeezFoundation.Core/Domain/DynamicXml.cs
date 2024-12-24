@@ -1,5 +1,4 @@
 ﻿using System.Dynamic;
-using System.Linq;
 using System.Xml.Linq;
 
 namespace JeezFoundation.Core.Domain

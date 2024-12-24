@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JeezFoundation.Dapper.Attributes
+﻿namespace JeezFoundation.Dapper.Attributes
 {
     /// <summary>
     ///     UpdatedAt. Warning!!! Changes the property during SQL generation

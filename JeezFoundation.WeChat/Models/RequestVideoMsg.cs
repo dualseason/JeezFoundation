@@ -5,7 +5,7 @@ namespace JeezFoundation.WeChat.Models
     /// <summary>
     /// 视频消息
     /// </summary>
-    public class RequestVideoMsg: RequestRootMsg
+    public class RequestVideoMsg : RequestRootMsg
     {
         /// <summary>
         /// 视频

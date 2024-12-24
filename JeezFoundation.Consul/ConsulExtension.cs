@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using System;
 
 namespace JeezFoundation.Consul
 {
@@ -42,17 +41,16 @@ namespace JeezFoundation.Consul
 
             return app;
         }
+
         private static void OnStop(IApplicationBuilder app, ServiceDiscoveryOptions serviceOptions, IConsulClient consul, IApplicationLifetime lifetime)
         {
             var serviceId = $"{serviceOptions.Service.Name}_{serviceOptions.Service.Address}:{serviceOptions.Service.Port}";
 
             consul.Agent.ServiceDeregister(serviceId).GetAwaiter().GetResult();
-
         }
 
         private static void OnStart(IApplicationBuilder app, ServiceDiscoveryOptions serviceOptions, IConsulClient consul, IApplicationLifetime lifetime, ServiceCheckOptions checkOptions)
         {
-
             var serviceId = $"{serviceOptions.Service.Name}_{serviceOptions.Service.Address}:{serviceOptions.Service.Port}";
             var httpCheck = new AgentServiceCheck()
             {

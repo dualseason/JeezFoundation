@@ -5,7 +5,7 @@ namespace JeezFoundation.WeChat.Models
     /// <summary>
     /// 语音消息
     /// </summary>
-    public class RequestVoiceMsg: RequestRootMsg
+    public class RequestVoiceMsg : RequestRootMsg
     {
         /// <summary>
         /// 语音

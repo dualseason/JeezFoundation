@@ -1,5 +1,5 @@
-﻿using System.Reflection;
-using JeezFoundation.Dapper.Attributes.Joins;
+﻿using JeezFoundation.Dapper.Attributes.Joins;
+using System.Reflection;
 
 namespace JeezFoundation.Dapper.SqlGenerator
 {

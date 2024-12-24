@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace JeezFoundation.Core.Domain.Entities
+﻿namespace JeezFoundation.Core.Domain.Entities
 {
     /// <summary>
     /// 分页实体
@@ -15,6 +13,7 @@ namespace JeezFoundation.Core.Domain.Entities
         {
             this.Items = new List<TEntity>();
         }
+
         /// <summary>
         /// 当前页
         /// </summary>
@@ -39,6 +38,5 @@ namespace JeezFoundation.Core.Domain.Entities
         /// 查询集合
         /// </summary>
         public IEnumerable<TEntity> Items { get; set; }
-
     }
 }

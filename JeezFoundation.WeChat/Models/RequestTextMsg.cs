@@ -2,7 +2,7 @@
 
 namespace JeezFoundation.WeChat.Models
 {
-    public class RequestTextMsg: RequestRootMsg
+    public class RequestTextMsg : RequestRootMsg
     {
         /// <summary>
         /// 文本

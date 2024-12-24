@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Reflection;
-using System.Text;
+﻿using DapperExtensions.Mapper;
 using DapperExtensions.Sql;
-using DapperExtensions.Mapper;
-using System.Data.Common;
 using JeezFoundation.Core.Dapper;
+using System.Data.Common;
+using System.Reflection;
 
 namespace DapperExtensions
 {
@@ -18,7 +13,7 @@ namespace DapperExtensions
         private static Func<IDapperExtensionsConfiguration, IDapperImplementor> _instanceFactory;
         private static IDapperImplementor _instance;
         private static IDapperExtensionsConfiguration _configuration;
-        
+
         /// <summary>
         /// Gets or sets the default class mapper to use when generating class maps. If not specified, AutoClassMapper<T> is used.
         /// DapperExtensions.Configure(Type, IList<Assembly>, ISqlDialect) can be used instead to set all values at once
@@ -52,7 +47,7 @@ namespace DapperExtensions
                 Configure(_configuration.DefaultMapper, _configuration.MappingAssemblies, value);
             }
         }
-        
+
         /// <summary>
         /// Get or sets the Dapper Extensions Implementation Factory.
         /// </summary>
@@ -151,8 +146,8 @@ namespace DapperExtensions
         }
 
         /// <summary>
-        /// Executes an insert query for the specified entity, returning the primary key.  
-        /// If the entity has a single key, just the value is returned.  
+        /// Executes an insert query for the specified entity, returning the primary key.
+        /// If the entity has a single key, just the value is returned.
         /// If the entity has a composite key, an IDictionary&lt;string, object&gt; is returned with the key values.
         /// The key value for the entity will also be updated if the KeyType is a Guid or Identity.
         /// </summary>
@@ -228,7 +223,7 @@ namespace DapperExtensions
         }
 
         /// <summary>
-        /// Gets the appropriate mapper for the specified type T. 
+        /// Gets the appropriate mapper for the specified type T.
         /// If the mapper for the type is not yet created, a new mapper is generated from the mapper type specifed by DefaultMapper.
         /// </summary>
         public static IClassMapper GetMap<T>() where T : class

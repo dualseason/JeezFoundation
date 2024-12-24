@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JeezFoundation.Tool
+﻿namespace JeezFoundation.Tool
 {
     /// <summary>
     /// 一个自定义属性，用于指示方法的缓存策略。

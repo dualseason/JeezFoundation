@@ -186,7 +186,7 @@ namespace Jeez.Foundation.Tool.ConvertCategory
             return (T)Convert.ChangeType(s, typeof(T));
         }
 
-        #endregion
+        #endregion 数据转换扩展
 
         #region 布尔转换
 
@@ -220,7 +220,9 @@ namespace Jeez.Foundation.Tool.ConvertCategory
             return b ? "是" : "否";
         }
 
-        #endregion 
+        #endregion 布尔转换
+
+
 
         #region 字节转换
 
@@ -324,7 +326,9 @@ namespace Jeez.Foundation.Tool.ConvertCategory
             }
         }
 
-        #endregion 
+        #endregion 字节转换
+
+
 
         #region 数字转字符串前面补零
 
@@ -356,6 +360,6 @@ namespace Jeez.Foundation.Tool.ConvertCategory
             }
         }
 
-        #endregion
+        #endregion 数字转字符串前面补零
     }
 }

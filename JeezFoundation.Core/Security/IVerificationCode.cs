@@ -1,6 +1,4 @@
-﻿using System.IO;
-
-namespace JeezFoundation.Core.Security
+﻿namespace JeezFoundation.Core.Security
 {
     /// <summary>
     /// 验证码

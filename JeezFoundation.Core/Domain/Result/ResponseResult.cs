@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace JeezFoundation.Core.Domain.Result
+﻿namespace JeezFoundation.Core.Domain.Result
 {
     /// <summary>
     /// 响应结果类
@@ -201,6 +197,7 @@ namespace JeezFoundation.Core.Domain.Result
             result.Message = message;
             return result;
         }
+
         /// <summary>
         /// Http 响应消息封装类
         /// </summary>

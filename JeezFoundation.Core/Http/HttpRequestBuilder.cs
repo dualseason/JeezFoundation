@@ -1,7 +1,4 @@
-﻿using System;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Threading.Tasks;
+﻿using System.Net.Http.Headers;
 
 namespace JeezFoundation.Core.Http
 {
@@ -104,6 +101,6 @@ namespace JeezFoundation.Core.Http
                 throw new ArgumentNullException("Request Uri");
         }
 
-        #endregion
+        #endregion " Private "
     }
 }

@@ -1,6 +1,4 @@
 ﻿using JeezFoundation.Core.Extensions;
-using System;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -35,6 +33,5 @@ namespace JeezFoundation.Core.Security
             }
             return enText.ToString();
         }
-
     }
 }

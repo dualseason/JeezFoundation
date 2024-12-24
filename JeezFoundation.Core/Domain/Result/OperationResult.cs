@@ -87,6 +87,7 @@
         /// 操作引发错误
         /// </summary>
         Error,
+
         /// <summary>
         /// 程序异常
         /// </summary>

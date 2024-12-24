@@ -1,9 +1,5 @@
-﻿using System;
-using System.Data;
-using System.Linq;
+﻿using System.Data;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
-
 
 namespace JeezFoundation.Dapper
 {
@@ -40,7 +36,6 @@ namespace JeezFoundation.Dapper
             var queryResult = SqlGenerator.GetSelectFirst(predicate, tChild1, tChild2, tChild3);
             return ExecuteJoinQuery<TChild1, TChild2, TChild3, DontMap, DontMap, DontMap>(queryResult, transaction, tChild1, tChild2, tChild3).FirstOrDefault();
         }
-
 
         /// <inheritdoc />
         public virtual TEntity Find<TChild1, TChild2, TChild3, TChild4>(Expression<Func<TEntity, bool>> predicate,

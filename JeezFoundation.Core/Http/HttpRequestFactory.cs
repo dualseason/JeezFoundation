@@ -1,7 +1,4 @@
-﻿using System.Net.Http;
-using System.Threading.Tasks;
-
-namespace JeezFoundation.Core.Http
+﻿namespace JeezFoundation.Core.Http
 {
     public static class HttpRequestFactory
     {

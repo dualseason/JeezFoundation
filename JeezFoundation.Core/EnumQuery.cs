@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections;
 
 namespace JeezFoundation.Core
 {
@@ -39,7 +36,6 @@ namespace JeezFoundation.Core
             return list.GetEnumerator();
         }
 
-
         #region IEnumerable Members
 
         /// <summary>
@@ -51,6 +47,6 @@ namespace JeezFoundation.Core
             return GetEnumerator();
         }
 
-        #endregion
+        #endregion IEnumerable Members
     }
 }

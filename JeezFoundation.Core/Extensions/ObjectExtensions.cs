@@ -1,7 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using System.Text;
 
@@ -87,7 +84,6 @@ namespace JeezFoundation.Core.Extensions
             return list.Contains(value);
         }
 
-
         /// <summary>
         /// Returns the result of <paramref name="func"/> if <paramref name="obj"/> is not null.
         /// <example>
@@ -141,7 +137,7 @@ namespace JeezFoundation.Core.Extensions
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <typeparam name="TResult"></typeparam>
@@ -155,7 +151,7 @@ namespace JeezFoundation.Core.Extensions
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <typeparam name="TResult"></typeparam>

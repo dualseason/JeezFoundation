@@ -1,5 +1,4 @@
 ﻿using JeezFoundation.Core.Extensions;
-using System;
 
 namespace JeezFoundation.WorkFlow
 {
@@ -45,6 +44,7 @@ namespace JeezFoundation.WorkFlow
         /// 流程状态
         /// </summary>
         public virtual int FlowStatus { get; set; }
+
         /// <summary>
         /// 流程操作时间戳
         /// </summary>

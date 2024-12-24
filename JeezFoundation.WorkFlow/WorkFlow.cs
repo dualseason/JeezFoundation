@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace JeezFoundation.WorkFlow
+﻿namespace JeezFoundation.WorkFlow
 {
     /// <summary>
     /// workflow context model
@@ -41,7 +38,8 @@ namespace JeezFoundation.WorkFlow
         /// <summary>
         /// 当前节点
         /// </summary>
-        public FlowNode ActivityNode { get { return Nodes[ActivityNodeId]; } }
+        public FlowNode ActivityNode
+        { get { return Nodes[ActivityNodeId]; } }
 
         /// <summary>
         /// 下个节点ID
@@ -56,7 +54,8 @@ namespace JeezFoundation.WorkFlow
         /// <summary>
         /// 下一个节点对象
         /// </summary>
-        public FlowNode NextNode { get { return NextNodeId != default(Guid) ? Nodes[NextNodeId] : null; }}
+        public FlowNode NextNode
+        { get { return NextNodeId != default(Guid) ? Nodes[NextNodeId] : null; } }
 
         /// <summary>
         /// 全部节点

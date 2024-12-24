@@ -9,10 +9,12 @@
         /// 表单ID
         /// </summary>
         public string PageId { get; set; }
+
         /// <summary>
         /// 表单地址
         /// </summary>
         public string FormUrl { get; set; }
+
         /// <summary>
         /// 当前用户ID
         /// </summary>

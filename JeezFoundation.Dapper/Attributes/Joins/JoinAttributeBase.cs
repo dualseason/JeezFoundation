@@ -1,5 +1,3 @@
-using System;
-
 namespace JeezFoundation.Dapper.Attributes.Joins
 {
     /// <summary>

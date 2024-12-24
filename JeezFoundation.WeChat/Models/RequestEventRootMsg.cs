@@ -11,6 +11,7 @@ namespace JeezFoundation.WeChat.Models
         /// 事件类型
         /// </summary>
         public virtual RequestEventType Event { get; set; }
+
         /// <summary>
         /// 消息类型
         /// </summary>

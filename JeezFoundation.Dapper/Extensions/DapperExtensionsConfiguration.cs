@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using DapperExtensions.Mapper;
+﻿using DapperExtensions.Mapper;
 using DapperExtensions.Sql;
 using JeezFoundation.Core.Dapper;
+using System.Collections.Concurrent;
+using System.Reflection;
 
 namespace DapperExtensions
 {
@@ -15,9 +11,13 @@ namespace DapperExtensions
         Type DefaultMapper { get; }
         IList<Assembly> MappingAssemblies { get; }
         ISqlDialect Dialect { get; }
+
         IClassMapper GetMap(Type entityType);
+
         IClassMapper GetMap<T>() where T : class;
+
         void ClearCache();
+
         Guid GetNextGuid();
     }
 
@@ -29,7 +29,6 @@ namespace DapperExtensions
             : this(typeof(AutoClassMapper<>), new List<Assembly>(), new SqlServerDialect())
         {
         }
-
 
         public DapperExtensionsConfiguration(Type defaultMapper, IList<Assembly> mappingAssemblies, ISqlDialect sqlDialect)
         {
@@ -62,7 +61,7 @@ namespace DapperExtensions
 
         public IClassMapper GetMap<T>() where T : class
         {
-            return GetMap(typeof (T));
+            return GetMap(typeof(T));
         }
 
         public void ClearCache()

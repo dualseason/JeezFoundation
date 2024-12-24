@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
+using Dapper;
+using JeezFoundation.Dapper.SqlGenerator;
 using System.Data;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
-using JeezFoundation.Dapper.SqlGenerator;
-using DapperExtensions;
-using Dapper;
 
 namespace JeezFoundation.Dapper
 {
@@ -235,7 +231,6 @@ namespace JeezFoundation.Dapper
             Expression<Func<TEntity, object>> tChild6,
             IDbTransaction transaction = null);
 
-
         /// <summary>
         ///     Get first object
         /// </summary>
@@ -323,12 +318,10 @@ namespace JeezFoundation.Dapper
         /// </summary>
         IEnumerable<TEntity> FindAll(Expression<Func<TEntity, bool>> predicate, IDbTransaction transaction = null);
 
-
         /// <summary>
         ///     Get all objects with join objects
         /// </summary>
         IEnumerable<TEntity> FindAll<TChild1>(Expression<Func<TEntity, bool>> predicate, Expression<Func<TEntity, object>> tChild1, IDbTransaction transaction = null);
-
 
         /// <summary>
         ///     Get all objects with join objects
@@ -395,7 +388,6 @@ namespace JeezFoundation.Dapper
         /// </summary>
         Task<IEnumerable<TEntity>> FindAllAsync(Expression<Func<TEntity, bool>> predicate, IDbTransaction transaction = null);
 
-
         /// <summary>
         ///     Get all objects with join objects
         /// </summary>
@@ -411,7 +403,6 @@ namespace JeezFoundation.Dapper
             Expression<Func<TEntity, object>> tChild1,
             Expression<Func<TEntity, object>> tChild2,
             IDbTransaction transaction = null);
-
 
         /// <summary>
         ///     Get all objects with join objects
@@ -524,7 +515,6 @@ namespace JeezFoundation.Dapper
         /// </summary>
         Task<bool> DeleteAsync(Expression<Func<TEntity, bool>> predicate, IDbTransaction transaction = null);
 
-
         /// <summary>
         ///     Update object in DB
         /// </summary>
@@ -534,7 +524,6 @@ namespace JeezFoundation.Dapper
         ///     Update object in DB
         /// </summary>
         bool Update(TEntity instance, IDbTransaction transaction);
-
 
         /// <summary>
         ///     Update object in DB
@@ -551,7 +540,6 @@ namespace JeezFoundation.Dapper
         /// </summary>
         bool Update(Expression<Func<TEntity, bool>> predicate, TEntity instance);
 
-
         /// <summary>
         ///     Update object in DB
         /// </summary>
@@ -566,7 +554,6 @@ namespace JeezFoundation.Dapper
         ///     Update object in DB
         /// </summary>
         Task<bool> UpdateAsync(Expression<Func<TEntity, bool>> predicate, TEntity instance, IDbTransaction transaction);
-
 
         /// <summary>
         ///     Bulk Update objects in DB
@@ -587,7 +574,6 @@ namespace JeezFoundation.Dapper
         ///     Bulk Update objects in DB
         /// </summary>
         bool BulkUpdate(IEnumerable<TEntity> instances, IDbTransaction transaction);
-
 
         /// <summary>
         ///     Get all objects with BETWEEN query
@@ -633,11 +619,10 @@ namespace JeezFoundation.Dapper
         Task<IEnumerable<TEntity>> FindAllBetweenAsync(DateTime from, DateTime to, Expression<Func<TEntity, object>> btwField, Expression<Func<TEntity, bool>> predicate,
             IDbTransaction transaction = null);
 
-
-
-
         int Execute(CommandDefinition command);
+
         int Execute(string sql, object param = null, IDbTransaction transaction = null, int? commandTimeout = null, CommandType? commandType = null);
+
         /// <summary>
         /// SQL≤È—Ø
         /// </summary>
@@ -645,6 +630,7 @@ namespace JeezFoundation.Dapper
         /// <param name="param"></param>
         /// <returns></returns>
         IEnumerable<TEntity> Query(string sql, object param = null);
+
         /// <summary>
         /// SQL≤È—Ø
         /// </summary>
@@ -652,7 +638,9 @@ namespace JeezFoundation.Dapper
         /// <param name="param"></param>
         /// <returns></returns>
         Task<IEnumerable<TEntity>> QueryAsync(string sql, object param = null);
+
         T ExecuteScalar<T>(string sql, object param = null, IDbTransaction transaction = null, int? commandTimeout = null, CommandType? commandType = null);
+
         object ExecuteScalar(string sql, object param = null, IDbTransaction transaction = null, int? commandTimeout = null, CommandType? commandType = null);
     }
 }

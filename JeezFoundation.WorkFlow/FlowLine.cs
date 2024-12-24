@@ -50,6 +50,7 @@
         [JsonProperty("setInfo")]
         public FlowLineSetInfo SetInfo { get; set; }
     }
+
     /// <summary>
     /// 线条自定义信息
     /// </summary>
@@ -73,6 +74,7 @@
         [JsonProperty("customSQL")]
         public string CustomSQL { get; set; }
     }
+
     ///// <summary>
     ///// 线条类型
     ///// </summary>

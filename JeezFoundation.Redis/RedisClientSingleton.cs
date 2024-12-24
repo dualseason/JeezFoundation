@@ -3,7 +3,6 @@ using StackExchange.Redis;
 
 namespace JeezFoundation.Redis
 {
-    
     /// <summary>
     /// 单例
     /// </summary>
@@ -12,6 +11,7 @@ namespace JeezFoundation.Redis
         private static RedisClient _redisClinet;
 
         private static object _lockObj = new object();
+
         public static RedisClient GetInstance(IConfiguration config)
         {
             if (_redisClinet == null)

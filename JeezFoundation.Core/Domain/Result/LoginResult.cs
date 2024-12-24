@@ -53,14 +53,15 @@
         /// 用户名或密码错误
         /// </summary>
         Error = 0,
+
         /// <summary>
         /// 登录成功
         /// </summary>
         Success = 1,
+
         /// <summary>
         /// 程序异常
         /// </summary>
         Exception = 2
-
     }
 }

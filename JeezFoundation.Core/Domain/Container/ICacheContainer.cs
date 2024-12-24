@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace JeezFoundation.Core.Domain.Container
+﻿namespace JeezFoundation.Core.Domain.Container
 {
     /// <summary>
     /// 缓存容器接口
@@ -14,6 +12,7 @@ namespace JeezFoundation.Core.Domain.Container
         /// <param name="key">key</param>
         /// <returns></returns>
         T Get<T>(string key) where T : class;
+
         /// <summary>
         /// 设置
         /// </summary>

@@ -1,7 +1,4 @@
-﻿using System.IO;
-using System.Net.Http;
-
-namespace JeezFoundation.Core.Http
+﻿namespace JeezFoundation.Core.Http
 {
     public class FileContent : MultipartFormDataContent
     {

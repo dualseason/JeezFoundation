@@ -1,10 +1,7 @@
 ﻿using Dapper;
 using JeezFoundation.Dapper.SqlGenerator;
-using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 
 namespace JeezFoundation.Dapper
 {
@@ -51,7 +48,6 @@ namespace JeezFoundation.Dapper
             Connection = connection;
             SqlGenerator = new SqlGenerator<TEntity>(config);
         }
-
 
         /// <inheritdoc />
         public IDbConnection Connection { get; }
@@ -164,7 +160,6 @@ namespace JeezFoundation.Dapper
             return ExecuteJoinQueryAsync<TChild1, DontMap, DontMap, DontMap, DontMap, DontMap>(queryResult, transaction, tChild1);
         }
 
-
         /// <inheritdoc />
         public virtual Task<IEnumerable<TEntity>> FindAllAsync<TChild1, TChild2>(
             Expression<Func<TEntity, bool>> predicate,
@@ -230,8 +225,6 @@ namespace JeezFoundation.Dapper
             return ExecuteJoinQueryAsync<TChild1, TChild2, TChild3, TChild4, TChild5, TChild6>(sqlQuery, transaction, tChild1, tChild2, tChild3, tChild4, tChild5, tChild6);
         }
 
-
-
         /// <inheritdoc />
         public virtual int BulkInsert(IEnumerable<TEntity> instances, IDbTransaction transaction = null)
         {
@@ -280,7 +273,6 @@ namespace JeezFoundation.Dapper
             return deleted;
         }
 
-       
         /// <inheritdoc />
         public IEnumerable<TEntity> FindAllBetween(object from, object to, Expression<Func<TEntity, object>> btwField, IDbTransaction transaction = null)
         {
@@ -332,7 +324,5 @@ namespace JeezFoundation.Dapper
         {
             return FindAllBetweenAsync(from.ToString(DateTimeFormat), to.ToString(DateTimeFormat), btwField, predicate, transaction);
         }
-
     }
 }
-

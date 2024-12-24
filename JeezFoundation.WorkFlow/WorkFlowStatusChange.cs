@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JeezFoundation.WorkFlow
+﻿namespace JeezFoundation.WorkFlow
 {
     /// <summary>
     /// 流程状态修改实体

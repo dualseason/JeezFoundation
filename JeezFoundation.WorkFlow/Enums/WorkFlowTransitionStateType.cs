@@ -9,6 +9,7 @@
         /// 正常通过
         /// </summary>
         Normal = 0,
+
         /// <summary>
         /// 节点拒绝
         /// </summary>

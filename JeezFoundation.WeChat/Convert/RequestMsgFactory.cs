@@ -27,24 +27,31 @@ namespace JeezFoundation.WeChat.Convert
                 case RequestMsgType.Text:
                     rootMsg = rootMsg.ToTextMsg(jo);
                     break;
+
                 case RequestMsgType.Location:
                     rootMsg = rootMsg.ToLocationMsg(jo);
                     break;
+
                 case RequestMsgType.Image:
                     rootMsg = rootMsg.ToImageMsg(jo);
                     break;
+
                 case RequestMsgType.Voice:
                     rootMsg = rootMsg.ToVideoMsg(jo);
                     break;
+
                 case RequestMsgType.Video:
                     rootMsg = rootMsg.ToVideoMsg(jo);
                     break;
+
                 case RequestMsgType.Link:
                     rootMsg = rootMsg.ToLinkMsg(jo);
                     break;
+
                 case RequestMsgType.ShortVideo:
                     rootMsg = rootMsg.ToShortVideoMsg(jo);
                     break;
+
                 case RequestMsgType.Event:
                     {
                         RequestEventType eventType = GetRequestEventType(jo);
@@ -53,21 +60,26 @@ namespace JeezFoundation.WeChat.Convert
                             case RequestEventType.Subscribe:
                                 rootMsg = rootMsg.ToSubscribeEventMsg(jo);
                                 break;
+
                             case RequestEventType.UnSubscribe:
                                 rootMsg = rootMsg.ToUnSubscribeEventMsg(jo);
                                 break;
+
                             default:
                                 throw new ArgumentNullException("消息/事件类型未匹配到！");
                         }
                     }
                     break;
+
                 default:
                     throw new ArgumentNullException("消息/事件类型未匹配到！");
             }
 
             return rootMsg;
         }
+
         #region 消息处理
+
         /// <summary>
         /// 将xml节点CDATA转换成json之后的键名
         /// </summary>
@@ -90,6 +102,7 @@ namespace JeezFoundation.WeChat.Convert
             rootMsg.MsgType = (RequestMsgType)Enum.Parse(typeof(RequestMsgType), msgType, true);
             return rootMsg;
         }
+
         private static Logger nlog = LogManager.GetCurrentClassLogger();
 
         /// <summary>
@@ -265,6 +278,7 @@ namespace JeezFoundation.WeChat.Convert
             };
             return subscribeEventMsg;
         }
+
         /// <summary>
         /// 转成取消订阅信息
         /// </summary>
@@ -281,6 +295,7 @@ namespace JeezFoundation.WeChat.Convert
             };
             return unSubscribeEventMsg;
         }
-        #endregion
+
+        #endregion 消息处理
     }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace JeezFoundation.Core.Domain.Entities
+﻿namespace JeezFoundation.Core.Domain.Entities
 {
     /// <summary>
     /// 客户端token实体
@@ -11,6 +9,7 @@ namespace JeezFoundation.Core.Domain.Entities
         /// token
         /// </summary>
         public string Access_Token { get; set; }
+
         /// <summary>
         /// 过期时间（秒）
         /// </summary>

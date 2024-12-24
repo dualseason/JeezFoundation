@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace JeezFoundation.Core.Extensions
+﻿namespace JeezFoundation.Core.Extensions
 {
     /// <summary>
     /// Extension methods for Collections.

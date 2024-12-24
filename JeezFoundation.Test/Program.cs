@@ -1,13 +1,11 @@
 ﻿using JeezFoundation.Core.Extensions;
-using System;
 
 namespace JeezFoundation.Test
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-
             string ts = DateTime.Now.ToCstTime().ToTimeStamp().ToString();
             Console.WriteLine("ts:" + ts);
 
@@ -16,7 +14,6 @@ namespace JeezFoundation.Test
             Console.WriteLine("time:" + time);
 
             Console.ReadLine();
-            
         }
     }
 }

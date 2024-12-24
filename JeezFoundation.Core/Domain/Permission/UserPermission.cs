@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace JeezFoundation.Core.Domain.Permission
+﻿namespace JeezFoundation.Core.Domain.Permission
 {
     /// <summary>
     /// 用户权限
