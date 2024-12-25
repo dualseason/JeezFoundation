@@ -23,7 +23,4 @@
   <ItemGroup>
     <ProjectReference Include="..\JeezFoundation.Algorithm\JeezFoundation.Algorithm.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Example\" />
-  </ItemGroup>
 </Project>
