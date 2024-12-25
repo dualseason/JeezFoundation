@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JeezFoundation.Tool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ee4d629bb2e79401cc1896134e37f32e56f0ca1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48bf4f36fb09f6501258f8fc3c95e729e667bf57")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeezFoundation.Tool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeezFoundation.Tool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
