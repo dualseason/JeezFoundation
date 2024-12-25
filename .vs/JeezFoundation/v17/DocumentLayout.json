@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\code\\JeezFoundation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ABB0A554-2629-432D-A4FF-1FAB15E3C8CF}|JeezFoundation.Algorithm_Testing\\JeezFoundation.Algorithm_Testing.csproj|e:\\code\\jeezfoundation\\jeezfoundation.algorithm_testing\\jeezfoundation.algorithm_testing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ABB0A554-2629-432D-A4FF-1FAB15E3C8CF}|JeezFoundation.Algorithm_Testing\\JeezFoundation.Algorithm_Testing.csproj|solutionrelative:jeezfoundation.algorithm_testing\\jeezfoundation.algorithm_testing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E243B32-1EEE-4527-BABD-FB4E7991C12F}|JeezFoundation.Algorithm_Generating\\JeezFoundation.Algorithm_Generating.csproj|e:\\code\\jeezfoundation\\jeezfoundation.algorithm_generating\\jeezfoundation.algorithm_generating.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3E243B32-1EEE-4527-BABD-FB4E7991C12F}|JeezFoundation.Algorithm_Generating\\JeezFoundation.Algorithm_Generating.csproj|solutionrelative:jeezfoundation.algorithm_generating\\jeezfoundation.algorithm_generating.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE1959C-ABEA-4537-B772-3615BF98B0D8}|JeezFoundation.Algorithm_Benchmarking\\JeezFoundation.Algorithm_Benchmarking.csproj|e:\\code\\jeezfoundation\\jeezfoundation.algorithm_benchmarking\\jeezfoundation.algorithm_benchmarking.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7BE1959C-ABEA-4537-B772-3615BF98B0D8}|JeezFoundation.Algorithm_Benchmarking\\JeezFoundation.Algorithm_Benchmarking.csproj|solutionrelative:jeezfoundation.algorithm_benchmarking\\jeezfoundation.algorithm_benchmarking.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEE1AE12-6900-4DD4-A8EA-C1F77C8371AF}|JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj|e:\\code\\jeezfoundation\\jeezfoundation.algorithm\\jeezfoundation.algorithm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CEE1AE12-6900-4DD4-A8EA-C1F77C8371AF}|JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj|solutionrelative:jeezfoundation.algorithm\\jeezfoundation.algorithm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -59,19 +71,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "JeezFoundation.Algorithm_Testing",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm_Testing\\JeezFoundation.Algorithm_Testing.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Algorithm_Testing\\JeezFoundation.Algorithm_Testing.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm_Testing\\JeezFoundation.Algorithm_Testing.csproj",
+              "RelativeToolTip": "JeezFoundation.Algorithm_Testing\\JeezFoundation.Algorithm_Testing.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-25T05:45:03.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JeezFoundation.Algorithm_Generating",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm_Generating\\JeezFoundation.Algorithm_Generating.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Algorithm_Generating\\JeezFoundation.Algorithm_Generating.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm_Generating\\JeezFoundation.Algorithm_Generating.csproj",
+              "RelativeToolTip": "JeezFoundation.Algorithm_Generating\\JeezFoundation.Algorithm_Generating.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-25T05:45:01.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JeezFoundation.Algorithm_Benchmarking",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm_Benchmarking\\JeezFoundation.Algorithm_Benchmarking.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Algorithm_Benchmarking\\JeezFoundation.Algorithm_Benchmarking.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm_Benchmarking\\JeezFoundation.Algorithm_Benchmarking.csproj",
+              "RelativeToolTip": "JeezFoundation.Algorithm_Benchmarking\\JeezFoundation.Algorithm_Benchmarking.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-25T05:44:57.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "JeezFoundation.Algorithm",
               "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj",
               "RelativeDocumentMoniker": "JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj",
               "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj",
               "RelativeToolTip": "JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-25T03:59:42.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SStringBuilder.cs",
               "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\SStringBuilder.cs",
               "RelativeDocumentMoniker": "JeezFoundation.Algorithm\\SStringBuilder.cs",
@@ -84,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SpanBuilder.cs",
               "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\SpanBuilder.cs",
               "RelativeDocumentMoniker": "JeezFoundation.Algorithm\\SpanBuilder.cs",
