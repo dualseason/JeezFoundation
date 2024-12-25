@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\code\\JeezFoundation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEE1AE12-6900-4DD4-A8EA-C1F77C8371AF}|JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj|e:\\code\\jeezfoundation\\jeezfoundation.algorithm\\jeezfoundation.algorithm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CEE1AE12-6900-4DD4-A8EA-C1F77C8371AF}|JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj|solutionrelative:jeezfoundation.algorithm\\jeezfoundation.algorithm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEE1AE12-6900-4DD4-A8EA-C1F77C8371AF}|JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj|e:\\code\\jeezfoundation\\jeezfoundation.algorithm\\sstringbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEE1AE12-6900-4DD4-A8EA-C1F77C8371AF}|JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj|solutionrelative:jeezfoundation.algorithm\\sstringbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,27 +59,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SStringBuilder.cs",
-              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\SStringBuilder.cs",
-              "RelativeDocumentMoniker": "JeezFoundation.Algorithm\\SStringBuilder.cs",
-              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\SStringBuilder.cs",
-              "RelativeToolTip": "JeezFoundation.Algorithm\\SStringBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T01:54:29.036Z",
+              "Title": "JeezFoundation.Algorithm",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj",
+              "RelativeDocumentMoniker": "JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj",
+              "RelativeToolTip": "JeezFoundation.Algorithm\\JeezFoundation.Algorithm.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-25T03:59:42.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SStringBuilder.cs",
+              "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\SStringBuilder.cs",
+              "RelativeDocumentMoniker": "JeezFoundation.Algorithm\\SStringBuilder.cs",
+              "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\SStringBuilder.cs",
+              "RelativeToolTip": "JeezFoundation.Algorithm\\SStringBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T03:46:46.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SpanBuilder.cs",
               "DocumentMoniker": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\SpanBuilder.cs",
               "RelativeDocumentMoniker": "JeezFoundation.Algorithm\\SpanBuilder.cs",
               "ToolTip": "E:\\code\\JeezFoundation\\JeezFoundation.Algorithm\\SpanBuilder.cs",
               "RelativeToolTip": "JeezFoundation.Algorithm\\SpanBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T01:54:04.653Z",
+              "WhenOpened": "2024-12-25T02:24:04.957Z",
               "EditorCaption": ""
             }
           ]

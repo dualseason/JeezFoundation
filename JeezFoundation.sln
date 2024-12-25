@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Algorithm_Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Algorithm_Generating", "JeezFoundation.Algorithm_Generating\JeezFoundation.Algorithm_Generating.csproj", "{3E243B32-1EEE-4527-BABD-FB4E7991C12F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Algorithm_Testing", "JeezFoundation.Algorithm_Testing\JeezFoundation.Algorithm_Testing.csproj", "{ABB0A554-2629-432D-A4FF-1FAB15E3C8CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{3E243B32-1EEE-4527-BABD-FB4E7991C12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E243B32-1EEE-4527-BABD-FB4E7991C12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E243B32-1EEE-4527-BABD-FB4E7991C12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB0A554-2629-432D-A4FF-1FAB15E3C8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB0A554-2629-432D-A4FF-1FAB15E3C8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB0A554-2629-432D-A4FF-1FAB15E3C8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB0A554-2629-432D-A4FF-1FAB15E3C8CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

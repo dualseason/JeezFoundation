@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Towel_Testing;
+namespace JeezFoundation.Algorithm_Testing;
 
 /// <summary>Represents a <see cref="string"/> in the process of being built.</summary>
 public ref struct SStringBuilder
