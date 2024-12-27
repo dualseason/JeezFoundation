@@ -385,17 +385,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/UserLoginResultDtoCommonResult"
+                  "$ref": "#/components/schemas/UserIdentityCommonResult"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UserLoginResultDtoCommonResult"
+                  "$ref": "#/components/schemas/UserIdentityCommonResult"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UserLoginResultDtoCommonResult"
+                  "$ref": "#/components/schemas/UserIdentityCommonResult"
                 }
               }
             }
@@ -414,17 +414,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/SystemUserCommonResult"
+                  "$ref": "#/components/schemas/UserIdentityCommonResult"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/SystemUserCommonResult"
+                  "$ref": "#/components/schemas/UserIdentityCommonResult"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/SystemUserCommonResult"
+                  "$ref": "#/components/schemas/UserIdentityCommonResult"
                 }
               }
             }
@@ -1405,25 +1405,15 @@
         "tags": [
           "User"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserGetListDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserGetListDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserGetListDto"
-              }
+        "parameters": [
+          {
+            "name": "IsDel",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -1618,11 +1608,18 @@
         "parameters": [
           {
             "name": "UserId",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int64"
+            }
+          },
+          {
+            "name": "UserId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -2074,11 +2071,7 @@
             "nullable": true
           },
           "parentDepts": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/DeptDto"
-            },
-            "nullable": true
+            "$ref": "#/components/schemas/DeptDto"
           }
         },
         "additionalProperties": false
@@ -2721,50 +2714,6 @@
         },
         "additionalProperties": false
       },
-      "SystemUser": {
-        "type": "object",
-        "properties": {
-          "userId": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "userName": {
-            "type": "string",
-            "nullable": true
-          },
-          "headImg": {
-            "type": "string",
-            "nullable": true
-          },
-          "sex": {
-            "$ref": "#/components/schemas/UserSex"
-          },
-          "createTime": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "other": {
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "SystemUserCommonResult": {
-        "type": "object",
-        "properties": {
-          "success": {
-            "type": "boolean"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "data": {
-            "$ref": "#/components/schemas/SystemUser"
-          }
-        },
-        "additionalProperties": false
-      },
       "SystemsCreateDto": {
         "type": "object",
         "properties": {
@@ -3204,15 +3153,6 @@
         },
         "additionalProperties": false
       },
-      "UserGetListDto": {
-        "type": "object",
-        "properties": {
-          "isDel": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
       "UserGetListPageDto": {
         "type": "object",
         "properties": {
@@ -3230,21 +3170,7 @@
         },
         "additionalProperties": false
       },
-      "UserLoginDto": {
-        "type": "object",
-        "properties": {
-          "userName": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UserLoginResultDto": {
+      "UserIdentity": {
         "type": "object",
         "properties": {
           "userId": {
@@ -3263,8 +3189,8 @@
             "$ref": "#/components/schemas/UserSex"
           },
           "createTime": {
-            "type": "integer",
-            "format": "int64"
+            "type": "string",
+            "format": "date-time"
           },
           "other": {
             "nullable": true
@@ -3272,7 +3198,7 @@
         },
         "additionalProperties": false
       },
-      "UserLoginResultDtoCommonResult": {
+      "UserIdentityCommonResult": {
         "type": "object",
         "properties": {
           "success": {
@@ -3283,7 +3209,21 @@
             "nullable": true
           },
           "data": {
-            "$ref": "#/components/schemas/UserLoginResultDto"
+            "$ref": "#/components/schemas/UserIdentity"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserLoginDto": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

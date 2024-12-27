@@ -18,11 +18,6 @@ namespace Jeez.Workflow.API.Models
         public long ResourceId { get; set; }
         
         /// <summary>
-        /// 部门ID
-        /// </summary>
-        public long SystemId { get; set; }
-        
-        /// <summary>
         /// 角色名称
         /// </summary>
         public string? ResourceName { get; set; }
@@ -91,20 +86,5 @@ namespace Jeez.Workflow.API.Models
         /// 
         /// </summary>
         public string? Path { get; set; }
-    }
-
-    /// <summary>
-    /// 资源【菜单】模型-资源【菜单】模型表映射
-    /// </summary>
-    public sealed class ResourceMapper : ClassMapper<Resource>
-    {
-        public ResourceMapper()
-        {
-            // 1、映射到ydt_resource
-            Table("ydt_resource");
-
-            // 2、自动映射【字段和属性】
-            AutoMap();
-        }
     }
 }

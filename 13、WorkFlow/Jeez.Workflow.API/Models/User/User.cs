@@ -10,17 +10,11 @@ namespace Jeez.Workflow.API.Models
     [Table("sys_user")]
     public class User
     {
-        
         /// <summary>
         /// 主键
         /// </summary>
         [Key,Identity]
         public long UserId { get; set; }
-        
-        /// <summary>
-        /// 部门ID
-        /// </summary>
-        public long SystemId { get; set; }
         
         /// <summary>
         /// 账号
@@ -46,45 +40,30 @@ namespace Jeez.Workflow.API.Models
         /// 头像地址
         /// </summary>
         public string? HeadImg { get; set; }
-        
+
         /// <summary>
         /// 是否删除 1:是，0：否
         /// </summary>
         public bool IsDel { get; set; }
-        
+
         /// <summary>
         /// 创建人ID
         /// </summary>
         public long CreateUserId { get; set; }
-        
+
         /// <summary>
         /// 创建时间戳
         /// </summary>
         public long CreateTime { get; set; }
-        
+
         /// <summary>
         /// 更新人Id
         /// </summary>
         public long UpdateUserId { get; set; }
-        
+
         /// <summary>
         /// 更新时间
         /// </summary>
         public long UpdateTime { get; set; }
-    }
-
-    /// <summary>
-    /// 用户模型-用户模型表映射
-    /// </summary>
-    public sealed class UserMapper : ClassMapper<User>
-    {
-        public UserMapper()
-        {
-            // 1、映射到ydt_user
-            Table("sys_user");
-
-            // 2、自动映射【字段和属性】
-            AutoMap();
-        }
     }
 }

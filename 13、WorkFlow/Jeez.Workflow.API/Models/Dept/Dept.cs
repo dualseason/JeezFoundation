@@ -10,17 +10,11 @@ namespace Jeez.Workflow.API.Models
     [Table("sys_dept")]
     public class Dept
     {
-        
         /// <summary>
         /// 部门ID
         /// </summary>
         [Key,Identity]
         public long DeptId { get; set; }
-        
-        /// <summary>
-        /// 部门ID
-        /// </summary>
-        public long SystemId { get; set; }
         
         /// <summary>
         /// 部门名称
@@ -41,40 +35,25 @@ namespace Jeez.Workflow.API.Models
         /// 路径
         /// </summary>
         public string? Path { get; set; }
-        
+
         /// <summary>
         /// 是否删除 1:是，0：否
         /// </summary>
         public bool IsDel { get; set; }
-        
+
         /// <summary>
         /// 备注
         /// </summary>
         public string? Memo { get; set; }
-        
+
         /// <summary>
         /// 创建人ID
         /// </summary>
         public long CreateUserId { get; set; }
-        
+
         /// <summary>
         /// 创建时间戳
         /// </summary>
         public long CreateTime { get; set; }
-    }
-
-    /// <summary>
-    /// 部门模型-部门模型表映射
-    /// </summary>
-    public sealed class DeptMapper : ClassMapper<Dept>
-    {
-        public DeptMapper()
-        {
-            // 1、映射到ydt_dept
-            Table("ydt_dept");
-
-            // 2、自动映射【字段和属性】
-            AutoMap();
-        }
     }
 }

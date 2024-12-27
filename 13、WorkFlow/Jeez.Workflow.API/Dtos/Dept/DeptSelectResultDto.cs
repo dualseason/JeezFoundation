@@ -13,6 +13,6 @@ namespace Jeez.Workflow.API.Dtos
         public string? Memo { get; set; }
         
         // 父级部门
-        public List<DeptDto>? ParentDepts { get; set; } 
+        public DeptDto? ParentDepts { get; set; } 
     }
 }

@@ -5,7 +5,6 @@ namespace Jeez.Workflow.API.Dtos
     /// </summary>
     public class SystemsCreateDto
     {
-        public long SystemId { get; set; }
         public string? SystemName { get; set; }
         public string? SystemCode { get; set; }
         public bool IsDel { get; set; }

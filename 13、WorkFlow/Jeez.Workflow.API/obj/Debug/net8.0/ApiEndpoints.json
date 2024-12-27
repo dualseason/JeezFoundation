@@ -202,7 +202,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Dtos.UserLoginResultDto, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[JeezFoundation.Core.Domain.Entities.UserIdentity, JeezFoundation.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -242,7 +242,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[Jeez.Workflow.API.Commons.SystemUser, Jeez.Workflow.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Jeez.Workflow.API.Commons.CommonResult\u00601[[JeezFoundation.Core.Domain.Entities.UserIdentity, JeezFoundation.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -790,9 +790,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userGetListDto",
-        "Type": "Jeez.Workflow.API.Dtos.UserGetListDto",
-        "IsRequired": true
+        "Name": "IsDel",
+        "Type": "System.Boolean",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -875,6 +875,11 @@
       {
         "Name": "UserId",
         "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "",
         "IsRequired": true
       }
     ],

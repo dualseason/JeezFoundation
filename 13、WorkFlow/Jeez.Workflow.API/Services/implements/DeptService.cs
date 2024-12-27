@@ -1,39 +1,121 @@
-﻿using Jeez.Workflow.API.Commons;
+﻿using AutoMapper;
+using Jeez.Workflow.API.Commons;
+using Jeez.Workflow.API.Contexts;
 using Jeez.Workflow.API.Dtos;
+using Jeez.Workflow.API.Models;
 using Jeez.Workflow.API.Services.interfaces;
 
 namespace Jeez.Workflow.API.Services.implements
 {
     public class DeptService : IDeptService
     {
-        public Task<CommonResult> DeptCreateAsync(DeptCreateDto DeptCreateDto)
+        public WorkflowFixtrue WorkflowFixtrue { get; set; }
+
+        public IMapper Mapper { get; set; }
+
+        public DeptService(WorkflowFixtrue workflowFixtrue, IMapper mapper)
         {
-            throw new NotImplementedException();
+            WorkflowFixtrue = workflowFixtrue;
+            Mapper = mapper;
         }
 
-        public Task<CommonResult> DeptDeleteAsync(List<long> DeptIds)
+        public async Task<CommonResult> DeptCreateAsync(DeptCreateDto DeptCreateDto)
         {
-            throw new NotImplementedException();
+            Dept dept = Mapper.Map<Dept>(DeptCreateDto);
+            await WorkflowFixtrue.Db.Dept.InsertAsync(dept);
+            return new CommonResult(true, "创建成功");
         }
 
-        public Task<CommonResult<DeptSelectResultDto>> DeptGetAsync(long DeptId)
+        public async Task<CommonResult> DeptDeleteAsync(List<long> deptIds)
         {
-            throw new NotImplementedException();
+            using (var tran = WorkflowFixtrue.Db.BeginTransaction())
+            {
+                var depts = await WorkflowFixtrue.Db.Dept
+                    .FindAllAsync(m => m.IsDel == false && deptIds.Contains(m.DeptId));
+
+                foreach (var dept in depts)
+                {
+                    dept.IsDel = true;
+                    await WorkflowFixtrue.Db.Dept.UpdateAsync(dept, tran);
+                }
+
+                tran.Commit();
+                return new CommonResult(true, "删除成功");
+            }
         }
 
-        public Task<CommonResult<List<DeptDto>>> DeptGetListAsync(DeptGetListDto DeptGetListDto)
+        public async Task<CommonResult<DeptSelectResultDto>> DeptGetAsync(long deptId)
         {
-            throw new NotImplementedException();
+            Dept dept = await WorkflowFixtrue.Db.Dept.FindAsync(m => m.DeptId == deptId);
+
+            DeptDto deptDto = Mapper.Map<Dept, DeptDto>(dept);
+
+            Dept parentDept = await WorkflowFixtrue.Db.Dept.FindAsync(m => m.IsDel == false && m.DeptId == dept.ParentId);
+
+            var result = new DeptSelectResultDto();
+            result.IsDel = deptDto.IsDel;
+            result.DeptName = deptDto.DeptName;
+            result.DeptCode = deptDto.DeptCode;
+            result.DeptId = deptDto.DeptId;
+            result.Memo = deptDto.Memo;
+            result.SystemId = deptDto.SystemId;
+            // 父级部门
+            result.ParentDepts = Mapper.Map<DeptDto>(parentDept);
+
+            return new CommonResult<DeptSelectResultDto>(true, "查询成功", result);
         }
 
-        public Task<CommonPageResult<DeptDto>> DeptGetListPageAsync(DeptGetListPageDto DeptGetListPageDto)
+        public async Task<CommonResult<List<DeptDto>>> DeptGetListAsync(DeptGetListDto deptGetListDto)
         {
-            throw new NotImplementedException();
+            IEnumerable<Dept> depts = await WorkflowFixtrue.Db.Dept.FindAllAsync(u => u.IsDel == deptGetListDto.IsDel);
+
+            List<DeptDto> deptDtos = Mapper.Map<List<DeptDto>>(depts);
+
+            List<DeptDto> rootDeptDtos = deptDtos.Where(d => d.ParentId == 0).ToList();
+
+            CommonFunction.GetChildDepts(rootDeptDtos, deptDtos);
+
+            return new CommonResult<List<DeptDto>>(true, "查询成功", deptDtos);
         }
 
-        public Task<CommonResult> DeptUpdateAsync(DeptUpdateDto DeptUpdateDto, long DeptId)
+        public async Task<CommonPageResult<DeptDto>> DeptGetListPageAsync(DeptGetListPageDto deptGetListPageDto)
         {
-            throw new NotImplementedException();
+            IEnumerable<Dept> depts = await WorkflowFixtrue.Db.Dept
+                .FindAllAsync(u => u.IsDel == deptGetListPageDto.IsDel);
+
+            List<DeptDto> deptDtos = Mapper
+                .Map<List<DeptDto>>(depts)
+                .ToList();
+
+            List<DeptDto> rootDeptDtos = deptDtos
+                .Where(d => d.ParentId == 0)
+                .ToList();
+
+            CommonFunction.GetChildDepts(rootDeptDtos, deptDtos);
+
+            List<DeptDto> currentDeptDtos = deptDtos
+                .Skip((deptGetListPageDto.PageIndex - 1) * deptGetListPageDto.PageSize)
+                .Take(deptGetListPageDto.PageSize)
+                .ToList();
+
+            return new CommonPageResult<DeptDto>(deptGetListPageDto.PageSize, deptDtos.Count, currentDeptDtos);
+        }
+
+        public async Task<CommonResult> DeptUpdateAsync(DeptUpdateDto deptUpdateDto, long deptId)
+        {
+            Dept dept = await WorkflowFixtrue.Db.Dept
+                .FindAsync(m => m.DeptId == deptId);
+
+            if (dept == null)
+            {
+                throw new CommonException("Dept不存在");
+            }
+
+            dept = Mapper.Map<DeptUpdateDto, Dept>(deptUpdateDto);
+
+            await WorkflowFixtrue.Db.Dept.UpdateAsync(dept);
+
+            return new CommonResult(true, "更新成功");
         }
     }
 }

@@ -3,6 +3,7 @@ using Jeez.Workflow.API.Commons;
 using Jeez.Workflow.API.Contexts;
 using Jeez.Workflow.API.Dtos;
 using Jeez.Workflow.API.Models;
+using Jeez.Workflow.API.Models.DataPrivilege;
 using Jeez.Workflow.API.Services.interfaces;
 using JeezFoundation.Core.Extensions;
 
@@ -20,18 +21,19 @@ namespace Jeez.Workflow.API.Services.implements
             Mapper = mapper;
         }
 
-        public async Task<CommonResult<UserDto>> UserCreateAsync(UserCreateDto userCreateDto)
+        public async Task<CommonResult<User>> UserCreateAsync(UserCreateDto userCreateDto)
         {
             User user = Mapper.Map<User>(userCreateDto);
-            UserDto userDto = Mapper.Map<UserDto>(user);
-            if (await WorkflowFixtrue.Db.User.InsertAsync(user))
+            using (var tran = WorkflowFixtrue.Db.BeginTransaction())
             {
-                return new CommonResult<UserDto>(true, "创建成功", userDto);
+                await WorkflowFixtrue.Db.User.InsertAsync(user, tran);
+
+                DataPrivilege dataPrivilege = Mapper.Map<DataPrivilege>(userCreateDto);
+
+                await WorkflowFixtrue.Db.DataPrivilege.InsertAsync(dataPrivilege, tran);
             }
-            else
-            {
-                return new CommonResult<UserDto>(false, "创建失败", new UserDto());
-            }
+
+            return new CommonResult<User>(true, "创建成功", user);
         }
 
         public async Task<CommonResult<List<UserDto>>> UserGetListAsync(UserGetListDto userGetListDto)

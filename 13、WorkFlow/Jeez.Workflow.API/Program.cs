@@ -15,6 +15,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped(typeof(WorkflowFixtrue));
 builder.Services.AddScoped<ISystemsService, SystemsService>();
+builder.Services.AddScoped<IDeptService, DeptService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddAutoMapper(typeof(MappingProfile).GetTypeInfo().Assembly);
 
 builder.Services.AddAuthentication().AddCookie();

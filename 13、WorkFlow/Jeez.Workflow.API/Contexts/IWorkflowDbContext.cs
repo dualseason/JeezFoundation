@@ -20,5 +20,7 @@ namespace Jeez.Workflow.API.Contexts
         public IUserRepository User { get; }
 
         public IUserRoleRepository UserRole { get; }
+
+        public IDataPrivilegeRepository DataPrivilege { get; }
     }
 }

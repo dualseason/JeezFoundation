@@ -9,9 +9,9 @@
       "Jeez.Workflow.API/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "JeezFoundation.Core": "1.0.2.3",
-          "JeezFoundation.Dapper": "1.0.1.6",
-          "JeezFoundation.WorkFlow": "1.0.3.4",
+          "JeezFoundation.Core": "1.0.0",
+          "JeezFoundation.Dapper": "1.0.0",
+          "JeezFoundation.WorkFlow": "1.0.0",
           "MySqlConnector": "2.4.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -157,42 +157,42 @@
       },
       "System.ComponentModel.Annotations/5.0.0": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "JeezFoundation.Core/1.0.2.3": {
+      "JeezFoundation.Core/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "NodaTime": "3.2.0"
         },
         "runtime": {
           "JeezFoundation.Core.dll": {
-            "assemblyVersion": "1.0.2.3",
-            "fileVersion": "1.0.2.3"
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "JeezFoundation.Dapper/1.0.1.6": {
+      "JeezFoundation.Dapper/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.35",
           "Dapper.Contrib": "2.0.78",
-          "JeezFoundation.Core": "1.0.2.3",
+          "JeezFoundation.Core": "1.0.0",
           "Microsoft.CSharp": "4.7.0",
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
           "JeezFoundation.Dapper.dll": {
-            "assemblyVersion": "1.0.1.6",
-            "fileVersion": "1.0.1.6"
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "JeezFoundation.WorkFlow/1.0.3.4": {
+      "JeezFoundation.WorkFlow/1.0.0": {
         "dependencies": {
-          "JeezFoundation.Core": "1.0.2.3",
+          "JeezFoundation.Core": "1.0.0",
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
           "JeezFoundation.WorkFlow.dll": {
-            "assemblyVersion": "1.0.3.4",
-            "fileVersion": "1.0.3.4"
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -337,17 +337,17 @@
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
-    "JeezFoundation.Core/1.0.2.3": {
+    "JeezFoundation.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "JeezFoundation.Dapper/1.0.1.6": {
+    "JeezFoundation.Dapper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "JeezFoundation.WorkFlow/1.0.3.4": {
+    "JeezFoundation.WorkFlow/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
