@@ -46,5 +46,7 @@ namespace Jeez.Workflow.API.Contexts
         public IUserRoleRepository UserRole => new UserRoleRepository(Connection, sqlGeneratorConfig);
 
         public IDataPrivilegeRepository DataPrivilege => new DataPrivilegeRepository(Connection, sqlGeneratorConfig);
+
+        public ISystemDeptRepository SystemDept => new SystemDeptRepository(Connection, sqlGeneratorConfig);
     }
 }

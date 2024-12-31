@@ -13,29 +13,29 @@ namespace Jeez.Workflow.API.Models
         /// <summary>
         /// 主键
         /// </summary>
-        [Key,Identity]
+        [Key, Identity]
         public long UserId { get; set; }
-        
+
         /// <summary>
         /// 账号
         /// </summary>
         public string? Account { get; set; }
-        
+
         /// <summary>
         /// 用户名
         /// </summary>
         public string? UserName { get; set; }
-        
+
         /// <summary>
         /// 工号
         /// </summary>
         public string? JobNumber { get; set; }
-        
+
         /// <summary>
         /// 密码
         /// </summary>
         public string? Password { get; set; }
-        
+
         /// <summary>
         /// 头像地址
         /// </summary>
@@ -65,5 +65,12 @@ namespace Jeez.Workflow.API.Models
         /// 更新时间
         /// </summary>
         public long UpdateTime { get; set; }
+
+        public User()
+        {
+            CreateTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+            UpdateTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+            IsDel = false;
+        }
     }
 }

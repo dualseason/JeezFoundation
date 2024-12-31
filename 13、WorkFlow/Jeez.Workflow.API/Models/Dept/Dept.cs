@@ -55,5 +55,11 @@ namespace Jeez.Workflow.API.Models
         /// 创建时间戳
         /// </summary>
         public long CreateTime { get; set; }
+
+        public Dept()
+        {
+            IsDel = false;
+            CreateTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+        }
     }
 }

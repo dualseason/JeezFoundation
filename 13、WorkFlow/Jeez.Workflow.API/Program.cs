@@ -1,3 +1,4 @@
+using Jeez.Workflow.API.Commons;
 using Jeez.Workflow.API.Contexts;
 using Jeez.Workflow.API.Dtos;
 using Jeez.Workflow.API.Middlewares;
@@ -12,7 +13,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SchemaFilter<DefaultValueSchemaFilter>();
+});
 builder.Services.AddScoped(typeof(WorkflowFixtrue));
 builder.Services.AddScoped<ISystemsService, SystemsService>();
 builder.Services.AddScoped<IDeptService, DeptService>();

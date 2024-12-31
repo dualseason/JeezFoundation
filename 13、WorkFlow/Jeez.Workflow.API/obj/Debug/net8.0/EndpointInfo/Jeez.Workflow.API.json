@@ -1557,25 +1557,31 @@
         "tags": [
           "User"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserGetListPageDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserGetListPageDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UserGetListPageDto"
-              }
+        "parameters": [
+          {
+            "name": "IsDel",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "PageIndex",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -1608,18 +1614,11 @@
         "parameters": [
           {
             "name": "UserId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int64"
-            }
-          },
-          {
-            "name": "UserId",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int64"
             }
           }
         ],
@@ -1825,6 +1824,7 @@
         "properties": {
           "flowName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "createTime": {
@@ -1833,6 +1833,7 @@
           },
           "createUserName": {
             "type": "string",
+            "default": "",
             "nullable": true
           }
         },
@@ -1863,28 +1864,31 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           }
         },
         "additionalProperties": false
       },
       "DeptCreateDto": {
+        "required": [
+          "deptCode",
+          "deptName"
+        ],
         "type": "object",
         "properties": {
-          "deptId": {
-            "type": "integer",
-            "format": "int64"
-          },
           "systemId": {
             "type": "integer",
             "format": "int64"
           },
           "deptName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "deptCode": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "parentId": {
@@ -1893,22 +1897,8 @@
           },
           "path": {
             "type": "string",
+            "default": "",
             "nullable": true
-          },
-          "isDel": {
-            "type": "boolean"
-          },
-          "memo": {
-            "type": "string",
-            "nullable": true
-          },
-          "createUserId": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "createTime": {
-            "type": "integer",
-            "format": "int64"
           }
         },
         "additionalProperties": false
@@ -1926,10 +1916,12 @@
           },
           "deptName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "deptCode": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "parentId": {
@@ -1938,6 +1930,7 @@
           },
           "path": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isDel": {
@@ -1945,6 +1938,7 @@
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "createUserId": {
@@ -1973,6 +1967,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "pageSize": {
@@ -2006,6 +2001,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -2057,10 +2053,12 @@
           },
           "deptName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "deptCode": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isDel": {
@@ -2068,6 +2066,7 @@
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "parentDepts": {
@@ -2084,6 +2083,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -2105,10 +2105,12 @@
           },
           "deptName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "deptCode": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "parentId": {
@@ -2117,6 +2119,7 @@
           },
           "path": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isDel": {
@@ -2124,6 +2127,7 @@
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "createUserId": {
@@ -2154,6 +2158,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -2171,6 +2176,7 @@
           },
           "userName": {
             "type": "string",
+            "default": "",
             "nullable": true
           }
         },
@@ -2189,6 +2195,7 @@
           },
           "name": {
             "type": "string",
+            "default": "",
             "nullable": true
           }
         },
@@ -2207,6 +2214,7 @@
           },
           "resourceName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "parentId": {
@@ -2215,6 +2223,7 @@
           },
           "resourceUrl": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "sort": {
@@ -2223,10 +2232,12 @@
           },
           "buttonClass": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "icon": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isShow": {
@@ -2245,6 +2256,7 @@
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isButton": {
@@ -2255,6 +2267,7 @@
           },
           "path": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "resourceButtonsDtos": {
@@ -2280,6 +2293,7 @@
           },
           "resourceName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "parentId": {
@@ -2288,6 +2302,7 @@
           },
           "resourceUrl": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "sort": {
@@ -2296,10 +2311,12 @@
           },
           "buttonClass": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "icon": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isShow": {
@@ -2318,6 +2335,7 @@
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isButton": {
@@ -2328,6 +2346,7 @@
           },
           "path": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "childResourceDtos": {
@@ -2348,6 +2367,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "pageSize": {
@@ -2381,6 +2401,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -2402,10 +2423,12 @@
           },
           "resourceName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "resourceUrl": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "sort": {
@@ -2414,10 +2437,12 @@
           },
           "buttonClass": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "icon": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isShow": {
@@ -2428,6 +2453,7 @@
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isButton": {
@@ -2438,6 +2464,7 @@
           },
           "path": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "parentResourceDtoDto": {
@@ -2461,6 +2488,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -2482,6 +2510,7 @@
           },
           "resourceName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "parentId": {
@@ -2490,6 +2519,7 @@
           },
           "resourceUrl": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "sort": {
@@ -2498,10 +2528,12 @@
           },
           "buttonClass": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "icon": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isShow": {
@@ -2520,6 +2552,7 @@
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isButton": {
@@ -2530,6 +2563,7 @@
           },
           "path": {
             "type": "string",
+            "default": "",
             "nullable": true
           }
         },
@@ -2548,10 +2582,12 @@
           },
           "roleName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isDel": {
@@ -2589,10 +2625,12 @@
           },
           "roleName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isDel": {
@@ -2686,10 +2724,12 @@
           },
           "roleName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isDel": {
@@ -2717,40 +2757,20 @@
       "SystemsCreateDto": {
         "type": "object",
         "properties": {
-          "systemId": {
-            "type": "integer",
-            "format": "int64"
-          },
           "systemName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "systemCode": {
             "type": "string",
+            "default": "",
             "nullable": true
-          },
-          "isDel": {
-            "type": "boolean"
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
-          },
-          "sort": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "createTime": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "createUserId": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "updateTime": {
-            "type": "integer",
-            "format": "int64"
           }
         },
         "additionalProperties": false
@@ -2764,10 +2784,12 @@
           },
           "systemName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "systemCode": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isDel": {
@@ -2775,6 +2797,7 @@
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "sort": {
@@ -2804,6 +2827,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "pageSize": {
@@ -2837,6 +2861,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -2853,6 +2878,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -2874,10 +2900,12 @@
           },
           "systemName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "systemCode": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isDel": {
@@ -2885,6 +2913,7 @@
           },
           "memo": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "sort": {
@@ -2909,52 +2938,34 @@
       "UserCreateDto": {
         "type": "object",
         "properties": {
-          "userId": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "systemId": {
+          "deptId": {
             "type": "integer",
             "format": "int64"
           },
           "account": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "userName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "jobNumber": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "password": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "headImg": {
             "type": "string",
+            "default": "",
             "nullable": true
-          },
-          "isDel": {
-            "type": "boolean"
-          },
-          "createUserId": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "createTime": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "updateUserId": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "updateTime": {
-            "type": "integer",
-            "format": "int64"
           }
         },
         "additionalProperties": false
@@ -2982,6 +2993,7 @@
           },
           "userName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "deptId": {
@@ -3006,6 +3018,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -3023,6 +3036,7 @@
           },
           "deptName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "selected": {
@@ -3038,48 +3052,34 @@
             "type": "integer",
             "format": "int64"
           },
-          "systemId": {
+          "departId": {
             "type": "integer",
             "format": "int64"
           },
           "account": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "userName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "jobNumber": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "password": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "headImg": {
             "type": "string",
+            "default": "",
             "nullable": true
-          },
-          "isDel": {
-            "type": "boolean"
-          },
-          "createUserId": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "createTime": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "updateUserId": {
-            "type": "integer",
-            "format": "int64"
-          },
-          "updateTime": {
-            "type": "integer",
-            "format": "int64"
           }
         },
         "additionalProperties": false
@@ -3092,6 +3092,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "pageSize": {
@@ -3125,6 +3126,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -3141,6 +3143,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -3149,23 +3152,6 @@
               "$ref": "#/components/schemas/UserDto"
             },
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UserGetListPageDto": {
-        "type": "object",
-        "properties": {
-          "isDel": {
-            "type": "boolean"
-          },
-          "pageIndex": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "pageSize": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -3179,10 +3165,12 @@
           },
           "userName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "headImg": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "sex": {
@@ -3190,7 +3178,8 @@
           },
           "createTime": {
             "type": "string",
-            "format": "date-time"
+            "format": "date-time",
+            "default": ""
           },
           "other": {
             "nullable": true
@@ -3206,6 +3195,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -3219,10 +3209,12 @@
         "properties": {
           "userName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "password": {
             "type": "string",
+            "default": "",
             "nullable": true
           }
         },
@@ -3259,10 +3251,12 @@
           },
           "systemCode": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "systemName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "userRoleLists": {
@@ -3283,6 +3277,7 @@
           },
           "message": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "data": {
@@ -3300,6 +3295,7 @@
           },
           "roleName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "selected": {
@@ -3330,22 +3326,27 @@
           },
           "account": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "userName": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "jobNumber": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "password": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "headImg": {
             "type": "string",
+            "default": "",
             "nullable": true
           },
           "isDel": {

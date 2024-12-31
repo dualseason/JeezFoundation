@@ -1,6 +1,5 @@
 ﻿using Jeez.Workflow.API.Commons;
 using Jeez.Workflow.API.Dtos;
-using Jeez.Workflow.API.Models;
 
 namespace Jeez.Workflow.API.Services.interfaces
 {
@@ -11,7 +10,7 @@ namespace Jeez.Workflow.API.Services.interfaces
         /// </summary>
         /// <param name="userCreateDto"></param>
         /// <returns></returns>
-        Task<CommonResult<User>> UserCreateAsync(UserCreateDto userCreateDto);
+        Task<CommonResult> UserCreateAsync(UserCreateDto userCreateDto);
         /// <summary>
         /// 用户集合查询
         /// </summary>

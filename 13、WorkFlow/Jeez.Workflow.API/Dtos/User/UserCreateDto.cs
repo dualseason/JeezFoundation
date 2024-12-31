@@ -5,17 +5,34 @@ namespace Jeez.Workflow.API.Dtos
     /// </summary>
     public class UserCreateDto
     {
-        public long UserId { get; set; }
-        public long SystemId { get; set; }
+        /// <summary>
+        /// 部门ID
+        /// </summary>
+        public long DeptId { get; set; }
+
+        /// <summary>
+        /// 用户账号
+        /// </summary>
         public string? Account { get; set; }
+
+        /// <summary>
+        /// 用户名称
+        /// </summary>
         public string? UserName { get; set; }
+
+        /// <summary>
+        /// 工号
+        /// </summary>
         public string? JobNumber { get; set; }
+
+        /// <summary>
+        /// 密码
+        /// </summary>
         public string? Password { get; set; }
+
+        /// <summary>
+        /// 头像地址
+        /// </summary>
         public string? HeadImg { get; set; }
-        public bool IsDel { get; set; }
-        public long CreateUserId { get; set; }
-        public long CreateTime { get; set; }
-        public long UpdateUserId { get; set; }
-        public long UpdateTime { get; set; }
     }
 }

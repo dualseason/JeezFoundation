@@ -7,7 +7,7 @@ namespace Jeez.Workflow.API.Models
     /// <summary>
     /// 子系统模型
     /// </summary>
-    [Table("sys_systems")]
+    [Table("sys_system")]
     public class Systems
     {
         /// <summary>
@@ -60,5 +60,12 @@ namespace Jeez.Workflow.API.Models
         /// 更新时间
         /// </summary>
         public long UpdateTime { get; set; }
+
+        public Systems()
+        {
+            IsDel = false;
+            CreateTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+            UpdateTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+        }
     }
 }

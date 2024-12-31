@@ -42,7 +42,7 @@ namespace Jeez.Workflow.API.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("Page")]
-        public async Task<CommonPageResult<UserDto>> UserGetListPageAsync(UserGetListPageDto userGetListPageDto)
+        public async Task<CommonPageResult<UserDto>> UserGetListPageAsync([FromQuery] UserGetListPageDto userGetListPageDto)
         {
             return await UsersService.UserGetListPageAsync(userGetListPageDto);
         }
@@ -52,7 +52,7 @@ namespace Jeez.Workflow.API.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("{UserId}")]
-        public async Task<CommonResult<UserDto>> UserGetAsync([FromQuery] long UserId)
+        public async Task<CommonResult<UserDto>> UserGetAsync(long UserId)
         {
             return await UsersService.UserGetAsync(UserId);
         }

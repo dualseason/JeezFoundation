@@ -875,11 +875,6 @@
       {
         "Name": "UserId",
         "Type": "System.Int64",
-        "IsRequired": false
-      },
-      {
-        "Name": "UserId",
-        "Type": "",
         "IsRequired": true
       }
     ],
@@ -904,9 +899,19 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userGetListPageDto",
-        "Type": "Jeez.Workflow.API.Dtos.UserGetListPageDto",
-        "IsRequired": true
+        "Name": "IsDel",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

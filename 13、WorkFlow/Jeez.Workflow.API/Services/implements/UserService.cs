@@ -3,7 +3,6 @@ using Jeez.Workflow.API.Commons;
 using Jeez.Workflow.API.Contexts;
 using Jeez.Workflow.API.Dtos;
 using Jeez.Workflow.API.Models;
-using Jeez.Workflow.API.Models.DataPrivilege;
 using Jeez.Workflow.API.Services.interfaces;
 using JeezFoundation.Core.Extensions;
 
@@ -21,19 +20,27 @@ namespace Jeez.Workflow.API.Services.implements
             Mapper = mapper;
         }
 
-        public async Task<CommonResult<User>> UserCreateAsync(UserCreateDto userCreateDto)
+        public async Task<CommonResult> UserCreateAsync(UserCreateDto userCreateDto)
         {
-            User user = Mapper.Map<User>(userCreateDto);
             using (var tran = WorkflowFixtrue.Db.BeginTransaction())
             {
-                await WorkflowFixtrue.Db.User.InsertAsync(user, tran);
+                try
+                {
+                    User user = Mapper.Map<User>(userCreateDto);
+                    await WorkflowFixtrue.Db.User.InsertAsync(user, tran);
 
-                DataPrivilege dataPrivilege = Mapper.Map<DataPrivilege>(userCreateDto);
+                    UserDept userDept = new UserDept(user.UserId, userCreateDto.DeptId);
+                    await WorkflowFixtrue.Db.UserDept.InsertAsync(userDept, tran);
 
-                await WorkflowFixtrue.Db.DataPrivilege.InsertAsync(dataPrivilege, tran);
+                    tran.Commit();
+                    return new CommonResult(true, "新增成功");
+                }
+                catch(Exception ex)
+                {
+                    tran.Rollback();
+                    return new CommonResult(false, ex.Message);
+                }
             }
-
-            return new CommonResult<User>(true, "创建成功", user);
         }
 
         public async Task<CommonResult<List<UserDto>>> UserGetListAsync(UserGetListDto userGetListDto)
@@ -45,43 +52,35 @@ namespace Jeez.Workflow.API.Services.implements
 
         public async Task<CommonPageResult<UserDto>> UserGetListPageAsync(UserGetListPageDto userGetListPageDto)
         {
-            List<User> userList = await WorkflowFixtrue.Db.User.UserGetListPageAsync(userGetListPageDto);
-            List<UserDto> data = Mapper.Map<List<UserDto>>(userList);
-            int total = await WorkflowFixtrue.Db.User.UserGetListCountPageAsync(userGetListPageDto);
-            return new CommonPageResult<UserDto>(userGetListPageDto.PageSize, total, data);
+            // 查询所有未删除的用户
+            IEnumerable<User> users = await WorkflowFixtrue.Db.User.FindAllAsync(u => u.IsDel == userGetListPageDto.IsDel);
+            // 将用户列表映射为UserDto列表
+            List<UserDto> list = Mapper.Map<List<UserDto>>(users);
+
+            // 计算实际的取值范围，防止超出列表范围
+            int skipCount = userGetListPageDto.OffSet();
+            int takeCount = userGetListPageDto.PageSize;
+            int actualTakeCount = takeCount > (list.Count - skipCount) ? list.Count - skipCount : takeCount;
+
+            // 实现分页
+            var pagedList = list.Skip(skipCount).Take(actualTakeCount).ToList();
+
+            return new CommonPageResult<UserDto>(userGetListPageDto.PageSize, list.Count, pagedList);
         }
 
         public async Task<CommonResult<UserDto>> UserGetAsync(long UserId)
         {
-            User user = await WorkflowFixtrue.Db.User.FindAsync(m => m.UserId == UserId);
+            User user = await WorkflowFixtrue.Db.User.FindAsync(m => m.UserId == UserId && m.IsDel == false);
             UserDto userDto = Mapper.Map<UserDto>(user);
-            if (user.IsNotNull())
-            {
-                return new CommonResult<UserDto>(true, "查询成功", userDto);
-            }
-            else
-            {
-                return new CommonResult<UserDto>(false,"查询失败", new UserDto());
-            }
+
+            UserDept userDept = await WorkflowFixtrue.Db.UserDept.FindAsync(m => m.UserId == user.UserId);
+            userDto.DepartId = userDept.DeptId;
+            return new CommonResult<UserDto>(true, "查询成功", userDto);
         }
 
-        public async Task<CommonResult> UserUpdateAsync(UserUpdateDto userUpdateDto, long UserId)
+        public Task<CommonResult> UserUpdateAsync(UserUpdateDto userUpdateDto, long UserId)
         {
-            User user = await WorkflowFixtrue.Db.User.FindAsync(m => m.UserId == UserId);
-            if (user == null)
-            {
-                throw new Exception("User不存在");
-            }
-            user = Mapper.Map<User>(userUpdateDto);
-            var b = await WorkflowFixtrue.Db.User.UpdateAsync(user);
-            if (b)
-            {
-                return new CommonResult(true, "更新成功");
-            }
-            else
-            {
-                return new CommonResult(false, "更新失败");
-            }
+            throw new NotImplementedException();
         }
 
         public async Task<CommonResult> UserDeleteAsync(List<long> UserIds)
@@ -91,7 +90,6 @@ namespace Jeez.Workflow.API.Services.implements
                 var users = await WorkflowFixtrue.Db.User.FindAllAsync(m => m.IsDel == false && UserIds.Contains(m.UserId));
                 foreach (var user in users)
                 {
-                    // 逻辑删除
                     user.IsDel = true;
                     await WorkflowFixtrue.Db.User.UpdateAsync(user, transaction);
                 }
@@ -100,10 +98,8 @@ namespace Jeez.Workflow.API.Services.implements
             }
         }
 
-        public async Task<CommonResult<UserDeptDto>> UserDeptGetAsync(long UserId)
+        public Task<CommonResult<UserDeptDto>> UserDeptGetAsync(long UserId)
         {
-            var user = await WorkflowFixtrue.Db.User.FindByIdAsync(UserId);
-
             throw new NotImplementedException();
         }
 

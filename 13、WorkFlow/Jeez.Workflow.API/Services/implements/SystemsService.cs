@@ -26,21 +26,9 @@ namespace Jeez.Workflow.API.Services.implements
         /// <returns></returns>
         public async Task<CommonResult> SystemsCreateAsync(SystemsCreateDto systemsCreateDto)
         {
-            CommonResult result = new CommonResult();
             Systems systems = Mapper.Map<Systems>(systemsCreateDto);
-            SystemsDto systemsDto = Mapper.Map<SystemsDto>(systemsCreateDto);
-            var r = await WorkflowFixtrue.Db.Systems.InsertAsync(systems);
-            if (r)
-            {
-                result.Success = true;
-                result.Message = "创建成功";
-            }
-            else
-            {
-                result.Success = false;
-                result.Message = "创建失败";
-            }
-            return result;
+            await WorkflowFixtrue.Db.Systems.InsertAsync(systems);
+            return new CommonResult(true, "创建成功");
         }
 
         /// <summary>
@@ -50,22 +38,9 @@ namespace Jeez.Workflow.API.Services.implements
         /// <returns></returns>
         public async Task<CommonResult<List<SystemsDto>>> SystemsGetListAsync(SystemsGetListDto systemsGetListDto)
         {
-            var result = new CommonResult<List<SystemsDto>>();
-            try
-            {
-                IEnumerable<Systems> list = await WorkflowFixtrue.Db.Systems.FindAllAsync(u => u.IsDel == systemsGetListDto.IsDel);
-                List<SystemsDto> systemList = Mapper.Map<List<SystemsDto>>(list);
-                return new CommonResult<List<SystemsDto>>
-                {
-                    Success = true,
-                    Message = "查询成功",
-                    Data = systemList
-                };
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
+            IEnumerable<Systems> list = await WorkflowFixtrue.Db.Systems.FindAllAsync(u => u.IsDel == systemsGetListDto.IsDel);
+            List<SystemsDto> systemList = Mapper.Map<List<SystemsDto>>(list);
+            return new CommonResult<List<SystemsDto>>(true, "查询成功", systemList);
         }
 
         /// <summary>
@@ -74,14 +49,17 @@ namespace Jeez.Workflow.API.Services.implements
         /// <param name="systemsGetListPageDto"></param>
         /// <returns></returns>
         /// <exception cref="NotImplementedException"></exception>
-        public async Task<CommonPageResult<SystemsDto>> SystemsGetListPageAsync(SystemsGetListPageDto systemsGetListPageDto)
+        public Task<CommonPageResult<SystemsDto>> SystemsGetListPageAsync(SystemsGetListPageDto systemsGetListPageDto)
         {
-            var data = await WorkflowFixtrue.Db.Systems.SystemsGetListPageAsync(systemsGetListPageDto);
-            var systemList = Mapper.Map<List<SystemsDto>>(data);
-            var total = await WorkflowFixtrue.Db.Systems.SystemsGetListCountPageAsync(systemsGetListPageDto);
-            return new CommonPageResult<SystemsDto>(systemsGetListPageDto.PageSize, total, systemList);
+            throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="SystemId"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
         public Task<CommonResult<SystemsDto>> SystemsGetAsync(long SystemId)
         {
             throw new NotImplementedException();

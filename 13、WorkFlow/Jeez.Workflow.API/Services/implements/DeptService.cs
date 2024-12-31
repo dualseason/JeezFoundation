@@ -3,6 +3,7 @@ using Jeez.Workflow.API.Commons;
 using Jeez.Workflow.API.Contexts;
 using Jeez.Workflow.API.Dtos;
 using Jeez.Workflow.API.Models;
+using Jeez.Workflow.API.Models.SystemDept;
 using Jeez.Workflow.API.Services.interfaces;
 
 namespace Jeez.Workflow.API.Services.implements
@@ -19,11 +20,26 @@ namespace Jeez.Workflow.API.Services.implements
             Mapper = mapper;
         }
 
-        public async Task<CommonResult> DeptCreateAsync(DeptCreateDto DeptCreateDto)
+        public async Task<CommonResult> DeptCreateAsync(DeptCreateDto deptCreateDto)
         {
-            Dept dept = Mapper.Map<Dept>(DeptCreateDto);
-            await WorkflowFixtrue.Db.Dept.InsertAsync(dept);
-            return new CommonResult(true, "创建成功");
+            Dept dept = Mapper.Map<Dept>(deptCreateDto);
+            using (var tran = WorkflowFixtrue.Db.BeginTransaction())
+            {
+                try
+                {
+                    await WorkflowFixtrue.Db.Dept.InsertAsync(dept, tran);
+                    SystemDept systemDept = new SystemDept(deptCreateDto.SystemId, dept.DeptId);
+                    await WorkflowFixtrue.Db.SystemDept.InsertAsync(systemDept, tran);
+
+                    tran.Commit();
+                    return new CommonResult(true, "创建成功");
+                }
+                catch(Exception ex)
+                {
+                    tran.Rollback();
+                    return new CommonResult(false, ex.Message);
+                } 
+            }
         }
 
         public async Task<CommonResult> DeptDeleteAsync(List<long> deptIds)

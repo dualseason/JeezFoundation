@@ -1,26 +1,26 @@
-using JeezFoundation.Core.Dapper;
+﻿using JeezFoundation.Core.Dapper;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Jeez.Workflow.API.Models
+namespace Jeez.Workflow.API.Models.SystemDept
 {
     /// <summary>
-    /// 用户部门关联模型
+    /// 系统部门关联表
     /// </summary>
-    [Table("sys_user_dept")]
-    public class UserDept
+    [Table("sys_system_dept")]
+    public class SystemDept
     {
         /// <summary>
         /// 主键
         /// </summary>
-        [Key,Identity]
+        [Key, Identity]
         public long Id { get; set; }
-        
+
         /// <summary>
-        /// 用户ID
+        /// 系统ID
         /// </summary>
-        public long UserId { get; set; }
-        
+        public long SystemId { get; set; }
+
         /// <summary>
         /// 部门ID
         /// </summary>
@@ -31,14 +31,14 @@ namespace Jeez.Workflow.API.Models
         /// </summary>
         public long CreateTime { get; set; }
 
-        public UserDept()
+        public SystemDept()
         {
             CreateTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
         }
 
-        public UserDept(long userId, long deptId)
+        public SystemDept(long systemId, long deptId)
         {
-            UserId = userId;
+            SystemId = systemId;
             DeptId = deptId;
             CreateTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
         }

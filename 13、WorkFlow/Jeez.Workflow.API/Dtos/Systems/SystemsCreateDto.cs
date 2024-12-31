@@ -5,13 +5,19 @@ namespace Jeez.Workflow.API.Dtos
     /// </summary>
     public class SystemsCreateDto
     {
+        /// <summary>
+        /// 系统名称
+        /// </summary>
         public string? SystemName { get; set; }
+
+        /// <summary>
+        /// 系统代码
+        /// </summary>
         public string? SystemCode { get; set; }
-        public bool IsDel { get; set; }
+
+        /// <summary>
+        /// 备注
+        /// </summary>
         public string? Memo { get; set; }
-        public int Sort { get; set; }
-        public long CreateTime { get; set; }
-        public long CreateUserId { get; set; }
-        public long UpdateTime { get; set; }
     }
 }
