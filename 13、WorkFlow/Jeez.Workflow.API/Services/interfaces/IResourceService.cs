@@ -1,52 +1,77 @@
-﻿using Jeez.Workflow.API.Commons;
-using Jeez.Workflow.API.Dtos;
-using Microsoft.AspNetCore.Mvc;
+﻿using Jeez.Workflow.API.Dtos;
+using JeezFoundation.Core.Domain.Entities;
+using JeezFoundation.Core.Domain.Permission;
 
 namespace Jeez.Workflow.API.Services.interfaces
 {
+    /// <summary>
+    /// 资源服务接口
+    /// </summary>
     public interface IResourceService
     {
         /// <summary>
-        /// 资源【菜单】模型创建
+        /// 获取树形菜单
         /// </summary>
-        /// <param name="ResourceCreateDto"></param>
+        /// <param name="systemId">系统ID</param>
         /// <returns></returns>
-        Task<CommonResult> ResourceCreateAsync(ResourceCreateDto ResourceCreateDto);
+        Task<ResourceCategoryResult> GetTreeAsync(long systemId);
 
         /// <summary>
-        /// 资源【菜单】模型集合查询
+        /// 获取资源信息
         /// </summary>
-        /// <param name="ResourceGetListDto"></param>
+        /// <param name="id"></param>
+        /// <param name="systemid"></param>
         /// <returns></returns>
-        Task<CommonResult<List<ResourceDto>>> ResourceGetListAsync([FromQuery] ResourceGetListDto ResourceGetListDto);
+        Task<ResourceShowResult> GetResourceAsync(long id, long systemid);
 
         /// <summary>
-        /// 资源【菜单】模型集合分页查询
+        /// 新增
         /// </summary>
-        /// <param name="ResourceGetListPageDto"></param>
+        /// <param name="dto"></param>
         /// <returns></returns>
-        Task<CommonPageResult<ResourceDto>> ResourceGetListPageAsync([FromQuery] ResourceGetListPageDto ResourceGetListPageDto);
+        Task<bool> AddAsync(ResourceShowDto dto);
 
         /// <summary>
-        /// 资源【菜单】模型查询【根据资源【菜单】模型Id查询】
+        /// 编辑
         /// </summary>
-        /// <param name="ResourceId"></param>
+        /// <param name="dto"></param>
         /// <returns></returns>
-        Task<CommonResult<ResourceSelectResultDto>> ResourceGetAsync(long ResourceId);
+        Task<bool> UpdateAsync(ResourceShowDto dto);
 
         /// <summary>
-        /// 资源【菜单】模型更新
+        /// 删除菜单
         /// </summary>
-        /// <param name="ResourceUpdateDto"></param>
-        /// <param name="ResourceId"></param>
+        /// <param name="ids"></param>
+        /// <param name="userid"></param>
         /// <returns></returns>
-        Task<CommonResult> ResourceUpdateAsync(ResourceUpdateDto ResourceUpdateDto, long ResourceId);
+        Task<bool> DeleteAsync(long[] ids, long userid);
 
         /// <summary>
-        /// 资源【菜单】模型删除
+        /// 根据用户获取左侧菜单列表
         /// </summary>
-        /// <param name="ResourceIds"></param>
+        /// <param name="userid">用户ID</param>
         /// <returns></returns>
-        Task<CommonResult> ResourceDeleteAsync(List<long> ResourceIds);
+        Task<List<ResourceTree>> GetLeftTreeAsync(long userid);
+
+        /// <summary>
+        /// 异步获取用户操作权限
+        /// </summary>
+        /// <param name="userid">用户ID</param>
+        /// <returns></returns>
+        Task<UserPermission> GetUserPermissionAsync(long userid);
+
+        /// <summary>
+        /// 获取树形数据
+        /// </summary>
+        /// <param name="roleid">角色ID</param>
+        /// <returns></returns>
+        Task<List<ZTree>> GetBoxTreeAsync(long roleid);
+
+        /// <summary>
+        /// 角色分配资源保存
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns></returns>
+        Task<bool> BoxSaveAsync(RoleTreeDto dto);
     }
 }

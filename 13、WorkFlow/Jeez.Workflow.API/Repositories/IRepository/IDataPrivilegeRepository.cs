@@ -1,9 +1,9 @@
-﻿using Jeez.Workflow.API.Models.DataPrivilege;
+﻿using Jeez.Workflow.API.Model;
 using JeezFoundation.Dapper;
 
 namespace Jeez.Workflow.API.Repositories.IRepository
 {
-    public interface IDataPrivilegeRepository : IDapperRepository<DataPrivilege>
+    public interface IDataPrivilegeRepository : IDapperRepository<SysDataPrivileges>
     {
     }
 }

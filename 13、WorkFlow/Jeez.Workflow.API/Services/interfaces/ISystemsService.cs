@@ -1,50 +1,64 @@
-﻿using Jeez.Workflow.API.Commons;
-using Jeez.Workflow.API.Dtos;
+﻿using Jeez.Workflow.API.Model;
+using JeezFoundation.Core.Domain.Entities;
 
 namespace Jeez.Workflow.API.Services.interfaces
 {
     public interface ISystemsService
     {
         /// <summary>
-        /// 子系统模型创建
+        /// 根据ID获取
         /// </summary>
+        /// <param name="id"></param>
         /// <returns></returns>
-        Task<CommonResult> SystemsCreateAsync(SystemsCreateDto systemsCreateDto);
+        Task<SysSystem> GetByIdAsync(long id);
 
         /// <summary>
-        /// 子系统模型集合查询
+        /// 新增系统
         /// </summary>
-        /// <param name="systemsGetListDto"></param>
+        /// <param name="system"></param>
         /// <returns></returns>
-        Task<CommonResult<List<SystemsDto>>> SystemsGetListAsync(SystemsGetListDto systemsGetListDto);
+        Task<bool> InsertAsync(SysSystem system);
 
         /// <summary>
-        /// 子系统模型集合分页查询
+        /// 更新系统
         /// </summary>
-        /// <param name="systemsGetListPageDto"></param>
+        /// <param name="system"></param>
         /// <returns></returns>
-        Task<CommonPageResult<SystemsDto>> SystemsGetListPageAsync(SystemsGetListPageDto systemsGetListPageDto);
+        Task<bool> UpdateAsync(SysSystem system);
 
         /// <summary>
-        /// 子系统模型查询【根据子系统模型Id查询】
+        /// 逻辑删除
         /// </summary>
-        /// <param name="SystemId"></param>
+        /// <param name="ids"></param>
+        /// <param name="userid"></param>
         /// <returns></returns>
-        Task<CommonResult<SystemsDto>> SystemsGetAsync(long SystemId);
+        Task<bool> DeleteAsync(List<long> ids, long userid);
 
         /// <summary>
-        /// 子系统模型更新
+        /// 异步获取系统数据
         /// </summary>
-        /// <param name="SystemsUpdateDto"></param>
-        /// <param name="SystemId"></param>
         /// <returns></returns>
-        Task<CommonResult> SystemsUpdateAsync(SystemsUpdateDto SystemsUpdateDto, long SystemId);
+        Task<List<SysSystem>> ListAsync();
 
         /// <summary>
-        /// 子系统模型删除
+        /// 页面返回系统数据
         /// </summary>
-        /// <param name="SystemIds"></param>
+        /// <param name="pageIndex"></param>
+        /// <param name="pageSize"></param>
         /// <returns></returns>
-        Task<CommonResult> SystemsDeleteAsync(List<long> SystemIds);
+        Task<Page<SysSystem>> GetPageAsync(int pageIndex, int pageSize);
+
+        /// <summary>
+        /// 禁用系统
+        /// </summary>
+        /// <returns></returns>
+        Task<bool> DisableSystemAsync(long ids);
+
+        /// <summary>
+        /// 启用系统
+        /// </summary>
+        /// <param name="id">系统ID</param>
+        /// <returns></returns>
+        Task<bool> EnableSystemAsync(long id);
     }
 }

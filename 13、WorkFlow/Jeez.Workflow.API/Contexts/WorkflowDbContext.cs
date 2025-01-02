@@ -10,7 +10,6 @@ namespace Jeez.Workflow.API.Contexts
     {
         public WorkflowDbContext(string ConnectionString) : base(new MySqlConnection(ConnectionString))
         {
-
         }
 
         /// <summary>
@@ -20,7 +19,6 @@ namespace Jeez.Workflow.API.Contexts
         private readonly SqlGeneratorConfig sqlGeneratorConfig = new SqlGeneratorConfig
         {
             SqlConnector = ESqlConnector.MySQL,
-            // 表和列名使用引号
             UseQuotationMarks = true 
         };
 
@@ -47,6 +45,16 @@ namespace Jeez.Workflow.API.Contexts
 
         public IDataPrivilegeRepository DataPrivilege => new DataPrivilegeRepository(Connection, sqlGeneratorConfig);
 
-        public ISystemDeptRepository SystemDept => new SystemDeptRepository(Connection, sqlGeneratorConfig);
+        public IButtonRepository Button => new ButtonRepository(Connection, sqlGeneratorConfig);
+
+        public IDeptLeaderRepository DeptLeader => new DeptLeaderRepository(Connection, sqlGeneratorConfig);
+
+        public ILeaderRepository Leader => new LeaderRepository(Connection, sqlGeneratorConfig);
+
+        public ILogRepository Log => new LogRepository(Connection, sqlGeneratorConfig);
+
+        public IReleaseLogRepository ReleaseLog => new ReleaseLogRepository(Connection, sqlGeneratorConfig);
+
+        public IScheduleRepository Schedule => new ScheduleRepository(Connection, sqlGeneratorConfig);
     }
 }

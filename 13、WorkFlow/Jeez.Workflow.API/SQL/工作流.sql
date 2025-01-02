@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `cap.received` (
 /*!40000 ALTER TABLE `cap.received` DISABLE KEYS */;
 /*!40000 ALTER TABLE `cap.received` ENABLE KEYS */;
 
--- 导出  表 mssystem.oa_chat 结构
+-- 导出  表 Jeez.Workflow.API_chat 结构
 CREATE TABLE IF NOT EXISTS `oa_chat` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `Sender` bigint(20) NOT NULL COMMENT '发送方',
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS `oa_chat` (
   PRIMARY KEY (`Id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
--- 正在导出表  mssystem.oa_chat 的数据：~5 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_chat 的数据：~5 rows (大约)
 /*!40000 ALTER TABLE `oa_chat` DISABLE KEYS */;
 INSERT INTO `oa_chat` (`Id`, `Sender`, `Message`, `Receiver`, `CreateTime`, `IsRead`) VALUES
 	(1, 5, '你好', 1, 1560898931, 0),
@@ -81,7 +81,7 @@ INSERT INTO `oa_chat` (`Id`, `Sender`, `Message`, `Receiver`, `CreateTime`, `IsR
 	(5, 5, '哈哈', 1, 1576624705, 0);
 /*!40000 ALTER TABLE `oa_chat` ENABLE KEYS */;
 
--- 导出  表 mssystem.oa_leave 结构
+-- 导出  表 Jeez.Workflow.API_leave 结构
 CREATE TABLE IF NOT EXISTS `oa_leave` (
   `Id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `LeaveCode` varchar(30) NOT NULL COMMENT '请假编号',
@@ -100,7 +100,7 @@ CREATE TABLE IF NOT EXISTS `oa_leave` (
   PRIMARY KEY (`Id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='员工请假';
 
--- 正在导出表  mssystem.oa_leave 的数据：~9 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_leave 的数据：~9 rows (大约)
 /*!40000 ALTER TABLE `oa_leave` DISABLE KEYS */;
 INSERT INTO `oa_leave` (`Id`, `LeaveCode`, `Title`, `UserId`, `AgentId`, `LeaveType`, `Reason`, `Days`, `StartTime`, `EndTime`, `CreateUserId`, `CreateTime`, `FlowStatus`, `FlowTime`) VALUES
 	(1, '15604170854388', '想看看外面的世界', 0, 0, 0, '想看看外面的世界', 7, 1560441600, 1560960000, 1, 1560417085, 1, 1560417476),
@@ -116,7 +116,7 @@ INSERT INTO `oa_leave` (`Id`, `LeaveCode`, `Title`, `UserId`, `AgentId`, `LeaveT
 	(12, '16019767865252', '奕鼎通', 0, 0, 0, '家里有事情，需要进行请假', 2, 1602000000, 1602086400, 1, 1601976786, -1, 0);
 /*!40000 ALTER TABLE `oa_leave` ENABLE KEYS */;
 
--- 导出  表 mssystem.oa_mail 结构
+-- 导出  表 Jeez.Workflow.API_mail 结构
 CREATE TABLE IF NOT EXISTS `oa_mail` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `Title` varchar(100) NOT NULL,
@@ -127,11 +127,11 @@ CREATE TABLE IF NOT EXISTS `oa_mail` (
   PRIMARY KEY (`Id`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
--- 正在导出表  mssystem.oa_mail 的数据：~0 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_mail 的数据：~0 rows (大约)
 /*!40000 ALTER TABLE `oa_mail` DISABLE KEYS */;
 /*!40000 ALTER TABLE `oa_mail` ENABLE KEYS */;
 
--- 导出  表 mssystem.oa_mail_config 结构
+-- 导出  表 Jeez.Workflow.API_mail_config 结构
 CREATE TABLE IF NOT EXISTS `oa_mail_config` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `Host` varchar(50) NOT NULL COMMENT '邮件服务地址',
@@ -142,13 +142,13 @@ CREATE TABLE IF NOT EXISTS `oa_mail_config` (
   PRIMARY KEY (`Id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='邮件服务配置';
 
--- 正在导出表  mssystem.oa_mail_config 的数据：~0 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_mail_config 的数据：~0 rows (大约)
 /*!40000 ALTER TABLE `oa_mail_config` DISABLE KEYS */;
 INSERT INTO `oa_mail_config` (`Id`, `Host`, `Port`, `SecureSocketOptions`, `UserName`, `Password`) VALUES
 	(1, '	smtp.qq.com', 587, 1, '2636256005@qq.com', 'snewsyiqgyagecdd');
 /*!40000 ALTER TABLE `oa_mail_config` ENABLE KEYS */;
 
--- 导出  表 mssystem.oa_message 结构
+-- 导出  表 Jeez.Workflow.API_message 结构
 CREATE TABLE IF NOT EXISTS `oa_message` (
   `Id` bigint(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `MsgType` int(11) NOT NULL COMMENT '消息类型',
@@ -170,7 +170,7 @@ CREATE TABLE IF NOT EXISTS `oa_message` (
   PRIMARY KEY (`Id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='系统消息表';
 
--- 正在导出表  mssystem.oa_message 的数据：~8 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_message 的数据：~8 rows (大约)
 /*!40000 ALTER TABLE `oa_message` DISABLE KEYS */;
 INSERT INTO `oa_message` (`Id`, `MsgType`, `FaceUserType`, `Title`, `IsLocal`, `IsSystem`, `TargetType`, `Link`, `Content`, `IsEnable`, `StartTime`, `EndTime`, `IsExecuted`, `IsDel`, `MakerUserId`, `CreateUserId`, `CreateTime`) VALUES
 	(20, 1, 1, '流程催办', 1, 1, 'tab', '/WF/WorkFlowInstance/Process?flowid=5e650144-1507-469e-ace5-f70a3fbdc979&instanceid=2dca0e89-b0a6-49f1-99db-43caebef9311', '请审批流程', 1, 0, 0, 0, 0, 1, 1, 1602767713),
@@ -183,7 +183,7 @@ INSERT INTO `oa_message` (`Id`, `MsgType`, `FaceUserType`, `Title`, `IsLocal`, `
 	(27, 1, 1, '流程催办', 1, 1, 'tab', '/WF/WorkFlowInstance/Process?flowid=5e650144-1507-469e-ace5-f70a3fbdc979&instanceid=2dca0e89-b0a6-49f1-99db-43caebef9311', '请审批流程', 1, 0, 0, 0, 0, 1, 1, 1602768773);
 /*!40000 ALTER TABLE `oa_message` ENABLE KEYS */;
 
--- 导出  表 mssystem.oa_message_user 结构
+-- 导出  表 Jeez.Workflow.API_message_user 结构
 CREATE TABLE IF NOT EXISTS `oa_message_user` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `MessageId` bigint(20) NOT NULL COMMENT '消息ID',
@@ -194,7 +194,7 @@ CREATE TABLE IF NOT EXISTS `oa_message_user` (
   CONSTRAINT `oa_message_user_ibfk_1` FOREIGN KEY (`MessageId`) REFERENCES `oa_message` (`Id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='消息用户关系表';
 
--- 正在导出表  mssystem.oa_message_user 的数据：~8 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_message_user 的数据：~8 rows (大约)
 /*!40000 ALTER TABLE `oa_message_user` DISABLE KEYS */;
 INSERT INTO `oa_message_user` (`Id`, `MessageId`, `UserId`, `IsRead`) VALUES
 	(18, 20, 5, 0),
@@ -207,7 +207,7 @@ INSERT INTO `oa_message_user` (`Id`, `MessageId`, `UserId`, `IsRead`) VALUES
 	(25, 27, 5, 1);
 /*!40000 ALTER TABLE `oa_message_user` ENABLE KEYS */;
 
--- 导出  表 mssystem.oa_work 结构
+-- 导出  表 Jeez.Workflow.API_work 结构
 CREATE TABLE IF NOT EXISTS `oa_work` (
   `WorkId` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `WorkType` tinyint(4) NOT NULL COMMENT '类型：1日报，2周报，3月报',
@@ -222,14 +222,14 @@ CREATE TABLE IF NOT EXISTS `oa_work` (
   PRIMARY KEY (`WorkId`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='我的工作';
 
--- 正在导出表  mssystem.oa_work 的数据：~2 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_work 的数据：~2 rows (大约)
 /*!40000 ALTER TABLE `oa_work` DISABLE KEYS */;
 INSERT INTO `oa_work` (`WorkId`, `WorkType`, `Content`, `PlanContent`, `NeedHelpContent`, `Memo`, `IsDel`, `ReportDate`, `CreateUserId`, `CreateTime`) VALUES
 	(1, 0, '123', '123', '123', NULL, 0, 0, 1, 0),
 	(2, 0, NULL, NULL, NULL, NULL, 0, 0, 1, 0);
 /*!40000 ALTER TABLE `oa_work` ENABLE KEYS */;
 
--- 导出  表 mssystem.oa_workflowsql 结构
+-- 导出  表 Jeez.Workflow.API_workflowsql 结构
 CREATE TABLE IF NOT EXISTS `oa_workflowsql` (
   `Name` varchar(50) NOT NULL COMMENT '流程sql名称,必须是以oa_为开头，用于判断属于哪个系统，方便调用接口',
   `FlowSQL` text NOT NULL COMMENT '流程SQL，执行结果必须是一行一列',
@@ -242,14 +242,14 @@ CREATE TABLE IF NOT EXISTS `oa_workflowsql` (
   PRIMARY KEY (`Name`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='用于工作流获取权限系统数据';
 
--- 正在导出表  mssystem.oa_workflowsql 的数据：~2 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_workflowsql 的数据：~2 rows (大约)
 /*!40000 ALTER TABLE `oa_workflowsql` DISABLE KEYS */;
 INSERT INTO `oa_workflowsql` (`Name`, `FlowSQL`, `Param`, `SQLType`, `Status`, `Remark`, `CreateTime`, `CreateUserId`) VALUES
 	('oa_leaveLessThenThreeDays', 'SELECT ol.`Id` FROM `oa_leave` ol WHERE ol.`Days`<=3 AND ol.`CreateUserId`=@userid AND ol.`Id`=@formid', 'userid,formid', 1, 1, '请假时间小于等于三天判断', 1, 1),
 	('oa_leaveMoreThenThreeDays', 'SELECT ol.`Id` FROM `oa_leave` ol WHERE ol.`Days` > 3 AND ol.`CreateUserId`=@userid AND ol.`Id`=@formid', 'userid,formid', 1, 1, '请假时间大于三天判断', 1, 1);
 /*!40000 ALTER TABLE `oa_workflowsql` ENABLE KEYS */;
 
--- 导出  表 mssystem.oa_work_reporter 结构
+-- 导出  表 Jeez.Workflow.API_work_reporter 结构
 CREATE TABLE IF NOT EXISTS `oa_work_reporter` (
   `ReportId` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `WorkId` int(11) NOT NULL COMMENT '工作id',
@@ -261,11 +261,11 @@ CREATE TABLE IF NOT EXISTS `oa_work_reporter` (
   CONSTRAINT `oa_work_reporter_ibfk_1` FOREIGN KEY (`WorkId`) REFERENCES `oa_work` (`WorkId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='汇总人列表';
 
--- 正在导出表  mssystem.oa_work_reporter 的数据：~0 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_work_reporter 的数据：~0 rows (大约)
 /*!40000 ALTER TABLE `oa_work_reporter` DISABLE KEYS */;
 /*!40000 ALTER TABLE `oa_work_reporter` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_button 结构
+-- 导出  表 Jeez.Workflow.API_button 结构
 CREATE TABLE IF NOT EXISTS `sys_button` (
   `ButtonId` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `ButtonName` varchar(50) NOT NULL COMMENT '菜单名称',
@@ -273,7 +273,7 @@ CREATE TABLE IF NOT EXISTS `sys_button` (
   PRIMARY KEY (`ButtonId`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
--- 正在导出表  mssystem.sys_button 的数据：~9 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_button 的数据：~9 rows (大约)
 /*!40000 ALTER TABLE `sys_button` DISABLE KEYS */;
 INSERT INTO `sys_button` (`ButtonId`, `ButtonName`, `Memo`) VALUES
 	(1, '查看', '查看'),
@@ -287,7 +287,7 @@ INSERT INTO `sys_button` (`ButtonId`, `ButtonName`, `Memo`) VALUES
 	(9, '扩展', '扩展');
 /*!40000 ALTER TABLE `sys_button` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_data_privileges 结构
+-- 导出  表 Jeez.Workflow.API_data_privileges 结构
 CREATE TABLE IF NOT EXISTS `sys_data_privileges` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `UserId` bigint(20) NOT NULL COMMENT '用户ID',
@@ -302,7 +302,7 @@ CREATE TABLE IF NOT EXISTS `sys_data_privileges` (
   CONSTRAINT `sys_data_privileges_ibfk_3` FOREIGN KEY (`SystemId`) REFERENCES `sys_system` (`SystemId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='数据权限';
 
--- 正在导出表  mssystem.sys_data_privileges 的数据：~4 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_data_privileges 的数据：~4 rows (大约)
 /*!40000 ALTER TABLE `sys_data_privileges` DISABLE KEYS */;
 INSERT INTO `sys_data_privileges` (`Id`, `UserId`, `DeptId`, `SystemId`) VALUES
 	(8, 1, 1, 1),
@@ -311,7 +311,7 @@ INSERT INTO `sys_data_privileges` (`Id`, `UserId`, `DeptId`, `SystemId`) VALUES
 	(11, 1, 4, 1);
 /*!40000 ALTER TABLE `sys_data_privileges` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_dept 结构
+-- 导出  表 Jeez.Workflow.API_dept 结构
 CREATE TABLE IF NOT EXISTS `sys_dept` (
   `DeptId` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '部门ID',
   `DeptName` varchar(50) NOT NULL COMMENT '部门名称',
@@ -325,7 +325,7 @@ CREATE TABLE IF NOT EXISTS `sys_dept` (
   PRIMARY KEY (`DeptId`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='部门表（作用于全部系统）';
 
--- 正在导出表  mssystem.sys_dept 的数据：~4 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_dept 的数据：~4 rows (大约)
 /*!40000 ALTER TABLE `sys_dept` DISABLE KEYS */;
 INSERT INTO `sys_dept` (`DeptId`, `DeptName`, `DeptCode`, `ParentId`, `Path`, `IsDel`, `Memo`, `CreateUserId`, `CreateTime`) VALUES
 	(1, 'MS软件', '001', 0, '1', 0, 'MS软件', 1, 1517812123),
@@ -334,7 +334,7 @@ INSERT INTO `sys_dept` (`DeptId`, `DeptName`, `DeptCode`, `ParentId`, `Path`, `I
 	(4, '销售部', '004', 1, '1:4', 0, '销售部', 1, 1517814213);
 /*!40000 ALTER TABLE `sys_dept` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_dept_leader 结构
+-- 导出  表 Jeez.Workflow.API_dept_leader 结构
 CREATE TABLE IF NOT EXISTS `sys_dept_leader` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `DeptId` bigint(20) NOT NULL COMMENT '部门ID',
@@ -349,13 +349,13 @@ CREATE TABLE IF NOT EXISTS `sys_dept_leader` (
   CONSTRAINT `sys_dept_leader_ibfk_3` FOREIGN KEY (`LeaderType`) REFERENCES `sys_leader` (`Shorter`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='部门领导关系表';
 
--- 正在导出表  mssystem.sys_dept_leader 的数据：~0 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_dept_leader 的数据：~0 rows (大约)
 /*!40000 ALTER TABLE `sys_dept_leader` DISABLE KEYS */;
 INSERT INTO `sys_dept_leader` (`Id`, `DeptId`, `UserId`, `LeaderType`) VALUES
 	(1, 3, 1, 'bmfzr');
 /*!40000 ALTER TABLE `sys_dept_leader` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_leader 结构
+-- 导出  表 Jeez.Workflow.API_leader 结构
 CREATE TABLE IF NOT EXISTS `sys_leader` (
   `Shorter` varchar(50) NOT NULL COMMENT '缩写，公司领导应根据此字段获取',
   `LeaderName` varchar(50) NOT NULL COMMENT '级别名称',
@@ -363,7 +363,7 @@ CREATE TABLE IF NOT EXISTS `sys_leader` (
   PRIMARY KEY (`Shorter`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='公司领导类型';
 
--- 正在导出表  mssystem.sys_leader 的数据：~3 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_leader 的数据：~3 rows (大约)
 /*!40000 ALTER TABLE `sys_leader` DISABLE KEYS */;
 INSERT INTO `sys_leader` (`Shorter`, `LeaderName`, `Remark`) VALUES
 	('bmfjl', '部门副经理', '部门副经理'),
@@ -371,7 +371,7 @@ INSERT INTO `sys_leader` (`Shorter`, `LeaderName`, `Remark`) VALUES
 	('boss', '董事长', '董事长/公司老板');
 /*!40000 ALTER TABLE `sys_leader` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_release_log 结构
+-- 导出  表 Jeez.Workflow.API_release_log 结构
 CREATE TABLE IF NOT EXISTS `sys_release_log` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `VersionNumber` varchar(50) NOT NULL COMMENT '版本号',
@@ -380,13 +380,13 @@ CREATE TABLE IF NOT EXISTS `sys_release_log` (
   PRIMARY KEY (`Id`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
--- 正在导出表  mssystem.sys_release_log 的数据：~0 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_release_log 的数据：~0 rows (大约)
 /*!40000 ALTER TABLE `sys_release_log` DISABLE KEYS */;
 INSERT INTO `sys_release_log` (`Id`, `VersionNumber`, `Memo`, `CreateTime`) VALUES
 	(1, '1', '123', 1498481230);
 /*!40000 ALTER TABLE `sys_release_log` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_resource 结构
+-- 导出  表 Jeez.Workflow.API_resource 结构
 CREATE TABLE IF NOT EXISTS `sys_resource` (
   `ResourceId` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '资源ID',
   `SystemId` bigint(20) NOT NULL COMMENT '所属系统',
@@ -410,7 +410,7 @@ CREATE TABLE IF NOT EXISTS `sys_resource` (
   CONSTRAINT `sys_resource_ibfk_1` FOREIGN KEY (`SystemId`) REFERENCES `sys_system` (`SystemId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=280 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='资源表';
 
--- 正在导出表  mssystem.sys_resource 的数据：~164 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_resource 的数据：~164 rows (大约)
 /*!40000 ALTER TABLE `sys_resource` DISABLE KEYS */;
 INSERT INTO `sys_resource` (`ResourceId`, `SystemId`, `ResourceName`, `ParentId`, `ResourceUrl`, `Sort`, `ButtonClass`, `Icon`, `IsShow`, `CreateUserId`, `CreateTime`, `Memo`, `IsDel`, `IsButton`, `ButtonType`, `Path`) VALUES
 	(1, 1, '系统管理', 0, '/', 1, NULL, 'fa fa-cogs', 1, 1, 1, '123', 0, 0, NULL, '1'),
@@ -579,7 +579,7 @@ INSERT INTO `sys_resource` (`ResourceId`, `SystemId`, `ResourceName`, `ParentId`
 	(279, 2, '新建版本', 91, NULL, 0, '', NULL, 0, 0, 1585542298, NULL, 0, 1, 9, NULL);
 /*!40000 ALTER TABLE `sys_resource` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_role 结构
+-- 导出  表 Jeez.Workflow.API_role 结构
 CREATE TABLE IF NOT EXISTS `sys_role` (
   `RoleId` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '角色ID',
   `SystemId` bigint(20) NOT NULL COMMENT '所属系统',
@@ -595,7 +595,7 @@ CREATE TABLE IF NOT EXISTS `sys_role` (
   CONSTRAINT `sys_role_ibfk_1` FOREIGN KEY (`SystemId`) REFERENCES `sys_system` (`SystemId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='角色表';
 
--- 正在导出表  mssystem.sys_role 的数据：~6 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_role 的数据：~6 rows (大约)
 /*!40000 ALTER TABLE `sys_role` DISABLE KEYS */;
 INSERT INTO `sys_role` (`RoleId`, `SystemId`, `RoleName`, `Memo`, `IsDel`, `CreateUserId`, `CreateTime`, `UpdateUserId`, `UpdateTime`) VALUES
 	(1, 1, '系统管理员', '系统管理员', 0, 0, 1497889200, NULL, NULL),
@@ -607,7 +607,7 @@ INSERT INTO `sys_role` (`RoleId`, `SystemId`, `RoleName`, `Memo`, `IsDel`, `Crea
 	(8, 1, '系统操作员', '法法法法付', 0, 1, 1602164398, 0, 0);
 /*!40000 ALTER TABLE `sys_role` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_role_resource 结构
+-- 导出  表 Jeez.Workflow.API_role_resource 结构
 CREATE TABLE IF NOT EXISTS `sys_role_resource` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `RoleId` bigint(20) NOT NULL COMMENT '角色ID',
@@ -620,7 +620,7 @@ CREATE TABLE IF NOT EXISTS `sys_role_resource` (
   CONSTRAINT `sys_role_resource_ibfk_2` FOREIGN KEY (`ResourceId`) REFERENCES `sys_resource` (`ResourceId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2659 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='角色资源关联表';
 
--- 正在导出表  mssystem.sys_role_resource 的数据：~149 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_role_resource 的数据：~149 rows (大约)
 /*!40000 ALTER TABLE `sys_role_resource` DISABLE KEYS */;
 INSERT INTO `sys_role_resource` (`Id`, `RoleId`, `ResourceId`, `CreateTime`) VALUES
 	(2247, 7, 97, 1560503131),
@@ -774,7 +774,7 @@ INSERT INTO `sys_role_resource` (`Id`, `RoleId`, `ResourceId`, `CreateTime`) VAL
 	(2658, 5, 245, 1602581900);
 /*!40000 ALTER TABLE `sys_role_resource` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_schedule 结构
+-- 导出  表 Jeez.Workflow.API_schedule 结构
 CREATE TABLE IF NOT EXISTS `sys_schedule` (
   `JobId` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `JobName` varchar(100) NOT NULL COMMENT '任务名称',
@@ -796,14 +796,14 @@ CREATE TABLE IF NOT EXISTS `sys_schedule` (
   PRIMARY KEY (`JobId`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
 
--- 正在导出表  mssystem.sys_schedule 的数据：~2 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_schedule 的数据：~2 rows (大约)
 /*!40000 ALTER TABLE `sys_schedule` DISABLE KEYS */;
 INSERT INTO `sys_schedule` (`JobId`, `JobName`, `JobGroup`, `JobStatus`, `TriggerType`, `Cron`, `AssemblyName`, `ClassName`, `Remark`, `CreateTime`, `UpdateTime`, `RunTimes`, `BeginTime`, `EndTime`, `IntervalSecond`, `Url`, `Status`) VALUES
 	(1, '微信AccessToken自动同步任务', 'DefaultJob', 0, 0, '3 * * * * ? ', 'MsSystem.Schedule.Job', 'WxAccessTokenJob', NULL, '2019-04-17 11:05:13', NULL, 0, '2019-04-17 11:05:08', NULL, 0, NULL, 1),
 	(2, '微信用户信息同步任务', 'DefaultJob', 0, 0, '0 0 0/1 * * ? ', 'MsSystem.Schedule.Job', 'WxUserInfoJob', NULL, '2019-04-17 11:05:13', NULL, 0, '2019-04-17 11:05:08', NULL, 0, NULL, 1);
 /*!40000 ALTER TABLE `sys_schedule` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_system 结构
+-- 导出  表 Jeez.Workflow.API_system 结构
 CREATE TABLE IF NOT EXISTS `sys_system` (
   `SystemId` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '系统ID',
   `SystemName` varchar(50) NOT NULL COMMENT '系统名称',
@@ -818,7 +818,7 @@ CREATE TABLE IF NOT EXISTS `sys_system` (
   PRIMARY KEY (`SystemId`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='系统表';
 
--- 正在导出表  mssystem.sys_system 的数据：~6 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_system 的数据：~6 rows (大约)
 /*!40000 ALTER TABLE `sys_system` DISABLE KEYS */;
 INSERT INTO `sys_system` (`SystemId`, `SystemName`, `SystemCode`, `Memo`, `IsDel`, `Sort`, `CreateUserId`, `CreateTime`, `UpdateUserId`, `UpdateTime`) VALUES
 	(1, '系统管理', 'be1c63a0-63aa-11e7-a221-f97d872f551b', '权限系统', 0, 1, 1, 1498481230, 0, 1537448282),
@@ -829,7 +829,7 @@ INSERT INTO `sys_system` (`SystemId`, `SystemName`, `SystemCode`, `Memo`, `IsDel
 	(6, '行政办公', '8130e64e-912b-4ce5-aae5-89ba3b5d97a9', '行政办公系统', 1, 0, 1, 1509884116, NULL, NULL);
 /*!40000 ALTER TABLE `sys_system` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_user 结构
+-- 导出  表 Jeez.Workflow.API_user 结构
 CREATE TABLE IF NOT EXISTS `sys_user` (
   `UserId` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `Account` varchar(50) DEFAULT NULL COMMENT '登录账号',
@@ -847,7 +847,7 @@ CREATE TABLE IF NOT EXISTS `sys_user` (
   KEY `JobNumber` (`JobNumber`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='用户表（作用于全部系统）';
 
--- 正在导出表  mssystem.sys_user 的数据：~19 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_user 的数据：~19 rows (大约)
 /*!40000 ALTER TABLE `sys_user` DISABLE KEYS */;
 INSERT INTO `sys_user` (`UserId`, `Account`, `UserName`, `JobNumber`, `Password`, `HeadImg`, `IsDel`, `CreateUserId`, `CreateTime`, `UpdateUserId`, `UpdateTime`) VALUES
 	(1, 'ruanmou', 'ruanmou', '20180101', '40BD001563085FC35165329EA1FF5C5ECBDBBEEF', '/uploadfile/70ca7d52-d5c2-44df-914c-8ad71075261a.png', 0, 1, 12, 1, 1542809506),
@@ -871,7 +871,7 @@ INSERT INTO `sys_user` (`UserId`, `Account`, `UserName`, `JobNumber`, `Password`
 	(21, 'cs', 'cs', '2019041302', '40BD001563085FC35165329EA1FF5C5ECBDBBEEF', '/uploadfile/342bd59b-edf4-48cf-aa27-d13e5a0b70df.jpeg', 1, 0, 1555123202, NULL, NULL);
 /*!40000 ALTER TABLE `sys_user` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_user_dept 结构
+-- 导出  表 Jeez.Workflow.API_user_dept 结构
 CREATE TABLE IF NOT EXISTS `sys_user_dept` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `DeptId` bigint(20) NOT NULL COMMENT '部门ID',
@@ -884,7 +884,7 @@ CREATE TABLE IF NOT EXISTS `sys_user_dept` (
   CONSTRAINT `sys_user_dept_ibfk_2` FOREIGN KEY (`UserId`) REFERENCES `sys_user` (`UserId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
--- 正在导出表  mssystem.sys_user_dept 的数据：~4 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_user_dept 的数据：~4 rows (大约)
 /*!40000 ALTER TABLE `sys_user_dept` DISABLE KEYS */;
 INSERT INTO `sys_user_dept` (`Id`, `DeptId`, `UserId`, `CreateTime`) VALUES
 	(4, 4, 6, 1557303745),
@@ -893,7 +893,7 @@ INSERT INTO `sys_user_dept` (`Id`, `DeptId`, `UserId`, `CreateTime`) VALUES
 	(7, 3, 7, 1576693494);
 /*!40000 ALTER TABLE `sys_user_dept` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_user_role 结构
+-- 导出  表 Jeez.Workflow.API_user_role 结构
 CREATE TABLE IF NOT EXISTS `sys_user_role` (
   `Id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `UserId` bigint(20) NOT NULL COMMENT '用户ID',
@@ -906,7 +906,7 @@ CREATE TABLE IF NOT EXISTS `sys_user_role` (
   CONSTRAINT `sys_user_role_ibfk_2` FOREIGN KEY (`RoleId`) REFERENCES `sys_role` (`RoleId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=67 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='用户角色关联表';
 
--- 正在导出表  mssystem.sys_user_role 的数据：~13 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_user_role 的数据：~13 rows (大约)
 /*!40000 ALTER TABLE `sys_user_role` DISABLE KEYS */;
 INSERT INTO `sys_user_role` (`Id`, `UserId`, `RoleId`, `CreateTime`) VALUES
 	(48, 1, 5, 1547040313),
@@ -924,7 +924,7 @@ INSERT INTO `sys_user_role` (`Id`, `UserId`, `RoleId`, `CreateTime`) VALUES
 	(66, 1, 8, 1602164436);
 /*!40000 ALTER TABLE `sys_user_role` ENABLE KEYS */;
 
--- 导出  表 mssystem.sys_workflowsql 结构
+-- 导出  表 Jeez.Workflow.API_workflowsql 结构
 CREATE TABLE IF NOT EXISTS `sys_workflowsql` (
   `Name` varchar(50) NOT NULL COMMENT '流程sql名称,必须是以sys_为开头，用于判断属于哪个系统，方便调用接口',
   `FlowSQL` text NOT NULL COMMENT '流程SQL，执行结果必须是一行一列',
@@ -937,7 +937,7 @@ CREATE TABLE IF NOT EXISTS `sys_workflowsql` (
   PRIMARY KEY (`Name`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='用于工作流获取权限系统数据';
 
--- 正在导出表  mssystem.sys_workflowsql 的数据：~0 rows (大约)
+-- 正在导出表  Jeez.Workflow.API_workflowsql 的数据：~0 rows (大约)
 /*!40000 ALTER TABLE `sys_workflowsql` DISABLE KEYS */;
 INSERT INTO `sys_workflowsql` (`Name`, `FlowSQL`, `Param`, `SQLType`, `Status`, `Remark`, `CreateTime`, `CreateUserId`) VALUES
 	('sys_getdeptleader', 'SELECT DISTINCT dl.`UserId` FROM sys_user u \r\nLEFT JOIN sys_user_dept ud ON ud.`UserId`=u.`UserId`\r\nLEFT JOIN sys_dept_leader dl ON dl.`DeptId`=ud.`DeptId`\r\nWHERE u.`UserId`=@userid', 'userid', 0, 1, '权限系统，获取部门负责人', 1, 1);
