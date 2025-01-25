@@ -1,6 +1,0 @@
-E:\code\JeezFoundation\Jeez.Foundation.Tool\obj\Debug\netstandard2.0\JeezFoundation.Tool.csproj.AssemblyReference.cache
-E:\code\JeezFoundation\Jeez.Foundation.Tool\obj\Debug\netstandard2.0\JeezFoundation.Tool.GeneratedMSBuildEditorConfig.editorconfig
-E:\code\JeezFoundation\Jeez.Foundation.Tool\obj\Debug\netstandard2.0\JeezFoundation.Tool.AssemblyInfoInputs.cache
-E:\code\JeezFoundation\Jeez.Foundation.Tool\obj\Debug\netstandard2.0\JeezFoundation.Tool.AssemblyInfo.cs
-E:\code\JeezFoundation\Jeez.Foundation.Tool\obj\Debug\netstandard2.0\JeezFoundation.Tool.csproj.CoreCompileInputs.cache
-E:\code\JeezFoundation\Jeez.Foundation.Tool\obj\Debug\netstandard2.0\JeezFoundation.Tool.sourcelink.json
