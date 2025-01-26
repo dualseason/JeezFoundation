@@ -1,0 +1,10 @@
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\bin\Debug\netstandard2.1\JeezFoundation.Horoscope.deps.json
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\bin\Debug\netstandard2.1\JeezFoundation.Horoscope.dll
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\bin\Debug\netstandard2.1\JeezFoundation.Horoscope.pdb
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.AssemblyInfoInputs.cache
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.AssemblyInfo.cs
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.csproj.CoreCompileInputs.cache
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.sourcelink.json
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.dll
+C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.pdb

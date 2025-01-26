@@ -1,0 +1,5208 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>tyme</name>
+    </assembly>
+    <members>
+        <member name="T:tyme.AbstractCulture">
+            <summary>
+            传统文化抽象
+            </summary>
+        </member>
+        <member name="M:tyme.AbstractCulture.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.AbstractCulture.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.AbstractCulture.Equals(System.Object)">
+            <summary>
+            是否相等
+            </summary>
+            <param name="o">其他对象</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:tyme.AbstractCulture.GetHashCode">
+            <summary>
+            HashCode
+            </summary>
+            <returns>HashCode</returns>
+        </member>
+        <member name="M:tyme.AbstractCulture.IndexOf(System.Int32,System.Int32)">
+            <summary>
+            计算索引值
+            </summary>
+            <param name="index">索引值</param>
+            <param name="size">大小</param>
+            <returns>索引值</returns>
+        </member>
+        <member name="T:tyme.AbstractCultureDay">
+            <summary>
+            带天索引的传统文化抽象
+            </summary>
+        </member>
+        <member name="F:tyme.AbstractCultureDay.culture">
+            <summary>
+            传统文化
+            </summary>
+        </member>
+        <member name="P:tyme.AbstractCultureDay.DayIndex">
+            <summary>
+            天索引
+            </summary>
+        </member>
+        <member name="M:tyme.AbstractCultureDay.#ctor(tyme.AbstractCulture,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="culture">传统文化抽象</param>
+            <param name="dayIndex">天索引</param>
+        </member>
+        <member name="P:tyme.AbstractCultureDay.Culture">
+            <summary>
+            传统文化
+            </summary>
+        </member>
+        <member name="M:tyme.AbstractCultureDay.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.AbstractCultureDay.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="T:tyme.AbstractTyme">
+            <summary>
+            抽象Tyme
+            </summary>
+        </member>
+        <member name="M:tyme.AbstractTyme.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的Tyme</returns>
+        </member>
+        <member name="T:tyme.culture.Animal">
+            <summary>
+            动物
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Animal.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Animal.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Animal.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Animal.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Animal.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Animal.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的动物</returns>
+        </member>
+        <member name="M:tyme.culture.Animal.GetTwentyEightStar">
+            <summary>
+            二十八宿
+            </summary>
+            <returns>二十八宿</returns>
+        </member>
+        <member name="T:tyme.culture.Beast">
+            <summary>
+            神兽
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Beast.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Beast.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Beast.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Beast.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Beast.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Beast.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的神兽</returns>
+        </member>
+        <member name="M:tyme.culture.Beast.GetZone">
+            <summary>
+            宫
+            </summary>
+            <returns>宫</returns>
+        </member>
+        <member name="T:tyme.culture.Constellation">
+            <summary>
+            星座
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Constellation.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Constellation.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Constellation.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Constellation.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Constellation.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Constellation.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的星座</returns>
+        </member>
+        <member name="T:tyme.culture.Direction">
+            <summary>
+            方位
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Direction.Names">
+            <summary>
+            依据后天八卦排序（0坎北, 1坤西南, 2震东, 3巽东南, 4中, 5乾西北, 6兑西, 7艮东北, 8离南）
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Direction.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Direction.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Direction.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Direction.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Direction.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的方位</returns>
+        </member>
+        <member name="M:tyme.culture.Direction.GetLand">
+            <summary>
+            九野
+            </summary>
+            <returns>九野</returns>
+        </member>
+        <member name="M:tyme.culture.Direction.GetElement">
+            <summary>
+            五行
+            </summary>
+            <returns>五行</returns>
+        </member>
+        <member name="T:tyme.culture.dog.Dog">
+            <summary>
+            三伏
+            </summary>
+        </member>
+        <member name="F:tyme.culture.dog.Dog.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.dog.Dog.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.dog.Dog.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.dog.Dog.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.dog.Dog.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.dog.Dog.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的三伏</returns>
+        </member>
+        <member name="T:tyme.culture.dog.DogDay">
+            <summary>
+            三伏天
+            </summary>
+        </member>
+        <member name="M:tyme.culture.dog.DogDay.#ctor(tyme.culture.dog.Dog,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="dog">三伏</param>
+            <param name="dayIndex">天索引</param>
+        </member>
+        <member name="P:tyme.culture.dog.DogDay.Dog">
+            <summary>
+            三伏
+            </summary>
+        </member>
+        <member name="T:tyme.culture.Duty">
+            <summary>
+            建除十二值神
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Duty.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Duty.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Duty.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Duty.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Duty.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Duty.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的值神</returns>
+        </member>
+        <member name="T:tyme.culture.Element">
+            <summary>
+            五行
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Element.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Element.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Element.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Element.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Element.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Element.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的五行</returns>
+        </member>
+        <member name="M:tyme.culture.Element.GetReinforce">
+            <summary>
+            我生者
+            </summary>
+            <returns>五行</returns>
+        </member>
+        <member name="M:tyme.culture.Element.GetRestrain">
+            <summary>
+            我克者
+            </summary>
+            <returns>五行</returns>
+        </member>
+        <member name="M:tyme.culture.Element.GetReinforced">
+            <summary>
+            生我者
+            </summary>
+            <returns>五行</returns>
+        </member>
+        <member name="M:tyme.culture.Element.GetRestrained">
+            <summary>
+            克我者
+            </summary>
+            <returns>五行</returns>
+        </member>
+        <member name="M:tyme.culture.Element.GetDirection">
+            <summary>
+            方位
+            </summary>
+            <returns>方位</returns>
+        </member>
+        <member name="T:tyme.culture.fetus.FetusDay">
+            <summary>
+            逐日胎神
+            </summary>
+        </member>
+        <member name="P:tyme.culture.fetus.FetusDay.FetusHeavenStem">
+            <summary>
+            天干六甲胎神
+            </summary>
+        </member>
+        <member name="P:tyme.culture.fetus.FetusDay.FetusEarthBranch">
+            <summary>
+            地支六甲胎神
+            </summary>
+        </member>
+        <member name="P:tyme.culture.fetus.FetusDay.Side">
+            <summary>
+            内外
+            </summary>
+        </member>
+        <member name="P:tyme.culture.fetus.FetusDay.Direction">
+            <summary>
+            方位
+            </summary>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusDay.#ctor(tyme.lunar.LunarDay)">
+            <summary>
+            初始化
+            </summary>
+            <param name="lunarDay">农历日</param>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusDay.FromLunarDay(tyme.lunar.LunarDay)">
+            <summary>
+            初始化
+            </summary>
+            <param name="lunarDay">农历日</param>
+            <returns>逐日胎神</returns>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusDay.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="T:tyme.culture.fetus.FetusEarthBranch">
+            <summary>
+            地支六甲胎神（《地支六甲胎神歌》子午二日碓须忌，丑未厕道莫修移。寅申火炉休要动，卯酉大门修当避。辰戌鸡栖巳亥床，犯着六甲身堕胎。）
+            </summary>
+        </member>
+        <member name="F:tyme.culture.fetus.FetusEarthBranch.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusEarthBranch.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusEarthBranch.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusEarthBranch.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的地支六甲胎神</returns>
+        </member>
+        <member name="T:tyme.culture.fetus.FetusHeavenStem">
+            <summary>
+            天干六甲胎神（《天干六甲胎神歌》甲己之日占在门，乙庚碓磨休移动。丙辛厨灶莫相干，丁壬仓库忌修弄。戊癸房床若移整，犯之孕妇堕孩童。）
+            </summary>
+        </member>
+        <member name="F:tyme.culture.fetus.FetusHeavenStem.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusHeavenStem.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusHeavenStem.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusHeavenStem.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的天干六甲胎神</returns>
+        </member>
+        <member name="T:tyme.culture.fetus.FetusMonth">
+            <summary>
+            逐月胎神（正十二月在床房，二三九十门户中，四六十一灶勿犯，五甲七子八厕凶。）
+            </summary>
+        </member>
+        <member name="F:tyme.culture.fetus.FetusMonth.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusMonth.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusMonth.FromLunarMonth(tyme.lunar.LunarMonth)">
+            <summary>
+            初始化
+            </summary>
+            <param name="lunarMonth">农历月</param>
+            <returns>逐月胎神</returns>
+        </member>
+        <member name="M:tyme.culture.fetus.FetusMonth.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的逐月胎神</returns>
+        </member>
+        <member name="T:tyme.culture.God">
+            <summary>
+            神煞
+            </summary>
+        </member>
+        <member name="F:tyme.culture.God.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:tyme.culture.God.DayGods">
+            <summary>
+            吉神宜趋，凶神宜忌数据（参考https://www.51wnl-cq.com/并进行了部分数据修正）
+            </summary>
+        </member>
+        <member name="M:tyme.culture.God.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.God.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.God.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.God.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.God.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的神煞</returns>
+        </member>
+        <member name="P:tyme.culture.God.Luck">
+            <summary>
+            吉凶
+            </summary>
+        </member>
+        <member name="M:tyme.culture.God.GetDayGods(tyme.sixtycycle.SixtyCycle,tyme.sixtycycle.SixtyCycle)">
+            <summary>
+            日神煞列表(吉神宜趋，凶神宜忌)
+            </summary>
+            <param name="month">月干支</param>
+            <param name="day">日干支</param>
+            <returns>神煞列表</returns>
+        </member>
+        <member name="T:tyme.culture.Land">
+            <summary>
+            九野
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Land.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Land.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Land.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Land.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Land.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Land.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的九野</returns>
+        </member>
+        <member name="M:tyme.culture.Land.GetDirection">
+            <summary>
+            方位
+            </summary>
+            <returns>方位</returns>
+        </member>
+        <member name="T:tyme.culture.Luck">
+            <summary>
+            吉凶
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Luck.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Luck.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Luck.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Luck.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Luck.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Luck.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的吉凶</returns>
+        </member>
+        <member name="T:tyme.culture.nine.Nine">
+            <summary>
+            数九
+            </summary>
+        </member>
+        <member name="F:tyme.culture.nine.Nine.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.nine.Nine.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.nine.Nine.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.nine.Nine.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.nine.Nine.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.nine.Nine.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的数九</returns>
+        </member>
+        <member name="T:tyme.culture.nine.NineDay">
+            <summary>
+            数九天
+            </summary>
+        </member>
+        <member name="M:tyme.culture.nine.NineDay.#ctor(tyme.culture.nine.Nine,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="nine">数九</param>
+            <param name="dayIndex">天索引</param>
+        </member>
+        <member name="P:tyme.culture.nine.NineDay.Nine">
+            <summary>
+            数九天
+            </summary>
+        </member>
+        <member name="T:tyme.culture.pengzu.PengZuHeavenStem">
+            <summary>
+            天干彭祖百忌
+            </summary>
+        </member>
+        <member name="F:tyme.culture.pengzu.PengZuHeavenStem.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuHeavenStem.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuHeavenStem.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuHeavenStem.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuHeavenStem.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuHeavenStem.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的天干彭祖百忌</returns>
+        </member>
+        <member name="T:tyme.culture.pengzu.PengZu">
+            <summary>
+            彭祖百忌
+            </summary>
+        </member>
+        <member name="P:tyme.culture.pengzu.PengZu.PengZuHeavenStem">
+            <summary>
+            天干彭祖百忌
+            </summary>
+        </member>
+        <member name="P:tyme.culture.pengzu.PengZu.PengZuEarthBranch">
+            <summary>
+            地支彭祖百忌
+            </summary>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZu.#ctor(tyme.sixtycycle.SixtyCycle)">
+            <summary>
+            初始化
+            </summary>
+            <param name="sixtyCycle">干支</param>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZu.FromSixtyCycle(tyme.sixtycycle.SixtyCycle)">
+            <summary>
+            初始化
+            </summary>
+            <param name="sixtyCycle">干支</param>
+            <returns>彭祖百忌</returns>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZu.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="T:tyme.culture.pengzu.PengZuEarthBranch">
+            <summary>
+            地支彭祖百忌
+            </summary>
+        </member>
+        <member name="F:tyme.culture.pengzu.PengZuEarthBranch.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuEarthBranch.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuEarthBranch.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuEarthBranch.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuEarthBranch.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.pengzu.PengZuEarthBranch.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的地支彭祖百忌</returns>
+        </member>
+        <member name="T:tyme.culture.Phase">
+            <summary>
+            月相
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Phase.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Phase.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Phase.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Phase.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Phase.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Phase.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的月相</returns>
+        </member>
+        <member name="T:tyme.culture.phenology.Phenology">
+            <summary>
+            候
+            </summary>
+        </member>
+        <member name="F:tyme.culture.phenology.Phenology.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.phenology.Phenology.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.phenology.Phenology.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.phenology.Phenology.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.phenology.Phenology.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.phenology.Phenology.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的候</returns>
+        </member>
+        <member name="P:tyme.culture.phenology.Phenology.ThreePhenology">
+            <summary>
+            三候
+            </summary>
+        </member>
+        <member name="T:tyme.culture.phenology.PhenologyDay">
+            <summary>
+            七十二候
+            </summary>
+        </member>
+        <member name="M:tyme.culture.phenology.PhenologyDay.#ctor(tyme.culture.phenology.Phenology,System.Int32)">
+            <summary>
+            七十二候
+            </summary>
+            <param name="phenology">候</param>
+            <param name="dayIndex">天索引</param>
+        </member>
+        <member name="P:tyme.culture.phenology.PhenologyDay.Phenology">
+            <summary>
+            候
+            </summary>
+        </member>
+        <member name="T:tyme.culture.phenology.ThreePhenology">
+            <summary>
+            三候
+            </summary>
+        </member>
+        <member name="F:tyme.culture.phenology.ThreePhenology.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.phenology.ThreePhenology.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.phenology.ThreePhenology.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.phenology.ThreePhenology.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.phenology.ThreePhenology.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.phenology.ThreePhenology.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的三候</returns>
+        </member>
+        <member name="T:tyme.culture.plumrain.PlumRain">
+            <summary>
+            梅雨
+            </summary>
+        </member>
+        <member name="F:tyme.culture.plumrain.PlumRain.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.plumrain.PlumRain.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.plumrain.PlumRain.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.plumrain.PlumRain.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.plumrain.PlumRain.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.plumrain.PlumRain.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的梅雨</returns>
+        </member>
+        <member name="T:tyme.culture.plumrain.PlumRainDay">
+            <summary>
+            梅雨天
+            </summary>
+        </member>
+        <member name="M:tyme.culture.plumrain.PlumRainDay.#ctor(tyme.culture.plumrain.PlumRain,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="plumRain">梅雨</param>
+            <param name="dayIndex">天索引</param>
+        </member>
+        <member name="P:tyme.culture.plumrain.PlumRainDay.PlumRain">
+            <summary>
+            梅雨
+            </summary>
+        </member>
+        <member name="M:tyme.culture.plumrain.PlumRainDay.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="T:tyme.culture.ren.MinorRen">
+            <summary>
+            小六壬
+            </summary>
+        </member>
+        <member name="F:tyme.culture.ren.MinorRen.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.ren.MinorRen.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.ren.MinorRen.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.ren.MinorRen.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.ren.MinorRen.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.ren.MinorRen.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的小六壬</returns>
+        </member>
+        <member name="P:tyme.culture.ren.MinorRen.Luck">
+            <summary>
+            吉凶
+            </summary>
+        </member>
+        <member name="M:tyme.culture.ren.MinorRen.GetElement">
+            <summary>
+            五行
+            </summary>
+            <returns>五行</returns>
+        </member>
+        <member name="T:tyme.culture.Sixty">
+            <summary>
+            元（60年=1元）
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Sixty.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Sixty.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Sixty.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Sixty.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Sixty.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Sixty.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的元</returns>
+        </member>
+        <member name="T:tyme.culture.Sound">
+            <summary>
+            纳音
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Sound.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Sound.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Sound.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Sound.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Sound.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Sound.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的纳音</returns>
+        </member>
+        <member name="T:tyme.culture.star.nine.Dipper">
+            <summary>
+            北斗九星
+            </summary>
+        </member>
+        <member name="F:tyme.culture.star.nine.Dipper.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.nine.Dipper.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.nine.Dipper.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.nine.Dipper.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.nine.Dipper.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.nine.Dipper.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的北斗九星</returns>
+        </member>
+        <member name="T:tyme.culture.star.nine.NineStar">
+            <summary>
+            九星
+            </summary>
+        </member>
+        <member name="F:tyme.culture.star.nine.NineStar.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.nine.NineStar.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.nine.NineStar.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.nine.NineStar.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.nine.NineStar.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.nine.NineStar.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的九星</returns>
+        </member>
+        <member name="P:tyme.culture.star.nine.NineStar.Color">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:tyme.culture.star.nine.NineStar.Element">
+            <summary>
+            五行
+            </summary>
+        </member>
+        <member name="P:tyme.culture.star.nine.NineStar.Dipper">
+            <summary>
+            北斗九星
+            </summary>
+        </member>
+        <member name="P:tyme.culture.star.nine.NineStar.Direction">
+            <summary>
+            方位
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.nine.NineStar.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="T:tyme.culture.star.seven.SevenStar">
+            <summary>
+            七曜（七政、七纬、七耀）
+            </summary>
+        </member>
+        <member name="F:tyme.culture.star.seven.SevenStar.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.seven.SevenStar.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.seven.SevenStar.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.seven.SevenStar.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.seven.SevenStar.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.seven.SevenStar.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的七曜</returns>
+        </member>
+        <member name="M:tyme.culture.star.seven.SevenStar.GetWeek">
+            <summary>
+            星期
+            </summary>
+        </member>
+        <member name="T:tyme.culture.star.six.SixStar">
+            <summary>
+            六曜（孔明六曜星）
+            </summary>
+        </member>
+        <member name="F:tyme.culture.star.six.SixStar.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.six.SixStar.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.six.SixStar.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.six.SixStar.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.six.SixStar.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.six.SixStar.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的六曜</returns>
+        </member>
+        <member name="T:tyme.culture.star.ten.TenStar">
+            <summary>
+            十神
+            </summary>
+        </member>
+        <member name="F:tyme.culture.star.ten.TenStar.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.ten.TenStar.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.ten.TenStar.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.ten.TenStar.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.ten.TenStar.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.ten.TenStar.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的十神</returns>
+        </member>
+        <member name="T:tyme.culture.star.twelve.Ecliptic">
+            <summary>
+            黄道黑道
+            </summary>
+        </member>
+        <member name="F:tyme.culture.star.twelve.Ecliptic.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.twelve.Ecliptic.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.twelve.Ecliptic.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.twelve.Ecliptic.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.twelve.Ecliptic.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.twelve.Ecliptic.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的黄道黑道</returns>
+        </member>
+        <member name="P:tyme.culture.star.twelve.Ecliptic.Luck">
+            <summary>
+            吉凶
+            </summary>
+        </member>
+        <member name="T:tyme.culture.star.twelve.TwelveStar">
+            <summary>
+            黄道黑道十二神
+            </summary>
+        </member>
+        <member name="F:tyme.culture.star.twelve.TwelveStar.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.twelve.TwelveStar.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.twelve.TwelveStar.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.twelve.TwelveStar.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.twelve.TwelveStar.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.twelve.TwelveStar.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的黄道黑道十二神</returns>
+        </member>
+        <member name="P:tyme.culture.star.twelve.TwelveStar.Ecliptic">
+            <summary>
+            黄道黑道
+            </summary>
+        </member>
+        <member name="T:tyme.culture.star.twentyeight.TwentyEightStar">
+            <summary>
+            二十八宿
+            </summary>
+        </member>
+        <member name="F:tyme.culture.star.twentyeight.TwentyEightStar.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.twentyeight.TwentyEightStar.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.twentyeight.TwentyEightStar.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.twentyeight.TwentyEightStar.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.star.twentyeight.TwentyEightStar.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.star.twentyeight.TwentyEightStar.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的二十八宿</returns>
+        </member>
+        <member name="P:tyme.culture.star.twentyeight.TwentyEightStar.SevenStar">
+            <summary>
+            七曜
+            </summary>
+        </member>
+        <member name="P:tyme.culture.star.twentyeight.TwentyEightStar.Land">
+            <summary>
+            九野
+            </summary>
+        </member>
+        <member name="P:tyme.culture.star.twentyeight.TwentyEightStar.Zone">
+            <summary>
+            宫
+            </summary>
+        </member>
+        <member name="M:tyme.culture.star.twentyeight.TwentyEightStar.GetAnimal">
+            <summary>
+            动物
+            </summary>
+            <returns>动物</returns>
+        </member>
+        <member name="P:tyme.culture.star.twentyeight.TwentyEightStar.Luck">
+            <summary>
+            吉凶
+            </summary>
+        </member>
+        <member name="T:tyme.culture.Taboo">
+            <summary>
+            宜忌
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Taboo.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Taboo.DayTaboo">
+            <summary>
+            每日宜忌数据
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Taboo.HourTaboo">
+            <summary>
+            时辰宜忌数据
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Taboo.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Taboo.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Taboo.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Taboo.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Taboo.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的神煞</returns>
+        </member>
+        <member name="M:tyme.culture.Taboo.GetDayRecommends(tyme.sixtycycle.SixtyCycle,tyme.sixtycycle.SixtyCycle)">
+            <summary>
+            日宜
+            </summary>
+            <param name="month">月干支</param>
+            <param name="day">日干支</param>
+            <returns>宜忌列表</returns>
+        </member>
+        <member name="M:tyme.culture.Taboo.GetDayAvoids(tyme.sixtycycle.SixtyCycle,tyme.sixtycycle.SixtyCycle)">
+            <summary>
+            日忌
+            </summary>
+            <param name="month">月干支</param>
+            <param name="day">日干支</param>
+            <returns>宜忌列表</returns>
+        </member>
+        <member name="M:tyme.culture.Taboo.GetHourRecommends(tyme.sixtycycle.SixtyCycle,tyme.sixtycycle.SixtyCycle)">
+            <summary>
+            时辰宜
+            </summary>
+            <param name="day">日干支</param>
+            <param name="hour">时辰干支</param>
+            <returns>宜忌列表</returns>
+        </member>
+        <member name="M:tyme.culture.Taboo.GetHourAvoids(tyme.sixtycycle.SixtyCycle,tyme.sixtycycle.SixtyCycle)">
+            <summary>
+            时辰忌
+            </summary>
+            <param name="day">日干支</param>
+            <param name="hour">时辰干支</param>
+            <returns>宜忌列表</returns>
+        </member>
+        <member name="T:tyme.culture.Ten">
+            <summary>
+            旬
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Ten.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Ten.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Ten.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Ten.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Ten.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Ten.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的旬</returns>
+        </member>
+        <member name="T:tyme.culture.Terrain">
+            <summary>
+            地势(长生十二神)
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Terrain.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Terrain.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Terrain.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Terrain.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Terrain.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Terrain.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的地势</returns>
+        </member>
+        <member name="T:tyme.culture.Twenty">
+            <summary>
+            运（20年=1运，3运=1元）
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Twenty.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Twenty.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Twenty.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Twenty.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Twenty.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Twenty.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的运</returns>
+        </member>
+        <member name="P:tyme.culture.Twenty.Sixty">
+            <summary>
+            元
+            </summary>
+        </member>
+        <member name="T:tyme.culture.Week">
+            <summary>
+            星期
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Week.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Week.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Week.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Week.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Week.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Week.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的星期</returns>
+        </member>
+        <member name="M:tyme.culture.Week.GetSevenStar">
+            <summary>
+            七曜
+            </summary>
+        </member>
+        <member name="T:tyme.culture.Zodiac">
+            <summary>
+            生肖
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Zodiac.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Zodiac.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Zodiac.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Zodiac.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Zodiac.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Zodiac.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的生肖</returns>
+        </member>
+        <member name="M:tyme.culture.Zodiac.GetEarthBranch">
+            <summary>
+            地支
+            </summary>
+        </member>
+        <member name="T:tyme.culture.Zone">
+            <summary>
+            宫
+            </summary>
+        </member>
+        <member name="F:tyme.culture.Zone.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Zone.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Zone.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Zone.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.culture.Zone.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.culture.Zone.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的宫</returns>
+        </member>
+        <member name="P:tyme.culture.Zone.Direction">
+            <summary>
+            方位
+            </summary>
+        </member>
+        <member name="M:tyme.culture.Zone.GetBeast">
+            <summary>
+            神兽
+            </summary>
+            <returns>神兽</returns>
+        </member>
+        <member name="T:tyme.eightchar.ChildLimit">
+            <summary>
+            童限
+            </summary>
+        </member>
+        <member name="F:tyme.eightchar.ChildLimit.Provider">
+            <summary>
+            童限计算接口
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.EightChar">
+            <summary>
+            八字
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.Gender">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.IsForward">
+            <summary>
+            顺逆
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.Info">
+            <summary>
+            童限信息
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.ChildLimit.#ctor(tyme.solar.SolarTime,tyme.enums.Gender)">
+            <summary>
+            初始化
+            </summary>
+            <param name="birthTime">出生公历时刻</param>
+            <param name="gender">性别</param>
+        </member>
+        <member name="M:tyme.eightchar.ChildLimit.FromSolarTime(tyme.solar.SolarTime,tyme.enums.Gender)">
+            <summary>
+            通过出生公历时刻初始化
+            </summary>
+            <param name="birthTime">出生公历时刻</param>
+            <param name="gender">性别</param>
+            <returns>童限</returns>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.YearCount">
+            <summary>
+            年数
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.MonthCount">
+            <summary>
+            月数
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.DayCount">
+            <summary>
+            日数
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.HourCount">
+            <summary>
+            小时数
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.MinuteCount">
+            <summary>
+            分钟数
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.StartTime">
+            <summary>
+            开始(即出生)的公历时刻
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.EndTime">
+            <summary>
+            结束(即开始起运)的公历时刻
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.StartDecadeFortune">
+            <summary>
+            大运
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.StartFortune">
+            <summary>
+            小运
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimit.EndLunarYear">
+            <summary>
+            结束农历年
+            </summary>
+        </member>
+        <member name="T:tyme.eightchar.ChildLimitInfo">
+            <summary>
+            童限信息
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimitInfo.StartTime">
+            <summary>
+            开始(即出生)的公历时刻
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimitInfo.EndTime">
+            <summary>
+            结束(即开始起运)的公历时刻
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimitInfo.YearCount">
+            <summary>
+            年数
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimitInfo.MonthCount">
+            <summary>
+            月数
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimitInfo.DayCount">
+            <summary>
+            日数
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimitInfo.HourCount">
+            <summary>
+            小时数
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.ChildLimitInfo.MinuteCount">
+            <summary>
+            分钟数
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.ChildLimitInfo.#ctor(tyme.solar.SolarTime,tyme.solar.SolarTime,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="startTime">开始(即出生)的公历时刻</param>
+            <param name="endTime">结束(即开始起运)的公历时刻</param>
+            <param name="yearCount">年数</param>
+            <param name="monthCount">月数</param>
+            <param name="dayCount">日数</param>
+            <param name="hourCount">小时数</param>
+            <param name="minuteCount">分钟数</param>
+        </member>
+        <member name="T:tyme.eightchar.DecadeFortune">
+            <summary>
+            大运（10年1大运）
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.DecadeFortune.ChildLimit">
+            <summary>
+            童限
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.DecadeFortune.Index">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.DecadeFortune.#ctor(tyme.eightchar.ChildLimit,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="childLimit">童限</param>
+            <param name="index">序号</param>
+        </member>
+        <member name="M:tyme.eightchar.DecadeFortune.FromChildLimit(tyme.eightchar.ChildLimit,System.Int32)">
+            <summary>
+            通过童限初始化
+            </summary>
+            <param name="childLimit">童限</param>
+            <param name="index">序号</param>
+            <returns>大运</returns>
+        </member>
+        <member name="P:tyme.eightchar.DecadeFortune.StartAge">
+            <summary>
+            开始年龄
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.DecadeFortune.EndAge">
+            <summary>
+            结束年龄
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.DecadeFortune.StartLunarYear">
+            <summary>
+            开始农历年
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.DecadeFortune.EndLunarYear">
+            <summary>
+            结束农历年
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.DecadeFortune.SixtyCycle">
+            <summary>
+            干支
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.DecadeFortune.StartFortune">
+            <summary>
+            开始小运
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.DecadeFortune.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.eightchar.DecadeFortune.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的大运</returns>
+        </member>
+        <member name="T:tyme.eightchar.EightChar">
+            <summary>
+            八字
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.EightChar.Year">
+            <summary>
+            年柱
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.EightChar.Month">
+            <summary>
+            月柱
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.EightChar.Day">
+            <summary>
+            日柱
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.EightChar.Hour">
+            <summary>
+            时柱
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.EightChar.#ctor(tyme.sixtycycle.SixtyCycle,tyme.sixtycycle.SixtyCycle,tyme.sixtycycle.SixtyCycle,tyme.sixtycycle.SixtyCycle)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年柱</param>
+            <param name="month">月柱</param>
+            <param name="day">日柱</param>
+            <param name="hour">时柱</param>
+        </member>
+        <member name="M:tyme.eightchar.EightChar.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年干支</param>
+            <param name="month">月干支</param>
+            <param name="day">日干支</param>
+            <param name="hour">时干支</param>
+        </member>
+        <member name="P:tyme.eightchar.EightChar.FetalOrigin">
+            <summary>
+            胎元
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.EightChar.FetalBreath">
+            <summary>
+            胎息
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.EightChar.OwnSign">
+            <summary>
+            命宫
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.EightChar.BodySign">
+            <summary>
+            身宫
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.EightChar.Duty">
+            <summary>
+            建除十二值神
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.EightChar.GetSolarTimes(System.Int32,System.Int32)">
+            <summary>
+            公历时刻列表
+            </summary>
+            <param name="startYear">开始年(含)，支持1-9999年</param>
+            <param name="endYear">开始年(含)，支持1-9999年</param>
+            <returns>公历时刻列表</returns>
+        </member>
+        <member name="M:tyme.eightchar.EightChar.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="T:tyme.eightchar.Fortune">
+            <summary>
+            小运
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.Fortune.ChildLimit">
+            <summary>
+            童限
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.Fortune.Index">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.Fortune.#ctor(tyme.eightchar.ChildLimit,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="childLimit">童限</param>
+            <param name="index">序号</param>
+        </member>
+        <member name="M:tyme.eightchar.Fortune.FromChildLimit(tyme.eightchar.ChildLimit,System.Int32)">
+            <summary>
+            通过童限初始化
+            </summary>
+            <param name="childLimit">童限</param>
+            <param name="index">序号</param>
+            <returns>小运</returns>
+        </member>
+        <member name="P:tyme.eightchar.Fortune.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.Fortune.LunarYear">
+            <summary>
+            农历年
+            </summary>
+        </member>
+        <member name="P:tyme.eightchar.Fortune.SixtyCycle">
+            <summary>
+            干支
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.Fortune.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.eightchar.Fortune.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的小运</returns>
+        </member>
+        <member name="T:tyme.eightchar.provider.IChildLimitProvider">
+            <summary>
+            童限计算接口
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.provider.IChildLimitProvider.GetInfo(tyme.solar.SolarTime,tyme.solar.SolarTerm)">
+            <summary>
+            童限信息
+            </summary>
+            <param name="birthTime">出生公历时刻</param>
+            <param name="term">节令</param>
+            <returns>童限信息</returns>
+        </member>
+        <member name="T:tyme.eightchar.provider.IEightCharProvider">
+            <summary>
+            八字计算接口
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.provider.IEightCharProvider.GetEightChar(tyme.lunar.LunarHour)">
+            <summary>
+            八字
+            </summary>
+            <param name="hour">农历时辰</param>
+            <returns>八字</returns>
+        </member>
+        <member name="T:tyme.eightchar.provider.impl.AbstractChildLimitProvider">
+            <summary>
+            童限计算抽象
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.provider.impl.AbstractChildLimitProvider.Next(tyme.solar.SolarTime,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            计算童限信息
+            </summary>
+            <param name="birthTime">出生公历时刻</param>
+            <param name="addYear">追加年数</param>
+            <param name="addMonth">追加月数</param>
+            <param name="addDay">追加日数</param>
+            <param name="addHour">追加小时数</param>
+            <param name="addMinute">追加分钟数</param>
+            <param name="addSecond">追加秒数</param>
+            <returns>童限信息</returns>
+        </member>
+        <member name="M:tyme.eightchar.provider.impl.AbstractChildLimitProvider.GetInfo(tyme.solar.SolarTime,tyme.solar.SolarTerm)">
+            <inheritdoc />
+        </member>
+        <member name="T:tyme.eightchar.provider.impl.China95ChildLimitProvider">
+            <summary>
+            元亨利贞的童限计算
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.provider.impl.China95ChildLimitProvider.GetInfo(tyme.solar.SolarTime,tyme.solar.SolarTerm)">
+            <inheritdoc />
+        </member>
+        <member name="T:tyme.eightchar.provider.impl.DefaultChildLimitProvider">
+            <summary>
+            默认的童限计算
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.provider.impl.DefaultChildLimitProvider.GetInfo(tyme.solar.SolarTime,tyme.solar.SolarTerm)">
+            <inheritdoc />
+        </member>
+        <member name="T:tyme.eightchar.provider.impl.DefaultEightCharProvider">
+            <summary>
+            默认的八字计算（晚子时算第二天）
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.provider.impl.DefaultEightCharProvider.GetEightChar(tyme.lunar.LunarHour)">
+            <inheritdoc />
+        </member>
+        <member name="T:tyme.eightchar.provider.impl.LunarSect1ChildLimitProvider">
+            <summary>
+            Lunar的流派1童限计算（按天数和时辰数计算，3天1年，1天4个月，1时辰10天）
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.provider.impl.LunarSect1ChildLimitProvider.GetInfo(tyme.solar.SolarTime,tyme.solar.SolarTerm)">
+            <inheritdoc />
+        </member>
+        <member name="T:tyme.eightchar.provider.impl.LunarSect2ChildLimitProvider">
+            <summary>
+            Lunar的流派2童限计算（按分钟数计算）
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.provider.impl.LunarSect2ChildLimitProvider.GetInfo(tyme.solar.SolarTime,tyme.solar.SolarTerm)">
+            <inheritdoc />
+        </member>
+        <member name="T:tyme.eightchar.provider.impl.LunarSect2EightCharProvider">
+            <summary>
+            Lunar流派2的八字计算（晚子时日柱算当天）
+            </summary>
+        </member>
+        <member name="M:tyme.eightchar.provider.impl.LunarSect2EightCharProvider.GetEightChar(tyme.lunar.LunarHour)">
+            <inheritdoc />
+        </member>
+        <member name="T:tyme.enums.FestivalType">
+            <summary>
+            节日类型
+            </summary>
+        </member>
+        <member name="F:tyme.enums.FestivalType.Day">
+            <summary>
+            日期
+            </summary>
+        </member>
+        <member name="F:tyme.enums.FestivalType.Term">
+            <summary>
+            节气
+            </summary>
+        </member>
+        <member name="F:tyme.enums.FestivalType.Eve">
+            <summary>
+            除夕
+            </summary>
+        </member>
+        <member name="T:tyme.enums.FestivalTypeExtension">
+            <summary>
+            节日类型扩展
+            </summary>
+        </member>
+        <member name="M:tyme.enums.FestivalTypeExtension.GetCode(tyme.enums.FestivalType)">
+            <summary>
+            代码
+            </summary>
+            <param name="festivalType">节日类型</param>
+            <returns>代码</returns>
+        </member>
+        <member name="M:tyme.enums.FestivalTypeExtension.GetName(tyme.enums.FestivalType)">
+            <summary>
+            名称
+            </summary>
+            <param name="festivalType">节日类型</param>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.enums.FestivalTypeExtension.ToString(tyme.enums.FestivalType)">
+            <summary>
+            描述
+            </summary>
+            <param name="festivalType">节日类型</param>
+            <returns>描述</returns>
+        </member>
+        <member name="M:tyme.enums.FestivalTypeExtension.Equals(tyme.enums.FestivalType,tyme.enums.FestivalType)">
+            <summary>
+            是否相等
+            </summary>
+            <param name="festivalType">本节日类型</param>
+            <param name="target">其他节日类型</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="T:tyme.enums.Gender">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="F:tyme.enums.Gender.Woman">
+            <summary>
+            女
+            </summary>
+        </member>
+        <member name="F:tyme.enums.Gender.Man">
+            <summary>
+            男
+            </summary>
+        </member>
+        <member name="T:tyme.enums.GenderExtension">
+            <summary>
+            性别扩展
+            </summary>
+        </member>
+        <member name="M:tyme.enums.GenderExtension.GetCode(tyme.enums.Gender)">
+            <summary>
+            代码
+            </summary>
+            <param name="gender">性别</param>
+            <returns>代码</returns>
+        </member>
+        <member name="M:tyme.enums.GenderExtension.GetName(tyme.enums.Gender)">
+            <summary>
+            名称
+            </summary>
+            <param name="gender">性别</param>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.enums.GenderExtension.ToString(tyme.enums.Gender)">
+            <summary>
+            描述
+            </summary>
+            <param name="gender">性别</param>
+            <returns>描述</returns>
+        </member>
+        <member name="M:tyme.enums.GenderExtension.Equals(tyme.enums.Gender,tyme.enums.Gender)">
+            <summary>
+            是否相等
+            </summary>
+            <param name="gender">本性别</param>
+            <param name="target">其他性别</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="T:tyme.enums.HideHeavenStemType">
+            <summary>
+            藏干类型
+            </summary>
+        </member>
+        <member name="F:tyme.enums.HideHeavenStemType.Residual">
+            <summary>
+            余气
+            </summary>
+        </member>
+        <member name="F:tyme.enums.HideHeavenStemType.Middle">
+            <summary>
+            中气
+            </summary>
+        </member>
+        <member name="F:tyme.enums.HideHeavenStemType.Main">
+            <summary>
+            本气
+            </summary>
+        </member>
+        <member name="T:tyme.enums.HideHeavenStemTypeExtension">
+            <summary>
+            藏干类型扩展
+            </summary>
+        </member>
+        <member name="M:tyme.enums.HideHeavenStemTypeExtension.GetCode(tyme.enums.HideHeavenStemType)">
+            <summary>
+            代码
+            </summary>
+            <param name="hideHeavenStemType">藏干类型</param>
+            <returns>代码</returns>
+        </member>
+        <member name="M:tyme.enums.HideHeavenStemTypeExtension.GetName(tyme.enums.HideHeavenStemType)">
+            <summary>
+            名称
+            </summary>
+            <param name="hideHeavenStemType">藏干类型</param>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.enums.HideHeavenStemTypeExtension.ToString(tyme.enums.HideHeavenStemType)">
+            <summary>
+            描述
+            </summary>
+            <param name="hideHeavenStemType">藏干类型</param>
+            <returns>描述</returns>
+        </member>
+        <member name="M:tyme.enums.HideHeavenStemTypeExtension.Equals(tyme.enums.HideHeavenStemType,tyme.enums.HideHeavenStemType)">
+            <summary>
+            是否相等
+            </summary>
+            <param name="hideHeavenStemType">本藏干类型</param>
+            <param name="target">其他藏干类型</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="T:tyme.enums.Side">
+            <summary>
+            内外
+            </summary>
+        </member>
+        <member name="F:tyme.enums.Side.In">
+            <summary>
+            内
+            </summary>
+        </member>
+        <member name="F:tyme.enums.Side.Out">
+            <summary>
+            外
+            </summary>
+        </member>
+        <member name="T:tyme.enums.SideExtension">
+            <summary>
+            内外扩展
+            </summary>
+        </member>
+        <member name="M:tyme.enums.SideExtension.GetCode(tyme.enums.Side)">
+            <summary>
+            代码
+            </summary>
+            <param name="side">内外</param>
+            <returns>代码</returns>
+        </member>
+        <member name="M:tyme.enums.SideExtension.GetName(tyme.enums.Side)">
+            <summary>
+            名称
+            </summary>
+            <param name="side">内外</param>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.enums.SideExtension.ToString(tyme.enums.Side)">
+            <summary>
+            描述
+            </summary>
+            <param name="side">内外</param>
+            <returns>描述</returns>
+        </member>
+        <member name="M:tyme.enums.SideExtension.Equals(tyme.enums.Side,tyme.enums.Side)">
+            <summary>
+            是否相等
+            </summary>
+            <param name="side">本内外</param>
+            <param name="target">其他内外</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="T:tyme.enums.YinYang">
+            <summary>
+            阴阳
+            </summary>
+        </member>
+        <member name="F:tyme.enums.YinYang.Yin">
+            <summary>
+            阴
+            </summary>
+        </member>
+        <member name="F:tyme.enums.YinYang.Yang">
+            <summary>
+            阳
+            </summary>
+        </member>
+        <member name="T:tyme.enums.YinYangExtension">
+            <summary>
+            阴阳扩展
+            </summary>
+        </member>
+        <member name="M:tyme.enums.YinYangExtension.GetCode(tyme.enums.YinYang)">
+            <summary>
+            代码
+            </summary>
+            <param name="yinYang">阴阳</param>
+            <returns>代码</returns>
+        </member>
+        <member name="M:tyme.enums.YinYangExtension.GetName(tyme.enums.YinYang)">
+            <summary>
+            名称
+            </summary>
+            <param name="yinYang">阴阳</param>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.enums.YinYangExtension.ToString(tyme.enums.YinYang)">
+            <summary>
+            描述
+            </summary>
+            <param name="yinYang">阴阳</param>
+            <returns>描述</returns>
+        </member>
+        <member name="M:tyme.enums.YinYangExtension.Equals(tyme.enums.YinYang,tyme.enums.YinYang)">
+            <summary>
+            是否相等
+            </summary>
+            <param name="yinYang">本阴阳</param>
+            <param name="target">其他阴阳</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="T:tyme.festival.LunarFestival">
+            <summary>
+            农历传统节日（依据国家标准《农历的编算和颁行》GB/T 33661-2017）
+            </summary>
+        </member>
+        <member name="F:tyme.festival.LunarFestival.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:tyme.festival.LunarFestival.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:tyme.festival.LunarFestival.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:tyme.festival.LunarFestival.Index">
+            <summary>
+            索引
+            </summary>
+        </member>
+        <member name="P:tyme.festival.LunarFestival.Day">
+            <summary>
+            农历日
+            </summary>
+        </member>
+        <member name="P:tyme.festival.LunarFestival.SolarTerm">
+            <summary>
+            节气
+            </summary>
+        </member>
+        <member name="P:tyme.festival.LunarFestival.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.festival.LunarFestival.#ctor(tyme.enums.FestivalType,tyme.lunar.LunarDay,tyme.solar.SolarTerm,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="type">节日类型</param>
+            <param name="day">农历日</param>
+            <param name="solarTerm">节气</param>
+            <param name="data">数据</param>
+        </member>
+        <member name="M:tyme.festival.LunarFestival.FromIndex(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="index">索引值</param>
+            <returns>农历传统节日</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.festival.LunarFestival.FromYmd(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">农历年</param>
+            <param name="month">农历月</param>
+            <param name="day">农历日</param>
+            <returns>农历传统节日</returns>
+        </member>
+        <member name="M:tyme.festival.LunarFestival.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.festival.LunarFestival.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.festival.LunarFestival.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的农历传统节日</returns>
+        </member>
+        <member name="T:tyme.festival.SolarFestival">
+            <summary>
+            公历现代节日
+            </summary>
+        </member>
+        <member name="F:tyme.festival.SolarFestival.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:tyme.festival.SolarFestival.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:tyme.festival.SolarFestival.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:tyme.festival.SolarFestival.Index">
+            <summary>
+            索引
+            </summary>
+        </member>
+        <member name="P:tyme.festival.SolarFestival.Day">
+            <summary>
+            公历日
+            </summary>
+        </member>
+        <member name="P:tyme.festival.SolarFestival.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.festival.SolarFestival.StartYear">
+            <summary>
+            起始年
+            </summary>
+        </member>
+        <member name="M:tyme.festival.SolarFestival.#ctor(tyme.enums.FestivalType,tyme.solar.SolarDay,System.Int32,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="type">节日类型</param>
+            <param name="day">公历日</param>
+            <param name="startYear">起始年</param>
+            <param name="data">数据</param>
+        </member>
+        <member name="M:tyme.festival.SolarFestival.FromIndex(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="index">索引值</param>
+            <returns>公历现代节日</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.festival.SolarFestival.FromYmd(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="month">公历月</param>
+            <param name="day">公历日</param>
+            <returns>公历现代节日</returns>
+        </member>
+        <member name="M:tyme.festival.SolarFestival.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.festival.SolarFestival.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.festival.SolarFestival.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的公历现代节日</returns>
+        </member>
+        <member name="T:tyme.holiday.LegalHoliday">
+            <summary>
+            法定假日（自2001-12-29起）
+            </summary>
+        </member>
+        <member name="F:tyme.holiday.LegalHoliday.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:tyme.holiday.LegalHoliday.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:tyme.holiday.LegalHoliday.Day">
+            <summary>
+            公历日
+            </summary>
+        </member>
+        <member name="P:tyme.holiday.LegalHoliday.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.holiday.LegalHoliday.IsWork">
+            <summary>
+            是否上班
+            </summary>
+        </member>
+        <member name="M:tyme.holiday.LegalHoliday.#ctor(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="month">公历月</param>
+            <param name="day">公历日</param>
+            <param name="data">数据</param>
+        </member>
+        <member name="M:tyme.holiday.LegalHoliday.FromYmd(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="month">公历月</param>
+            <param name="day">公历日</param>
+            <returns>法定假日</returns>
+        </member>
+        <member name="M:tyme.holiday.LegalHoliday.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.holiday.LegalHoliday.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.holiday.LegalHoliday.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的法定假日</returns>
+        </member>
+        <member name="T:tyme.ICulture">
+            <summary>
+            传统文化(民俗)
+            </summary>
+        </member>
+        <member name="M:tyme.ICulture.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="T:tyme.ITyme">
+            <summary>
+            Tyme
+            </summary>
+        </member>
+        <member name="M:tyme.ITyme.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的Tyme</returns>
+        </member>
+        <member name="T:tyme.jd.JulianDay">
+            <summary>
+            儒略日
+            </summary>
+        </member>
+        <member name="F:tyme.jd.JulianDay.J2000">
+            <summary>
+            2000年儒略日数(2000-1-1 12:00:00 UTC)
+            </summary>
+        </member>
+        <member name="P:tyme.jd.JulianDay.Day">
+            <summary>
+            儒略日
+            </summary>
+        </member>
+        <member name="M:tyme.jd.JulianDay.#ctor(System.Double)">
+            <summary>
+            初始化
+            </summary>
+            <param name="day">儒略日</param>
+        </member>
+        <member name="M:tyme.jd.JulianDay.FromJulianDay(System.Double)">
+            <summary>
+            初始化
+            </summary>
+            <param name="day">儒略日</param>
+            <returns>儒略日</returns>
+        </member>
+        <member name="M:tyme.jd.JulianDay.FromYmdHms(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="month">公历月</param>
+            <param name="day">公历日</param>
+            <param name="hour">时</param>
+            <param name="minute">分</param>
+            <param name="second">秒</param>
+            <returns>儒略日</returns>
+        </member>
+        <member name="M:tyme.jd.JulianDay.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.jd.JulianDay.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的儒略日</returns>
+        </member>
+        <member name="M:tyme.jd.JulianDay.GetSolarDay">
+            <summary>
+            公历日
+            </summary>
+            <returns>公历日</returns>
+        </member>
+        <member name="M:tyme.jd.JulianDay.GetSolarTime">
+            <summary>
+            公历时刻
+            </summary>
+            <returns>公历时刻</returns>
+        </member>
+        <member name="P:tyme.jd.JulianDay.Week">
+            <summary>
+            星期
+            </summary>
+        </member>
+        <member name="M:tyme.jd.JulianDay.Subtract(tyme.jd.JulianDay)">
+            <summary>
+            儒略日相减
+            </summary>
+            <param name="target">儒略日</param>
+            <returns>差</returns>
+        </member>
+        <member name="T:tyme.LoopTyme">
+            <summary>
+            可轮回的Tyme
+            </summary>
+        </member>
+        <member name="F:tyme.LoopTyme.names">
+            <summary>
+            名称列表
+            </summary>
+        </member>
+        <member name="P:tyme.LoopTyme.Index">
+            <summary>
+            索引，从0开始
+            </summary>
+        </member>
+        <member name="M:tyme.LoopTyme.#ctor(System.String[],System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="names">名称列表</param>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.LoopTyme.#ctor(System.String[],System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="names">名称列表</param>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.LoopTyme.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="P:tyme.LoopTyme.Size">
+            <summary>
+            名称长度
+            </summary>
+        </member>
+        <member name="M:tyme.LoopTyme.IndexOf(System.String)">
+            <summary>
+            根据名称获取索引值
+            </summary>
+            <param name="name">名称</param>
+            <returns>索引值</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.LoopTyme.IndexOf(System.Int32)">
+            <summary>
+            获取任意索引值
+            </summary>
+            <param name="n">索引值</param>
+            <returns>索引值</returns>
+        </member>
+        <member name="M:tyme.LoopTyme.NextIndex(System.Int32)">
+            <summary>
+            获取推移后的索引值
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>索引值</returns>
+        </member>
+        <member name="T:tyme.lunar.LunarDay">
+            <summary>
+            农历日
+            </summary>
+        </member>
+        <member name="F:tyme.lunar.LunarDay.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.LunarMonth">
+            <summary>
+            农历月
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Month">
+            <summary>
+            月，闰月为负
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Day">
+            <summary>
+            日
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarDay.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">农历年</param>
+            <param name="month">农历月，闰月为负</param>
+            <param name="day">农历日</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.lunar.LunarDay.FromYmd(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">农历年</param>
+            <param name="month">农历月</param>
+            <param name="day">农历日</param>
+            <returns>农历日</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarDay.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarDay.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarDay.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的农历日</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarDay.IsBefore(tyme.lunar.LunarDay)">
+            <summary>
+            是否在指定农历日之前
+            </summary>
+            <param name="target">农历日</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarDay.IsAfter(tyme.lunar.LunarDay)">
+            <summary>
+            是否在指定农历日之后
+            </summary>
+            <param name="target">农历日</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Week">
+            <summary>
+            星期
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.YearSixtyCycle">
+            <summary>
+            当天的年干支（立春换）
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.MonthSixtyCycle">
+            <summary>
+            当天的月干支（节气换）
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.SixtyCycle">
+            <summary>
+            干支
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Duty">
+            <summary>
+            建除十二值神
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.TwelveStar">
+            <summary>
+            黄道黑道十二神
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.NineStar">
+            <summary>
+            九星
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.JupiterDirection">
+            <summary>
+            太岁方位
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.FetusDay">
+            <summary>
+            逐日胎神
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Phase">
+            <summary>
+            月相
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.SixStar">
+            <summary>
+            六曜
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarDay.GetSolarDay">
+            <summary>
+            公历日
+            </summary>
+            <returns>公历日</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.TwentyEightStar">
+            <summary>
+            二十八宿
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Festival">
+            <summary>
+            农历传统节日，如果当天不是农历传统节日，返回null
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Hours">
+            <summary>
+            当天的时辰列表
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Gods">
+            <summary>
+            神煞列表(吉神宜趋，凶神宜忌)
+            </summary>
+            <returns>神煞列表</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Recommends">
+            <summary>
+            宜
+            </summary>
+            <returns>宜忌列表</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.Avoids">
+            <summary>
+            忌
+            </summary>
+            <returns>宜忌列表</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarDay.MinorRen">
+            <summary>
+            小六壬
+            </summary>
+        </member>
+        <member name="T:tyme.lunar.LunarHour">
+            <summary>
+            农历时辰
+            </summary>
+        </member>
+        <member name="F:tyme.lunar.LunarHour.Provider">
+            <summary>
+            八字计算接口
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.LunarDay">
+            <summary>
+            农历日
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.Month">
+            <summary>
+            月，闰月为负
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.Day">
+            <summary>
+            日
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.Hour">
+            <summary>
+            时
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.Minute">
+            <summary>
+            分
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.Second">
+            <summary>
+            秒
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarHour.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">农历年</param>
+            <param name="month">农历月，闰月为负</param>
+            <param name="day">农历日</param>
+            <param name="hour">时</param>
+            <param name="minute">分</param>
+            <param name="second">秒</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.lunar.LunarHour.FromYmdHms(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">农历年</param>
+            <param name="month">农历月</param>
+            <param name="day">农历日</param>
+            <param name="hour">时</param>
+            <param name="minute">分</param>
+            <param name="second">秒</param>
+            <returns></returns>
+        </member>
+        <member name="M:tyme.lunar.LunarHour.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarHour.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.IndexInDay">
+            <summary>
+            位于当天的索引
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarHour.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的农历时辰</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarHour.IsBefore(tyme.lunar.LunarHour)">
+            <summary>
+            是否在指定时辰之前
+            </summary>
+            <param name="target">时辰</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarHour.IsAfter(tyme.lunar.LunarHour)">
+            <summary>
+            是否在指定时辰之后
+            </summary>
+            <param name="target">时辰</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.YearSixtyCycle">
+            <summary>
+            当时的年干支（立春换）
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.MonthSixtyCycle">
+            <summary>
+            当时的月干支（节气换）
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.DaySixtyCycle">
+            <summary>
+            当时的日干支（23:00开始算做第二天）
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.SixtyCycle">
+            <summary>
+            干支
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.TwelveStar">
+            <summary>
+            黄道黑道十二神
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.NineStar">
+            <summary>
+            九星
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarHour.GetSolarTime">
+            <summary>
+            公历时刻
+            </summary>
+            <returns>公历时刻</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.EightChar">
+            <summary>
+            八字
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.Recommends">
+            <summary>
+            宜
+            </summary>
+            <returns>宜忌列表</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.Avoids">
+            <summary>
+            忌
+            </summary>
+            <returns>宜忌列表</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarHour.MinorRen">
+            <summary>
+            小六壬
+            </summary>
+        </member>
+        <member name="T:tyme.lunar.LunarMonth">
+            <summary>
+            农历月
+            </summary>
+        </member>
+        <member name="F:tyme.lunar.LunarMonth.Cache">
+            <summary>
+            缓存
+            </summary>
+        </member>
+        <member name="F:tyme.lunar.LunarMonth.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.LunarYear">
+            <summary>
+            农历年
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.Month">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.IsLeap">
+            <summary>
+            是否闰月
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.DayCount">
+            <summary>
+            天数(大月30天，小月29天)
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.IndexInYear">
+            <summary>
+            位于当年的索引，0-12
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.FirstJulianDay">
+            <summary>
+            初一的儒略日
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarMonth.#ctor(System.Object[])">
+            <summary>
+            从缓存初始化
+            </summary>
+            <param name="cache">缓存[农历年(int)，农历月(int,闰月为负)，天数(int)，位于当年的索引(int)，初一的儒略日(double)]</param>
+        </member>
+        <member name="M:tyme.lunar.LunarMonth.#ctor(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">农历年</param>
+            <param name="month">农历月</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.lunar.LunarMonth.FromYm(System.Int32,System.Int32)">
+            <summary>
+            从农历年月初始化
+            </summary>
+            <param name="year">农历年</param>
+            <param name="month">农历月，闰月为负</param>
+            <returns>农历月</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.MonthWithLeap">
+            <summary>
+            月，当月为闰月时，返回负数
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarMonth.GetName">
+            <summary>
+            名称，依据国家标准《农历的编算和颁行》GB/T 33661-2017中农历月的命名方法。
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarMonth.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarMonth.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的农历月</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.Season">
+            <summary>
+            农历季节
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarMonth.GetWeekCount(System.Int32)">
+            <summary>
+            周数
+            </summary>
+            <param name="start">起始星期，1234560分别代表星期一至星期天</param>
+            <returns>周数</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarMonth.GetWeeks(System.Int32)">
+            <summary>
+            获取本月的农历周列表
+            </summary>
+            <param name="start">星期几作为一周的开始，1234560分别代表星期一至星期天</param>
+            <returns>公历周列表</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.Days">
+            <summary>
+            本月的农历日列表
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.SixtyCycle">
+            <summary>
+            干支
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.NineStar">
+            <summary>
+            九星
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.JupiterDirection">
+            <summary>
+            太岁方位
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.Fetus">
+            <summary>
+            逐月胎神
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarMonth.MinorRen">
+            <summary>
+            小六壬
+            </summary>
+        </member>
+        <member name="T:tyme.lunar.LunarSeason">
+            <summary>
+            农历季节
+            </summary>
+        </member>
+        <member name="F:tyme.lunar.LunarSeason.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarSeason.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.lunar.LunarSeason.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.lunar.LunarSeason.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.lunar.LunarSeason.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.lunar.LunarSeason.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的农历季节</returns>
+        </member>
+        <member name="T:tyme.lunar.LunarWeek">
+            <summary>
+            农历周
+            </summary>
+        </member>
+        <member name="F:tyme.lunar.LunarWeek.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarWeek.LunarMonth">
+            <summary>
+            农历
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarWeek.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarWeek.Month">
+            <summary>
+            月，闰月为负
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarWeek.Index">
+            <summary>
+            索引，0-5
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarWeek.Start">
+            <summary>
+            起始星期
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarWeek.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">农历年</param>
+            <param name="month">农历月</param>
+            <param name="index">索引值</param>
+            <param name="start">起始星期，1234560分别代表星期一至星期天</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.lunar.LunarWeek.FromYm(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">农历年</param>
+            <param name="month">农历月</param>
+            <param name="index">索引值</param>
+            <param name="start">起始星期，1234560分别代表星期一至星期天</param>
+            <returns>农历周</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarWeek.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarWeek.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarWeek.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的农历周</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarWeek.FirstDay">
+            <summary>
+            本周第1天
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarWeek.Days">
+            <summary>
+            本周农历日列表
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarWeek.Equals(System.Object)">
+            <summary>
+            是否相等
+            </summary>
+            <param name="o">其他对象</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarWeek.GetHashCode">
+            <summary>
+            HashCode
+            </summary>
+            <returns>HashCode</returns>
+        </member>
+        <member name="T:tyme.lunar.LunarYear">
+            <summary>
+            农历年
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.Leap">
+            <summary>
+            缓存{闰月:年}
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarYear.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">农历年</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.lunar.LunarYear.FromYear(System.Int32)">
+            <summary>
+            从年初始化
+            </summary>
+            <param name="year">年，支持-1到9999年</param>
+            <returns>农历年</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.DayCount">
+            <summary>
+            天数
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.MonthCount">
+            <summary>
+            月数
+            </summary>
+        </member>
+        <member name="M:tyme.lunar.LunarYear.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.lunar.LunarYear.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的年</returns>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.SixtyCycle">
+            <summary>
+            干支
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.Twenty">
+            <summary>
+            运
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.NineStar">
+            <summary>
+            九星
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.JupiterDirection">
+            <summary>
+            太岁方位
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.LeapMonth">
+            <summary>
+            闰月数字，1代表闰1月，0代表无闰月
+            </summary>
+        </member>
+        <member name="P:tyme.lunar.LunarYear.Months">
+            <summary>
+            月份列表，一般有12个月，当年有闰月时，有13个月。
+            </summary>
+        </member>
+        <member name="T:tyme.sixtycycle.EarthBranch">
+            <summary>
+            地支（地元）
+            </summary>
+        </member>
+        <member name="F:tyme.sixtycycle.EarthBranch.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.EarthBranch.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.sixtycycle.EarthBranch.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.sixtycycle.EarthBranch.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.sixtycycle.EarthBranch.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.sixtycycle.EarthBranch.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的地支</returns>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.Element">
+            <summary>
+            五行
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.YinYang">
+            <summary>
+            阴阳
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.HideHeavenStemMain">
+            <summary>
+            藏干之本气
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.HideHeavenStemMiddle">
+            <summary>
+            藏干之中气，无中气为null
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.HideHeavenStemResidual">
+            <summary>
+            藏干之余气，无余气为null
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.HideHeavenStems">
+            <summary>
+            藏干列表
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.EarthBranch.GetZodiac">
+            <summary>
+            生肖
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.Direction">
+            <summary>
+            方位
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.Opposite">
+            <summary>
+            六冲（子午冲，丑未冲，寅申冲，辰戌冲，卯酉冲，巳亥冲）
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.Ominous">
+            <summary>
+            煞（逢巳日、酉日、丑日必煞东；亥日、卯日、未日必煞西；申日、子日、辰日必煞南；寅日、午日、戌日必煞北。）
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.Combine">
+            <summary>
+            六合（子丑合，寅亥合，卯戌合，辰酉合，巳申合，午未合）
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.Harm">
+            <summary>
+            六害（子未害、丑午害、寅巳害、卯辰害、申亥害、酉戌害）
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.EarthBranch.CombineWith(tyme.sixtycycle.EarthBranch)">
+            <summary>
+            合化（子丑合化土，寅亥合化木，卯戌合化火，辰酉合化金，巳申合化水，午未合化土）
+            </summary>
+            <param name="target">地支</param>
+            <returns>五行，如果无法合化，返回null</returns>
+        </member>
+        <member name="P:tyme.sixtycycle.EarthBranch.PengZuEarthBranch">
+            <summary>
+            地支彭祖百忌
+            </summary>
+        </member>
+        <member name="T:tyme.sixtycycle.HeavenStem">
+            <summary>
+            天干（天元）
+            </summary>
+        </member>
+        <member name="F:tyme.sixtycycle.HeavenStem.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.HeavenStem.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.sixtycycle.HeavenStem.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.sixtycycle.HeavenStem.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.sixtycycle.HeavenStem.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.sixtycycle.HeavenStem.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的天干</returns>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.Element">
+            <summary>
+            五行
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.YinYang">
+            <summary>
+            阴阳
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.HeavenStem.GetTenStar(tyme.sixtycycle.HeavenStem)">
+            <summary>
+            十神（生我者，正印偏印。我生者，伤官食神。克我者，正官七杀。我克者，正财偏财。同我者，劫财比肩。）
+            </summary>
+            <param name="target">天干</param>
+            <returns>十神</returns>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.Direction">
+            <summary>
+            方位
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.JoyDirection">
+            <summary>
+            喜神方位（《喜神方位歌》甲己在艮乙庚乾，丙辛坤位喜神安。丁壬只在离宫坐，戊癸原在在巽间。）
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.YangDirection">
+            <summary>
+            阳贵神方位（《阳贵神歌》甲戊坤艮位，乙己是坤坎，庚辛居离艮，丙丁兑与乾，震巽属何日，壬癸贵神安。）
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.YinDirection">
+            <summary>
+            阴贵神方位（《阴贵神歌》甲戊见牛羊，乙己鼠猴乡，丙丁猪鸡位，壬癸蛇兔藏，庚辛逢虎马，此是贵神方。）
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.WealthDirection">
+            <summary>
+            财神方位（《财神方位歌》甲乙东北是财神，丙丁向在西南寻，戊己正北坐方位，庚辛正东去安身，壬癸原来正南坐，便是财神方位真。）
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.MascotDirection">
+            <summary>
+            福神方位（《福神方位歌》甲乙东南是福神，丙丁正东是堪宜，戊北己南庚辛坤，壬在乾方癸在西。）
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.PengZuHeavenStem">
+            <summary>
+            天干彭祖百忌
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.HeavenStem.GetTerrain(tyme.sixtycycle.EarthBranch)">
+            <summary>
+            地势(长生十二神)
+            </summary>
+            <param name="earthBranch">地支</param>
+            <returns>地势(长生十二神)</returns>
+        </member>
+        <member name="P:tyme.sixtycycle.HeavenStem.Combine">
+            <summary>
+            五合（甲己合，乙庚合，丙辛合，丁壬合，戊癸合）
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.HeavenStem.CombineWith(tyme.sixtycycle.HeavenStem)">
+            <summary>
+            合化（甲己合化土，乙庚合化金，丙辛合化水，丁壬合化木，戊癸合化火）
+            </summary>
+            <param name="target">天干</param>
+            <returns>五行，如果无法合化，返回null</returns>
+        </member>
+        <member name="T:tyme.sixtycycle.HideHeavenStem">
+            <summary>
+            藏干（即人元，司令取天干，分野取天干的五行）
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.HideHeavenStem.HeavenStem">
+            <summary>
+            天干
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.HideHeavenStem.Type">
+            <summary>
+            藏干类型
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.HideHeavenStem.#ctor(tyme.sixtycycle.HeavenStem,tyme.enums.HideHeavenStemType)">
+            <summary>
+            初始化
+            </summary>
+            <param name="heavenStem">天干</param>
+            <param name="type">藏干类型</param>
+        </member>
+        <member name="M:tyme.sixtycycle.HideHeavenStem.#ctor(System.String,tyme.enums.HideHeavenStemType)">
+            <summary>
+            初始化
+            </summary>
+            <param name="heavenStemName">天干名称</param>
+            <param name="type">藏干类型</param>
+        </member>
+        <member name="M:tyme.sixtycycle.HideHeavenStem.#ctor(System.Int32,tyme.enums.HideHeavenStemType)">
+            <summary>
+            初始化
+            </summary>
+            <param name="heavenStemIndex">天干序号</param>
+            <param name="type">藏干类型</param>
+        </member>
+        <member name="M:tyme.sixtycycle.HideHeavenStem.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="T:tyme.sixtycycle.HideHeavenStemDay">
+            <summary>
+            人元司令分野（地支藏干+天索引）
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.HideHeavenStemDay.#ctor(tyme.sixtycycle.HideHeavenStem,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="hideHeavenStem">藏干</param>
+            <param name="dayIndex">天索引</param>
+        </member>
+        <member name="P:tyme.sixtycycle.HideHeavenStemDay.HideHeavenStem">
+            <summary>
+            藏干
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.HideHeavenStemDay.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.sixtycycle.HideHeavenStemDay.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="T:tyme.sixtycycle.SixtyCycle">
+            <summary>
+            六十甲子(六十干支周)
+            </summary>
+        </member>
+        <member name="F:tyme.sixtycycle.SixtyCycle.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="M:tyme.sixtycycle.SixtyCycle.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.sixtycycle.SixtyCycle.#ctor(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.sixtycycle.SixtyCycle.FromIndex(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.sixtycycle.SixtyCycle.FromName(System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.sixtycycle.SixtyCycle.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的干支</returns>
+        </member>
+        <member name="P:tyme.sixtycycle.SixtyCycle.HeavenStem">
+            <summary>
+            天干
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.SixtyCycle.EarthBranch">
+            <summary>
+            地支
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.SixtyCycle.Sound">
+            <summary>
+            纳音
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.SixtyCycle.PengZu">
+            <summary>
+            纳音
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.SixtyCycle.Ten">
+            <summary>
+            旬
+            </summary>
+        </member>
+        <member name="P:tyme.sixtycycle.SixtyCycle.ExtraEarthBranches">
+            <summary>
+            旬空(空亡)，因地支比天干多2个，旬空则为每一轮干支一一配对后多出来的2个地支
+            </summary>
+        </member>
+        <member name="T:tyme.solar.SolarDay">
+            <summary>
+            公历日
+            </summary>
+        </member>
+        <member name="F:tyme.solar.SolarDay.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.SolarMonth">
+            <summary>
+            公历月
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.Month">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.Day">
+            <summary>
+            日
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarDay.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="month">月</param>
+            <param name="day">日</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.solar.SolarDay.FromYmd(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="month">公历月</param>
+            <param name="day">公历日</param>
+            <returns>公历日</returns>
+        </member>
+        <member name="P:tyme.solar.SolarDay.Week">
+            <summary>
+            星期
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.Constellation">
+            <summary>
+            星座
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarDay.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.solar.SolarDay.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.solar.SolarDay.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的公历日</returns>
+        </member>
+        <member name="M:tyme.solar.SolarDay.IsBefore(tyme.solar.SolarDay)">
+            <summary>
+            是否在指定公历日之前
+            </summary>
+            <param name="target">公历日</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:tyme.solar.SolarDay.IsAfter(tyme.solar.SolarDay)">
+            <summary>
+            是否在指定公历日之后
+            </summary>
+            <param name="target">公历日</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="P:tyme.solar.SolarDay.Term">
+            <summary>
+            节气
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.TermDay">
+            <summary>
+            节气第几天
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarDay.GetSolarWeek(System.Int32)">
+            <summary>
+            公历周
+            </summary>
+            <param name="start">起始星期，1234560分别代表星期一至星期天</param>
+            <returns>公历周</returns>
+        </member>
+        <member name="P:tyme.solar.SolarDay.PhenologyDay">
+            <summary>
+            七十二候
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.DogDay">
+            <summary>
+            三伏天
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.NineDay">
+            <summary>
+            数九天
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.HideHeavenStemDay">
+            <summary>
+            人元司令分野
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.PlumRainDay">
+            <summary>
+            梅雨天（芒种后的第1个丙日入梅，小暑后的第1个未日出梅）
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.IndexInYear">
+            <summary>
+            位于当年的索引
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarDay.Subtract(tyme.solar.SolarDay)">
+            <summary>
+            公历日期相减，获得相差天数
+            </summary>
+            <param name="target">公历</param>
+            <returns>天数</returns>
+        </member>
+        <member name="M:tyme.solar.SolarDay.GetJulianDay">
+            <summary>
+            儒略日
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarDay.GetLunarDay">
+            <summary>
+            农历日
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.LegalHoliday">
+            <summary>
+            法定假日，如果当天不是法定假日，返回null
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarDay.Festival">
+            <summary>
+            公历现代节日，如果当天不是公历现代节日，返回null
+            </summary>
+        </member>
+        <member name="T:tyme.solar.SolarHalfYear">
+            <summary>
+            公历半年
+            </summary>
+        </member>
+        <member name="F:tyme.solar.SolarHalfYear.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarHalfYear.SolarYear">
+            <summary>
+            公历年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarHalfYear.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarHalfYear.Index">
+            <summary>
+            索引，0-1
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarHalfYear.#ctor(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="index">索引值，0-1</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.solar.SolarHalfYear.FromIndex(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="index">索引值，0-1</param>
+            <returns>公历半年</returns>
+        </member>
+        <member name="M:tyme.solar.SolarHalfYear.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.solar.SolarHalfYear.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.solar.SolarHalfYear.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的公历半年</returns>
+        </member>
+        <member name="P:tyme.solar.SolarHalfYear.Months">
+            <summary>
+            月份列表，半年有6个月。
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarHalfYear.Seasons">
+            <summary>
+            季度列表，半年有2个季度。
+            </summary>
+        </member>
+        <member name="T:tyme.solar.SolarMonth">
+            <summary>
+            公历月
+            </summary>
+        </member>
+        <member name="F:tyme.solar.SolarMonth.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:tyme.solar.SolarMonth.DayCounts">
+            <summary>
+            每月天数
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarMonth.SolarYear">
+            <summary>
+            公历年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarMonth.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarMonth.Month">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarMonth.#ctor(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="month">月</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.solar.SolarMonth.FromYm(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="month">公历月</param>
+            <returns>公历月</returns>
+        </member>
+        <member name="P:tyme.solar.SolarMonth.DayCount">
+            <summary>
+            天数（1582年10月只有21天)
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarMonth.IndexInYear">
+            <summary>
+            位于当年的索引(0-11)
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarMonth.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.solar.SolarMonth.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.solar.SolarMonth.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的公历月</returns>
+        </member>
+        <member name="P:tyme.solar.SolarMonth.Season">
+            <summary>
+            公历季度
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarMonth.GetWeekCount(System.Int32)">
+            <summary>
+            周数
+            </summary>
+            <param name="start">起始星期，1234560分别代表星期一至星期天</param>
+            <returns>周数</returns>
+        </member>
+        <member name="M:tyme.solar.SolarMonth.GetWeeks(System.Int32)">
+            <summary>
+            获取本月的公历周列表
+            </summary>
+            <param name="start">星期几作为一周的开始，1234560分别代表星期一至星期天</param>
+            <returns>公历周列表</returns>
+        </member>
+        <member name="P:tyme.solar.SolarMonth.Days">
+            <summary>
+            本月的公历日列表
+            </summary>
+        </member>
+        <member name="T:tyme.solar.SolarSeason">
+            <summary>
+            公历季度
+            </summary>
+        </member>
+        <member name="F:tyme.solar.SolarSeason.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarSeason.SolarYear">
+            <summary>
+            公历年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarSeason.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarSeason.Index">
+            <summary>
+            索引，0-3
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarSeason.#ctor(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="index">索引，0-3</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.solar.SolarSeason.FromIndex(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="index">索引值，0-3</param>
+            <returns>公历季度</returns>
+        </member>
+        <member name="M:tyme.solar.SolarSeason.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.solar.SolarSeason.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.solar.SolarSeason.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的公历季度</returns>
+        </member>
+        <member name="P:tyme.solar.SolarSeason.Months">
+            <summary>
+            月份列表，1季度有3个月。
+            </summary>
+        </member>
+        <member name="T:tyme.solar.SolarTerm">
+            <summary>
+            节气
+            </summary>
+        </member>
+        <member name="F:tyme.solar.SolarTerm.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTerm.CursoryJulianDay">
+            <summary>
+            粗略的儒略日
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarTerm.#ctor(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.solar.SolarTerm.#ctor(System.Int32,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:tyme.solar.SolarTerm.#ctor(System.Double,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="cursoryJulianDay">粗略的儒略日</param>
+            <param name="index">索引值</param>
+        </member>
+        <member name="M:tyme.solar.SolarTerm.InitByYear(System.Int32,System.Int32)">
+            <summary>
+            通过年初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="offset">偏移值</param>
+        </member>
+        <member name="M:tyme.solar.SolarTerm.FromIndex(System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="index">索引值</param>
+            <returns>节气</returns>
+        </member>
+        <member name="M:tyme.solar.SolarTerm.FromName(System.Int32,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="name">名称</param>
+            <returns>节气</returns>
+        </member>
+        <member name="M:tyme.solar.SolarTerm.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的节气</returns>
+        </member>
+        <member name="P:tyme.solar.SolarTerm.IsJie">
+            <summary>
+            是否节令
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTerm.IsQi">
+            <summary>
+            是否气令
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTerm.JulianDay">
+            <summary>
+            儒略日
+            </summary>
+        </member>
+        <member name="T:tyme.solar.SolarTermDay">
+            <summary>
+            节气第几天
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarTermDay.#ctor(tyme.solar.SolarTerm,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="solarTerm">节气</param>
+            <param name="dayIndex">天索引</param>
+        </member>
+        <member name="P:tyme.solar.SolarTermDay.SolarTerm">
+            <summary>
+            节气
+            </summary>
+        </member>
+        <member name="T:tyme.solar.SolarTime">
+            <summary>
+            公历时刻
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTime.SolarDay">
+            <summary>
+            公历日
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTime.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTime.Month">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTime.Day">
+            <summary>
+            日
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTime.Hour">
+            <summary>
+            时
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTime.Minute">
+            <summary>
+            分
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarTime.Second">
+            <summary>
+            秒
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarTime.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">年</param>
+            <param name="month">月</param>
+            <param name="day">日</param>
+            <param name="hour">时</param>
+            <param name="minute">分</param>
+            <param name="second">秒</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.solar.SolarTime.FromYmdHms(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="month">公历月</param>
+            <param name="day">公历日</param>
+            <param name="hour">时</param>
+            <param name="minute">分</param>
+            <param name="second">秒</param>
+            <returns>公历时刻</returns>
+        </member>
+        <member name="M:tyme.solar.SolarTime.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.solar.SolarTime.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.solar.SolarTime.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的公历时刻</returns>
+        </member>
+        <member name="M:tyme.solar.SolarTime.IsBefore(tyme.solar.SolarTime)">
+            <summary>
+            是否在指定公历时刻之前
+            </summary>
+            <param name="target">公历时刻</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:tyme.solar.SolarTime.IsAfter(tyme.solar.SolarTime)">
+            <summary>
+            是否在指定公历时刻之后
+            </summary>
+            <param name="target">公历时刻</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="P:tyme.solar.SolarTime.Term">
+            <summary>
+            节气
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarTime.Subtract(tyme.solar.SolarTime)">
+            <summary>
+            公历时刻相减，获得相差秒数
+            </summary>
+            <param name="target">公历时刻</param>
+            <returns>秒数</returns>
+        </member>
+        <member name="M:tyme.solar.SolarTime.GetJulianDay">
+            <summary>
+            儒略日
+            </summary>
+            <returns>儒略日</returns>
+        </member>
+        <member name="M:tyme.solar.SolarTime.GetLunarHour">
+            <summary>
+            农历时辰
+            </summary>
+        </member>
+        <member name="T:tyme.solar.SolarWeek">
+            <summary>
+            公历周
+            </summary>
+        </member>
+        <member name="F:tyme.solar.SolarWeek.Names">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarWeek.SolarMonth">
+            <summary>
+            公历月
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarWeek.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarWeek.Month">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarWeek.Index">
+            <summary>
+            索引，0-5
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarWeek.Start">
+            <summary>
+            起始星期
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarWeek.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="month">公历月</param>
+            <param name="index">索引值，0-5</param>
+            <param name="start">起始星期，1234560分别代表星期一至星期天</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.solar.SolarWeek.FromYm(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <param name="month">公历月</param>
+            <param name="index">索引值，0-5</param>
+            <param name="start">起始星期，1234560分别代表星期一至星期天</param>
+            <returns>公历周</returns>
+        </member>
+        <member name="P:tyme.solar.SolarWeek.IndexInYear">
+            <summary>
+            位于当年的索引
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarWeek.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.solar.SolarWeek.ToString">
+            <summary>
+            完整描述
+            </summary>
+            <returns>完整描述</returns>
+        </member>
+        <member name="M:tyme.solar.SolarWeek.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的公历周</returns>
+        </member>
+        <member name="P:tyme.solar.SolarWeek.FirstDay">
+            <summary>
+            本周第1天
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarWeek.Days">
+            <summary>
+            本周公历日列表
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarWeek.Equals(System.Object)">
+            <summary>
+            是否相等
+            </summary>
+            <param name="o">其他对象</param>
+            <returns>True/False</returns>
+        </member>
+        <member name="M:tyme.solar.SolarWeek.GetHashCode">
+            <summary>
+            HashCode
+            </summary>
+            <returns>HashCode</returns>
+        </member>
+        <member name="T:tyme.solar.SolarYear">
+            <summary>
+            公历年
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarYear.Year">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarYear.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="year">公历年</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:tyme.solar.SolarYear.FromYear(System.Int32)">
+            <summary>
+            从年初始化
+            </summary>
+            <param name="year">年，支持1到9999年</param>
+            <returns>公历年</returns>
+        </member>
+        <member name="P:tyme.solar.SolarYear.DayCount">
+            <summary>
+            天数（1582年355天，平年365天，闰年366天）
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarYear.IsLeap">
+            <summary>
+            是否闰年(1582年以前，使用儒略历，能被4整除即为闰年。以后采用格里历，四年一闰，百年不闰，四百年再闰。)
+            </summary>
+        </member>
+        <member name="M:tyme.solar.SolarYear.GetName">
+            <summary>
+            名称
+            </summary>
+            <returns>名称</returns>
+        </member>
+        <member name="M:tyme.solar.SolarYear.Next(System.Int32)">
+            <summary>
+            推移
+            </summary>
+            <param name="n">推移步数</param>
+            <returns>推移后的公历年</returns>
+        </member>
+        <member name="P:tyme.solar.SolarYear.Months">
+            <summary>
+            月份列表，1年有12个月。
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarYear.Seasons">
+            <summary>
+            季度列表，1年有4个季度。
+            </summary>
+        </member>
+        <member name="P:tyme.solar.SolarYear.HalfYears">
+            <summary>
+            半年列表，1年有2个半年。
+            </summary>
+        </member>
+        <member name="T:tyme.util.ShouXingUtil">
+            <summary>
+            寿星天文历工具(http://www.nongli.net/sxwnl/)
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.Pi2">
+            <summary>
+            2π
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.OneThird">
+            <summary>
+            三分之一
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.SecondPerDay">
+            <summary>
+            1天对应的秒数
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.SecondPerRad">
+            <summary>
+            1弧度对应的角秒
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.NutB">
+            <summary>
+            中精度章动计算表
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.DtAt">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.Xl0">
+            <summary>
+            星历数据表
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.Xl1">
+            <summary>
+            月亮星历数据表
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.QiKb">
+            <summary>
+            气直线拟合参数
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.ShuoKb">
+            <summary>
+            朔直线拟合参数
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.Qb">
+            <summary>
+            气修正表
+            </summary>
+        </member>
+        <member name="F:tyme.util.ShouXingUtil.Sb">
+            <summary>
+            朔修正表
+            </summary>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.Decode(System.String)">
+            <summary>
+            气朔解压
+            </summary>
+            <param name="s">气朔压缩数据</param>
+            <returns>解压后数据</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.NutationLon2(System.Double)">
+            <summary>
+            黄经章动计算
+            </summary>
+            <param name="t">世纪数</param>
+            <returns>黄经章动</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.ELon(System.Double,System.Int32)">
+            <summary>
+            地球经度计算
+            </summary>
+            <param name="t">世纪数</param>
+            <param name="n">取项数</param>
+            <returns>Date分点黄经</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.MLon(System.Double,System.Int32)">
+            <summary>
+            月球经度计算
+            </summary>
+            <param name="t">世纪数</param>
+            <param name="n">项数比例</param>
+            <returns>Date分点黄经</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.GxcSunLon(System.Double)">
+            <summary>
+            太阳光行差计算
+            </summary>
+            <param name="t">世纪数</param>
+            <returns>太阳光行差</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.Ev(System.Double)">
+            <summary>
+            地球速度计算，误差小于万分三
+            </summary>
+            <param name="t">世纪数</param>
+            <returns>地球速度</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.SaLon(System.Double,System.Int32)">
+            <summary>
+            太阳视黄经计算
+            </summary>
+            <param name="t"></param>
+            <param name="n"></param>
+            <returns>太阳视黄经</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.DtExt(System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="y"></param>
+            <param name="jsd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.DtCalc(System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.DtT(System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="t"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.Mv(System.Double)">
+            <summary>
+            月球速度计算
+            </summary>
+            <param name="t">世经数</param>
+            <returns>月球速度</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.SaLonT(System.Double)">
+            <summary>
+            已知太阳视黄经反求时间
+            </summary>
+            <param name="w">太阳视黄经</param>
+            <returns>时间</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.MsaLon(System.Double,System.Int32,System.Int32)">
+            <summary>
+            月日视黄经的差值计算
+            </summary>
+            <param name="t"></param>
+            <param name="mn"></param>
+            <param name="sn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.MsaLonT(System.Double)">
+            <summary>
+            已知太阳视黄经反求时间，高速低精度，最大误差不超过600秒
+            </summary>
+            <param name="w">太阳视黄经</param>
+            <returns>时间</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.SaLonT2(System.Double)">
+            <summary>
+            已知月日视黄经差求时间
+            </summary>
+            <param name="w">月日视黄经差</param>
+            <returns>时间</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.MsaLonT2(System.Double)">
+            <summary>
+            已知月日视黄经差求时间，高速低精度，误差不超过600秒(只验算了几千年)
+            </summary>
+            <param name="w">月日视黄经差</param>
+            <returns>时间</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.QiHigh(System.Double)">
+            <summary>
+            较高精度定气计算
+            </summary>
+            <param name="w"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.ShuoHigh(System.Double)">
+            <summary>
+            较高精度定朔计算
+            </summary>
+            <param name="w"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.QiLow(System.Double)">
+            <summary>
+            低精度定朔计算，最大误差小于30分钟，平均5分
+            </summary>
+            <param name="w"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.ShuoLow(System.Double)">
+            <summary>
+            低精度定朔计算，在2000至600年，误差2小时以内(仍比古代日历精准很多)
+            </summary>
+            <param name="w"></param>
+            <returns></returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.CalcShuo(System.Double)">
+            <summary>
+            计算朔
+            </summary>
+            <param name="jd">儒略日</param>
+            <returns>儒略日</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.CalcQi(System.Double)">
+            <summary>
+            计算气
+            </summary>
+            <param name="jd">儒略日</param>
+            <returns>儒略日</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.QiAccurate(System.Double)">
+            <summary>
+            精确的气计算
+            </summary>
+            <param name="w">儒略日</param>
+            <returns>儒略日</returns>
+        </member>
+        <member name="M:tyme.util.ShouXingUtil.QiAccurate2(System.Double)">
+            <summary>
+            更精确的气计算
+            </summary>
+            <param name="jd">儒略日</param>
+            <returns>儒略日</returns>
+        </member>
+    </members>
+</doc>

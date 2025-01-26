@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>tyme4net</id>
+    <version>1.1.6</version>
+    <title>Tyme</title>
+    <authors>6tail</authors>
+    <projectUrl>https://6tail.cn/tyme.html</projectUrl>
+    <description>Tyme是一个非常强大的日历工具库，可以看作 Lunar 的升级版，拥有更优的设计和扩展性，支持公历和农历、星座、干支、生肖、节气、法定假日等。</description>
+    <copyright>Copyright (c) 2024 6tail</copyright>
+    <repository type="git" url="https://github.com/6tail/tyme4net.git" commit="1b349db23fba1de83ea3270757c2134858f29800" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Data\Code\tyme4net\tyme\bin\Debug\net8.0\tyme.dll" target="lib\net8.0\tyme.dll" />
+    <file src="C:\Data\Code\tyme4net\tyme\bin\Debug\net8.0\tyme.xml" target="lib\net8.0\tyme.xml" />
+  </files>
+</package>

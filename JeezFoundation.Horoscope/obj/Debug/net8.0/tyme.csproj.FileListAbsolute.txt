@@ -1,0 +1,14 @@
+C:\Data\Code\tyme4net\tyme\bin\Debug\net8.0\tyme.deps.json
+C:\Data\Code\tyme4net\tyme\bin\Debug\net8.0\tyme.dll
+C:\Data\Code\tyme4net\tyme\bin\Debug\net8.0\tyme.pdb
+C:\Data\Code\tyme4net\tyme\bin\Debug\net8.0\tyme.xml
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\tyme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\tyme.AssemblyInfoInputs.cache
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\tyme.AssemblyInfo.cs
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\tyme.csproj.CoreCompileInputs.cache
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\tyme.sourcelink.json
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\tyme.dll
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\refint\tyme.dll
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\tyme.xml
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\tyme.pdb
+C:\Data\Code\tyme4net\tyme\obj\Debug\net8.0\ref\tyme.dll
