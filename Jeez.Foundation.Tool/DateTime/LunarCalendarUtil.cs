@@ -37,6 +37,9 @@
         /// </summary>
         private static readonly string[] DayNames = { "初", "十", "廿", "三" };
 
+        /// <summary>
+        /// 二十四节气
+        /// </summary>
         private static readonly string[] SolarTerm = {
             "小寒", "大寒", "立春", "雨水", "惊蛰", "春分", "清明", "谷雨",
             "立夏", "小满", "芒种", "夏至", "小暑", "大暑", "立秋", "处暑",
@@ -48,6 +51,9 @@
         /// </summary>
         private const int MinYear = 1900;
 
+        /// <summary>
+        /// 从天文台获取的农历数据
+        /// </summary>
         private static readonly int[] LunarMonthDays =
         {
             0x04bd8, 0x04ae0, 0x0a570, 0x054d5, 0x0d260, 0x0d950, 0x16554, 0x056a0, 0x09ad0, 0x055d2, // 1901-1910
