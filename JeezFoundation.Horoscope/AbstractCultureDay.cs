@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope
+﻿namespace horoscope
 {
     /// <summary>
     /// 带天索引的传统文化抽象

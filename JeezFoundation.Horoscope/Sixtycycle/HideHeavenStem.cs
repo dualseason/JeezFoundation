@@ -1,6 +1,6 @@
-﻿using JeezFoundation.Horoscope.Enums;
+﻿using horoscope.enums;
 
-namespace JeezFoundation.Horoscope.Sixtycycle
+namespace horoscope.sixtycycle
 {
     /// <summary>
     /// 藏干（即人元，司令取天干，分野取天干的五行）

@@ -13,9 +13,8 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("JeezFoundation.Horoscope")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("horoscope是一个非常强大的日历工具库，可以看作 Lunar 的升级版，拥有更优的设计和扩展性，支持公历和农历、星座、干支、生肖、节气、法定假日等。")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfb83810e1b1397f01131d9456f7b77ab875753d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e9e8108701e87026c5f2be4a236434e871792bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeezFoundation.Horoscope")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeezFoundation.Horoscope")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

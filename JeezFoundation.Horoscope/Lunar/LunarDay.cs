@@ -1,15 +1,17 @@
-﻿using JeezFoundation.Horoscope.Culture;
-using JeezFoundation.Horoscope.Culture.Fetus;
-using JeezFoundation.Horoscope.Culture.Ren;
-using JeezFoundation.Horoscope.Culture.Star.Nine;
-using JeezFoundation.Horoscope.Culture.Star.Six;
-using JeezFoundation.Horoscope.Culture.Star.Twelve;
-using JeezFoundation.Horoscope.Culture.Star.Twentyeight;
-using JeezFoundation.Horoscope.Festival;
-using JeezFoundation.Horoscope.Sixtycycle;
-using JeezFoundation.Horoscope.Solar;
+﻿using System;
+using System.Collections.Generic;
+using horoscope.culture;
+using horoscope.culture.fetus;
+using horoscope.culture.ren;
+using horoscope.culture.star.nine;
+using horoscope.culture.star.six;
+using horoscope.culture.star.twelve;
+using horoscope.culture.star.twentyeight;
+using horoscope.festival;
+using horoscope.sixtycycle;
+using horoscope.solar;
 
-namespace JeezFoundation.Horoscope.Lunar
+namespace horoscope.lunar
 {
     /// <summary>
     /// 农历日

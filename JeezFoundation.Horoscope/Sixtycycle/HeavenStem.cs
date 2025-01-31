@@ -1,9 +1,9 @@
-﻿using JeezFoundation.Horoscope.Culture;
-using JeezFoundation.Horoscope.Culture.Pengzu;
-using JeezFoundation.Horoscope.Culture.Star.Ten;
-using JeezFoundation.Horoscope.Enums;
+﻿using horoscope.culture;
+using horoscope.culture.pengzu;
+using horoscope.culture.star.ten;
+using horoscope.enums;
 
-namespace JeezFoundation.Horoscope.Sixtycycle
+namespace horoscope.sixtycycle
 {
     /// <summary>
     /// 天干（天元）

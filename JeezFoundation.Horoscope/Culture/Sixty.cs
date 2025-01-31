@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope.Culture
+﻿namespace horoscope.culture
 {
     /// <summary>
     /// 元（60年=1元）

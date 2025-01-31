@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using System.Text.RegularExpressions;
-using JeezFoundation.Horoscope.Solar;
+using horoscope.solar;
 
-namespace JeezFoundation.Horoscope.Holiday
+namespace horoscope.holiday
 {
     /// <summary>
     /// 法定假日（自2001-12-29起）

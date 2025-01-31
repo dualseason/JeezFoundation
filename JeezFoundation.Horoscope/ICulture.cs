@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope
+﻿namespace horoscope
 {
     /// <summary>
     /// 传统文化(民俗)

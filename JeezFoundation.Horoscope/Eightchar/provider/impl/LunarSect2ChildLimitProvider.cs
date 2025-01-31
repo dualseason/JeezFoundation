@@ -1,7 +1,7 @@
 ﻿using System;
-using JeezFoundation.Horoscope.Solar;
+using horoscope.solar;
 
-namespace JeezFoundation.Horoscope.Eightchar.Provider.Impl
+namespace horoscope.eightchar.provider.impl
 {
     /// <summary>
     /// Lunar的流派2童限计算（按分钟数计算）

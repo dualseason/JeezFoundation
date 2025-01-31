@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Tool", "Jeez
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Test", "JeezFoundation.Test\JeezFoundation.Test.csproj", "{2BBED1FD-8A16-4D1B-AB2A-4B67DBF1F9DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Horoscope", "JeezFoundation.Horoscope\JeezFoundation.Horoscope.csproj", "{B6AD675E-22B1-407A-9AC8-B299C94AFE4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeezFoundation.Horoscope", "JeezFoundation.Horoscope\JeezFoundation.Horoscope.csproj", "{F1C4E742-0A99-40A6-B7C5-F0F35176F5B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{2BBED1FD-8A16-4D1B-AB2A-4B67DBF1F9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BBED1FD-8A16-4D1B-AB2A-4B67DBF1F9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BBED1FD-8A16-4D1B-AB2A-4B67DBF1F9DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6AD675E-22B1-407A-9AC8-B299C94AFE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6AD675E-22B1-407A-9AC8-B299C94AFE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6AD675E-22B1-407A-9AC8-B299C94AFE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6AD675E-22B1-407A-9AC8-B299C94AFE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C4E742-0A99-40A6-B7C5-F0F35176F5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C4E742-0A99-40A6-B7C5-F0F35176F5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C4E742-0A99-40A6-B7C5-F0F35176F5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C4E742-0A99-40A6-B7C5-F0F35176F5B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

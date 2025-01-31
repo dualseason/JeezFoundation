@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope.Lunar
+﻿namespace horoscope.lunar
 {
     /// <summary>
     /// 农历季节

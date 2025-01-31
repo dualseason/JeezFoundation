@@ -1,4 +1,6 @@
-﻿namespace JeezFoundation.Horoscope.Util
+﻿using System;
+
+namespace horoscope.util
 {
     /// <summary>
     /// 寿星天文历工具(http://www.nongli.net/sxwnl/)

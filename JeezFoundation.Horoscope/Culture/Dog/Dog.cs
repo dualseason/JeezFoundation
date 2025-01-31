@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope.Culture.Dog
+﻿namespace horoscope.culture.dog
 {
     /// <summary>
     /// 三伏

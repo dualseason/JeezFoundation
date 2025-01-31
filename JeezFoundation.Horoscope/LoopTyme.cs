@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JeezFoundation.Horoscope
+namespace horoscope
 {
     /// <summary>
     /// 可轮回的horoscope

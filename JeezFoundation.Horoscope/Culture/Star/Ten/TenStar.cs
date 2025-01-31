@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope.Culture.Star.Ten
+﻿namespace horoscope.culture.star.ten
 {
     /// <summary>
     /// 十神

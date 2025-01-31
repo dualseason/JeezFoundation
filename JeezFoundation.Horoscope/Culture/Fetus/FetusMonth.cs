@@ -1,6 +1,6 @@
-﻿using JeezFoundation.Horoscope.Lunar;
+﻿using horoscope.lunar;
 
-namespace JeezFoundation.Horoscope.Culture.Fetus
+namespace horoscope.culture.fetus
 {
     /// <summary>
     /// 逐月胎神（正十二月在床房，二三九十门户中，四六十一灶勿犯，五甲七子八厕凶。）

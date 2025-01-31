@@ -1,8 +1,11 @@
-﻿using JeezFoundation.Horoscope.Culture;
-using JeezFoundation.Horoscope.Culture.Star.Nine;
-using JeezFoundation.Horoscope.Sixtycycle;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using horoscope.culture;
+using horoscope.culture.star.nine;
+using horoscope.sixtycycle;
 
-namespace JeezFoundation.Horoscope.Lunar
+namespace horoscope.lunar
 {
     /// <summary>
     /// 农历年

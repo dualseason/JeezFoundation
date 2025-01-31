@@ -1,6 +1,6 @@
-﻿using JeezFoundation.Horoscope.Solar;
+﻿using horoscope.solar;
 
-namespace JeezFoundation.Horoscope.Eightchar.Provider.Impl
+namespace horoscope.eightchar.provider.impl
 {
     /// <summary>
     /// 童限计算抽象

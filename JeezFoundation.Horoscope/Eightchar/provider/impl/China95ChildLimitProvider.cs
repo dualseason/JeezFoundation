@@ -1,7 +1,7 @@
 ﻿using System;
-using JeezFoundation.Horoscope.Solar;
+using horoscope.solar;
 
-namespace JeezFoundation.Horoscope.Eightchar.Provider.Impl
+namespace horoscope.eightchar.provider.impl
 {
     /// <summary>
     /// 元亨利贞的童限计算

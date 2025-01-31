@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope.Culture.Nine
+﻿namespace horoscope.culture.nine
 {
     /// <summary>
     /// 数九

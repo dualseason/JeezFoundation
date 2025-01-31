@@ -1,10 +1,10 @@
-﻿using JeezFoundation.Horoscope.Eightchar.Provider;
-using JeezFoundation.Horoscope.Eightchar.Provider.Impl;
-using JeezFoundation.Horoscope.Enums;
-using JeezFoundation.Horoscope.Lunar;
-using JeezFoundation.Horoscope.Solar;
+﻿using horoscope.eightchar.provider;
+using horoscope.eightchar.provider.impl;
+using horoscope.enums;
+using horoscope.lunar;
+using horoscope.solar;
 
-namespace JeezFoundation.Horoscope.Eightchar
+namespace horoscope.eightchar
 {
     /// <summary>
     /// 童限

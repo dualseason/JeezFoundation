@@ -1,6 +1,6 @@
-﻿using JeezFoundation.Horoscope.Culture.Star.Seven;
+﻿using horoscope.culture.star.seven;
 
-namespace JeezFoundation.Horoscope.Culture.Star.Twentyeight
+namespace horoscope.culture.star.twentyeight
 {
     /// <summary>
     /// 二十八宿

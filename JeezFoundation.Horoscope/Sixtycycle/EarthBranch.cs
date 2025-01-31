@@ -1,8 +1,9 @@
-﻿using JeezFoundation.Horoscope.Culture;
-using JeezFoundation.Horoscope.Culture.Pengzu;
-using JeezFoundation.Horoscope.Enums;
+﻿using System.Collections.Generic;
+using horoscope.culture;
+using horoscope.culture.pengzu;
+using horoscope.enums;
 
-namespace JeezFoundation.Horoscope.Sixtycycle
+namespace horoscope.sixtycycle
 {
     /// <summary>
     /// 地支（地元）

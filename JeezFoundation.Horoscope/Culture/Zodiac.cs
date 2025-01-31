@@ -1,6 +1,6 @@
-﻿using JeezFoundation.Horoscope.Sixtycycle;
+﻿using horoscope.sixtycycle;
 
-namespace JeezFoundation.Horoscope.Culture
+namespace horoscope.culture
 {
     /// <summary>
     /// 生肖

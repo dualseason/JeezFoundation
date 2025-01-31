@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope
+﻿namespace horoscope
 {
     /// <summary>
     /// 抽象horoscope

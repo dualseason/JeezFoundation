@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using JeezFoundation.Horoscope.Culture;
-using JeezFoundation.Horoscope.Sixtycycle;
-using JeezFoundation.Horoscope.Solar;
+using horoscope.culture;
+using horoscope.sixtycycle;
+using horoscope.solar;
 
-namespace JeezFoundation.Horoscope.Eightchar
+namespace horoscope.eightchar
 {
     /// <summary>
     /// 八字

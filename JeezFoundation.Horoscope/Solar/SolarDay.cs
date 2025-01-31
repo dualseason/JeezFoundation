@@ -1,16 +1,17 @@
-﻿using JeezFoundation.Horoscope.Culture;
-using JeezFoundation.Horoscope.Culture.Dog;
-using JeezFoundation.Horoscope.Culture.Nine;
-using JeezFoundation.Horoscope.Culture.Phenology;
-using JeezFoundation.Horoscope.Culture.Plumrain;
-using JeezFoundation.Horoscope.Enums;
-using JeezFoundation.Horoscope.Festival;
-using JeezFoundation.Horoscope.Holiday;
-using JeezFoundation.Horoscope.Jd;
-using JeezFoundation.Horoscope.Lunar;
-using JeezFoundation.Horoscope.Sixtycycle;
+﻿using System;
+using horoscope.culture;
+using horoscope.culture.dog;
+using horoscope.culture.nine;
+using horoscope.culture.phenology;
+using horoscope.culture.plumrain;
+using horoscope.enums;
+using horoscope.festival;
+using horoscope.holiday;
+using horoscope.jd;
+using horoscope.lunar;
+using horoscope.sixtycycle;
 
-namespace JeezFoundation.Horoscope.Solar
+namespace horoscope.solar
 {
     /// <summary>
     /// 公历日

@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope.Sixtycycle
+﻿namespace horoscope.sixtycycle
 {
     /// <summary>
     /// 人元司令分野（地支藏干+天索引）

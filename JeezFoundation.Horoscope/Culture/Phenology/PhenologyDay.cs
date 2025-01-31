@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope.Culture.Phenology
+﻿namespace horoscope.culture.phenology
 {
     /// <summary>
     /// 七十二候

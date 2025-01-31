@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
-using JeezFoundation.Horoscope.Sixtycycle;
+using horoscope.sixtycycle;
 
-namespace JeezFoundation.Horoscope.Culture
+namespace horoscope.culture
 {
     /// <summary>
     /// 宜忌

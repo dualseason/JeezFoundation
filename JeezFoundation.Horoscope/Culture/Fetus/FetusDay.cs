@@ -1,7 +1,7 @@
-﻿using JeezFoundation.Horoscope.Enums;
-using JeezFoundation.Horoscope.Lunar;
+﻿using horoscope.enums;
+using horoscope.lunar;
 
-namespace JeezFoundation.Horoscope.Culture.Fetus
+namespace horoscope.culture.fetus
 {
     /// <summary>
     /// 逐日胎神

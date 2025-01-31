@@ -1,4 +1,4 @@
-﻿namespace JeezFoundation.Horoscope.Culture
+﻿namespace horoscope.culture
 {
     /// <summary>
     /// 地势(长生十二神)

@@ -1,6 +1,6 @@
-﻿using JeezFoundation.Horoscope.Lunar;
+﻿using horoscope.lunar;
 
-namespace JeezFoundation.Horoscope.Eightchar.Provider.Impl
+namespace horoscope.eightchar.provider.impl
 {
     /// <summary>
     /// Lunar流派2的八字计算（晚子时日柱算当天）
