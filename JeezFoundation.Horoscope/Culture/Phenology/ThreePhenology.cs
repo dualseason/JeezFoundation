@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture.phenology
+﻿namespace JeezFoundation.Horoscope.culture.phenology
 {
     /// <summary>
     /// 三候

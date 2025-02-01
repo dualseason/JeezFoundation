@@ -1,7 +1,7 @@
-﻿using horoscope.lunar;
-using horoscope.sixtycycle;
+﻿using JeezFoundation.Horoscope.lunar;
+using JeezFoundation.Horoscope.sixtycycle;
 
-namespace horoscope.eightchar
+namespace JeezFoundation.Horoscope.eightchar
 {
     /// <summary>
     /// 小运

@@ -1,6 +1,6 @@
-﻿using horoscope.solar;
+﻿using JeezFoundation.Horoscope.solar;
 
-namespace horoscope.eightchar.provider.impl
+namespace JeezFoundation.Horoscope.eightchar.provider.impl
 {
     /// <summary>
     /// Lunar的流派1童限计算（按天数和时辰数计算，3天1年，1天4个月，1时辰10天）

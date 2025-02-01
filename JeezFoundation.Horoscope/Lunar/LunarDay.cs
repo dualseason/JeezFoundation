@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using horoscope.culture;
-using horoscope.culture.fetus;
-using horoscope.culture.ren;
-using horoscope.culture.star.nine;
-using horoscope.culture.star.six;
-using horoscope.culture.star.twelve;
-using horoscope.culture.star.twentyeight;
-using horoscope.festival;
-using horoscope.sixtycycle;
-using horoscope.solar;
+using JeezFoundation.Horoscope.culture;
+using JeezFoundation.Horoscope.culture.fetus;
+using JeezFoundation.Horoscope.culture.ren;
+using JeezFoundation.Horoscope.culture.star.nine;
+using JeezFoundation.Horoscope.culture.star.six;
+using JeezFoundation.Horoscope.culture.star.twelve;
+using JeezFoundation.Horoscope.culture.star.twentyeight;
+using JeezFoundation.Horoscope.festival;
+using JeezFoundation.Horoscope.sixtycycle;
+using JeezFoundation.Horoscope.solar;
 
-namespace horoscope.lunar
+namespace JeezFoundation.Horoscope.lunar
 {
     /// <summary>
     /// 农历日

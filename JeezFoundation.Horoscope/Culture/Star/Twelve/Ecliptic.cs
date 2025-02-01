@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture.star.twelve
+﻿namespace JeezFoundation.Horoscope.culture.star.twelve
 {
     /// <summary>
     /// 黄道黑道

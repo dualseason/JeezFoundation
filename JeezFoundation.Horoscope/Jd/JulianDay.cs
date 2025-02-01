@@ -1,8 +1,8 @@
 ﻿using System;
-using horoscope.culture;
-using horoscope.solar;
+using JeezFoundation.Horoscope.culture;
+using JeezFoundation.Horoscope.solar;
 
-namespace horoscope.jd
+namespace JeezFoundation.Horoscope.jd
 {
     /// <summary>
     /// 儒略日

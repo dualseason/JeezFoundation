@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace horoscope.solar
+namespace JeezFoundation.Horoscope.solar
 {
     /// <summary>
     /// 公历半年

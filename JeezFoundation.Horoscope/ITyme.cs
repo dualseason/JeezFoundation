@@ -1,4 +1,4 @@
-﻿namespace horoscope
+﻿namespace JeezFoundation.Horoscope
 {
     /// <summary>
     /// horoscope

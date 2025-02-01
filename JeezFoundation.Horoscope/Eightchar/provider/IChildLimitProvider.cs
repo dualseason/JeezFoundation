@@ -1,6 +1,6 @@
-﻿using horoscope.solar;
+﻿using JeezFoundation.Horoscope.solar;
 
-namespace horoscope.eightchar.provider
+namespace JeezFoundation.Horoscope.eightchar.provider
 {
     /// <summary>
     /// 童限计算接口

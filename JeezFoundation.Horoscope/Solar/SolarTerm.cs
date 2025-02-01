@@ -1,8 +1,8 @@
 ﻿using System;
-using horoscope.jd;
-using horoscope.util;
+using JeezFoundation.Horoscope.jd;
+using JeezFoundation.Horoscope.util;
 
-namespace horoscope.solar
+namespace JeezFoundation.Horoscope.solar
 {
     /// <summary>
     /// 节气

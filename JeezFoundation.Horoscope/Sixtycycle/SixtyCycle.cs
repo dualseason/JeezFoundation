@@ -1,7 +1,7 @@
-﻿using horoscope.culture;
-using horoscope.culture.pengzu;
+﻿using JeezFoundation.Horoscope.culture;
+using JeezFoundation.Horoscope.culture.pengzu;
 
-namespace horoscope.sixtycycle
+namespace JeezFoundation.Horoscope.sixtycycle
 {
     /// <summary>
     /// 六十甲子(六十干支周)

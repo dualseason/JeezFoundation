@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture.star.nine
+﻿namespace JeezFoundation.Horoscope.culture.star.nine
 {
     /// <summary>
     /// 北斗九星

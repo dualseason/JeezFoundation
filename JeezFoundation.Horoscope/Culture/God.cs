@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Text.RegularExpressions;
-using horoscope.sixtycycle;
+using JeezFoundation.Horoscope.sixtycycle;
 
-namespace horoscope.culture
+namespace JeezFoundation.Horoscope.culture
 {
     /// <summary>
     /// 神煞

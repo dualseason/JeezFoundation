@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture
+﻿namespace JeezFoundation.Horoscope.culture
 {
     /// <summary>
     /// 运（20年=1运，3运=1元）

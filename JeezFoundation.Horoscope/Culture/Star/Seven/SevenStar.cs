@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture.star.seven
+﻿namespace JeezFoundation.Horoscope.culture.star.seven
 {
     /// <summary>
     /// 七曜（七政、七纬、七耀）

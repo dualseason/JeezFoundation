@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture.ren
+﻿namespace JeezFoundation.Horoscope.culture.ren
 {
     /// <summary>
     /// 小六壬

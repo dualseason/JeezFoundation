@@ -1,8 +1,8 @@
 ﻿using System;
-using horoscope.jd;
-using horoscope.lunar;
+using JeezFoundation.Horoscope.jd;
+using JeezFoundation.Horoscope.lunar;
 
-namespace horoscope.solar
+namespace JeezFoundation.Horoscope.solar
 {
     /// <summary>
     /// 公历时刻

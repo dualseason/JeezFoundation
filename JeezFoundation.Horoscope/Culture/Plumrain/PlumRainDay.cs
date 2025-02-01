@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture.plumrain
+﻿namespace JeezFoundation.Horoscope.culture.plumrain
 {
     /// <summary>
     /// 梅雨天

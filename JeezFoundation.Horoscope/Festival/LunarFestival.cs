@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using horoscope.enums;
-using horoscope.lunar;
-using horoscope.solar;
+using JeezFoundation.Horoscope.enums;
+using JeezFoundation.Horoscope.lunar;
+using JeezFoundation.Horoscope.solar;
 
-namespace horoscope.festival
+namespace JeezFoundation.Horoscope.festival
 {
     /// <summary>
     /// 农历传统节日（依据国家标准《农历的编算和颁行》GB/T 33661-2017）

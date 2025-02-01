@@ -1,6 +1,6 @@
-﻿using horoscope.culture.star.seven;
+﻿using JeezFoundation.Horoscope.culture.star.seven;
 
-namespace horoscope.culture
+namespace JeezFoundation.Horoscope.culture
 {
     /// <summary>
     /// 星期

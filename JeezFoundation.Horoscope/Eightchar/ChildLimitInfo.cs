@@ -1,6 +1,6 @@
-﻿using horoscope.solar;
+﻿using JeezFoundation.Horoscope.solar;
 
-namespace horoscope.eightchar
+namespace JeezFoundation.Horoscope.eightchar
 {
     /// <summary>
     /// 童限信息

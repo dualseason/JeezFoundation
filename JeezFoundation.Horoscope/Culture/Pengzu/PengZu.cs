@@ -1,6 +1,6 @@
-﻿using horoscope.sixtycycle;
+﻿using JeezFoundation.Horoscope.sixtycycle;
 
-namespace horoscope.culture.pengzu
+namespace JeezFoundation.Horoscope.culture.pengzu
 {
     /// <summary>
     /// 彭祖百忌

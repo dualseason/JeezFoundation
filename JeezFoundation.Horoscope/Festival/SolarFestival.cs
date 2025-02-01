@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using horoscope.enums;
-using horoscope.solar;
+using JeezFoundation.Horoscope.enums;
+using JeezFoundation.Horoscope.solar;
 
-namespace horoscope.festival
+namespace JeezFoundation.Horoscope.festival
 {
     /// <summary>
     /// 公历现代节日

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using horoscope.culture;
+using JeezFoundation.Horoscope.culture;
 
-namespace horoscope.lunar
+namespace JeezFoundation.Horoscope.lunar
 {
     /// <summary>
     /// 农历周

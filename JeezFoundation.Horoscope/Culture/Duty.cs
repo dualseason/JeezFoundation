@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture
+﻿namespace JeezFoundation.Horoscope.culture
 {
     /// <summary>
     /// 建除十二值神

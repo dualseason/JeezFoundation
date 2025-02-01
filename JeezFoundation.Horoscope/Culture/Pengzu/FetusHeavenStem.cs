@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture.pengzu
+﻿namespace JeezFoundation.Horoscope.culture.pengzu
 {
     /// <summary>
     /// 天干彭祖百忌

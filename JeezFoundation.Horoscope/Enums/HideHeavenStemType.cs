@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace horoscope.enums
+namespace JeezFoundation.Horoscope.enums
 {
     /// <summary>
     /// 藏干类型

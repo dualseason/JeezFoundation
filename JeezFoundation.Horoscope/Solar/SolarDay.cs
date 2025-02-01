@@ -1,17 +1,17 @@
 ﻿using System;
-using horoscope.culture;
-using horoscope.culture.dog;
-using horoscope.culture.nine;
-using horoscope.culture.phenology;
-using horoscope.culture.plumrain;
-using horoscope.enums;
-using horoscope.festival;
-using horoscope.holiday;
-using horoscope.jd;
-using horoscope.lunar;
-using horoscope.sixtycycle;
+using JeezFoundation.Horoscope.culture;
+using JeezFoundation.Horoscope.culture.dog;
+using JeezFoundation.Horoscope.culture.nine;
+using JeezFoundation.Horoscope.culture.phenology;
+using JeezFoundation.Horoscope.culture.plumrain;
+using JeezFoundation.Horoscope.enums;
+using JeezFoundation.Horoscope.festival;
+using JeezFoundation.Horoscope.holiday;
+using JeezFoundation.Horoscope.jd;
+using JeezFoundation.Horoscope.lunar;
+using JeezFoundation.Horoscope.sixtycycle;
 
-namespace horoscope.solar
+namespace JeezFoundation.Horoscope.solar
 {
     /// <summary>
     /// 公历日

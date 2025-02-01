@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture
+﻿namespace JeezFoundation.Horoscope.culture
 {
     /// <summary>
     /// 九野

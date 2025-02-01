@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture.nine
+﻿namespace JeezFoundation.Horoscope.culture.nine
 {
     /// <summary>
     /// 数九天

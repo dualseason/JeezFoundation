@@ -1,6 +1,6 @@
-﻿using horoscope.culture.star.twentyeight;
+﻿using JeezFoundation.Horoscope.culture.star.twentyeight;
 
-namespace horoscope.culture
+namespace JeezFoundation.Horoscope.culture
 {
     /// <summary>
     /// 动物

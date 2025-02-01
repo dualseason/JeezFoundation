@@ -1,4 +1,4 @@
-﻿namespace horoscope.culture.star.six
+﻿namespace JeezFoundation.Horoscope.culture.star.six
 {
     /// <summary>
     /// 六曜（孔明六曜星）

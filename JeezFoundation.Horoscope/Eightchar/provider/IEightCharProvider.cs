@@ -1,6 +1,6 @@
-﻿using horoscope.lunar;
+﻿using JeezFoundation.Horoscope.lunar;
 
-namespace horoscope.eightchar.provider
+namespace JeezFoundation.Horoscope.eightchar.provider
 {
     /// <summary>
     /// 八字计算接口

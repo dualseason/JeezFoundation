@@ -1,6 +1,6 @@
-﻿using horoscope.lunar;
+﻿using JeezFoundation.Horoscope.lunar;
 
-namespace horoscope.eightchar.provider.impl
+namespace JeezFoundation.Horoscope.eightchar.provider.impl
 {
     /// <summary>
     /// 默认的八字计算（晚子时算第二天）

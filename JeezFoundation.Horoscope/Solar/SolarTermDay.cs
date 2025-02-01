@@ -1,4 +1,4 @@
-﻿namespace horoscope.solar
+﻿namespace JeezFoundation.Horoscope.solar
 {
     /// <summary>
     /// 节气第几天
