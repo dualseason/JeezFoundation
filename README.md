@@ -1,167 +1,121 @@
 # JeezFoundation 使用文档
 
-## 1. 项目简介
+# JeezFoundation 项目文档
 
-**JeezFoundation** 是一个提供基础功能和工具的框架，旨在简化开发过程，并为应用程序提供常用的服务和功能模块。它提供了一系列的 API 和库，帮助开发者快速实现业务逻辑。
+## 项目简介
+JeezFoundation 是一个基于 .NET 的模块化基础框架，包含多个子项目，涵盖了 Consul、Dapper、Redis、WeChat、WorkFlow 等功能模块。该项目旨在为开发者提供一个可扩展、模块化的基础框架，以便快速构建企业级应用。
 
-## 2. 安装和配置
+## 目录
+- [项目简介](#项目简介)
+- [项目结构](#项目结构)
+- [安装指南](#安装指南)
+- [使用说明](#使用说明)
+- [依赖项](#依赖项)
+- [贡献指南](#贡献指南)
+- [许可证](#许可证)
 
-### 2.1 克隆项目
+## 项目结构
+JeezFoundation 项目包含以下子项目：
 
-要开始使用 JeezFoundation，首先克隆项目到本地：
+- **JeezFoundation.Core**: 核心模块，提供基础功能和工具类。
+- **JeezFoundation.Consul**: 提供 Consul 服务发现和配置管理的集成。
+- **JeezFoundation.Dapper**: 提供 Dapper ORM 的扩展和工具类。
+- **JeezFoundation.Redis**: 提供 Redis 缓存的集成和管理。
+- **JeezFoundation.WeChat**: 提供微信相关功能的集成，如消息处理、事件处理等。
+- **JeezFoundation.WorkFlow**: 提供工作流引擎的实现，支持会签、流程节点扩展等功能。
+- **JeezFoundation.Horoscope**: 提供八字排盘、童限计算等功能。
+- **JeezFoundation.Test**: 提供单元测试和集成测试的支持。
+- **JeezFoundation.Tool**: 提供一些通用的工具类和扩展方法。
 
-```bash
-git clone https://github.com/dualseason/JeezFoundation.git
-```
+### 项目文件结构
 
-### 2.2 安装依赖
 
-确保你已安装所需的依赖项。你可以使用 .NET 的包管理工具来安装所有依赖项：
 
+## 安装指南
+### 环境要求
+- 操作系统：Windows / macOS / Linux
+- .NET SDK：8.0
+- 其他依赖项：Consul、Redis、Dapper 等
+
+### 安装步骤
+1. 克隆仓库：
+   ```bash
+   git clone https://github.com/dualseason/JeezFoundation.git
+   ```
+2. 进入项目目录：
 ```bash
 cd JeezFoundation
-dotnet restore
 ```
-
-### 2.3 配置
-
-在项目根目录下，你可以找到配置文件，通常是 `appsettings.json` 或类似的配置文件。根据需要修改配置项来适应你的环境。
-
-```json
-{
-  "AppSettings": {
-    "ConnectionString": "your_connection_string_here",
-    "LogLevel": "Information"
-  }
-}
-```
-
-## 3. 项目结构
-
-JeezFoundation 项目包含以下主要模块：
-
-- **Core**：核心功能和服务
-- **Services**：提供具体的服务实现
-- **Utils**：常用工具和扩展
-- **Models**：数据模型和实体
-- **Controllers**：API 控制器（如果有）
-
-## 4. 快速开始
-
-### 4.1 初始化服务
-
-在 `Startup.cs` 或 `Program.cs` 文件中，初始化 JeezFoundation 提供的服务。你可以将其作为一个依赖注入服务引入到你的项目中。
-
-```csharp
-public class Startup
-{
-    public void ConfigureServices(IServiceCollection services)
-    {
-        // 注册 JeezFoundation 服务
-        services.AddJeezFoundation();
-    }
-}
-```
-
-### 4.2 使用 API
-
-假设你已成功初始化并配置了相关服务，现在可以使用 JeezFoundation 提供的 API。例如：
-
-```csharp
-public class ExampleController : ControllerBase
-{
-    private readonly IExampleService _exampleService;
-
-    public ExampleController(IExampleService exampleService)
-    {
-        _exampleService = exampleService;
-    }
-
-    [HttpGet("example")]
-    public IActionResult GetExampleData()
-    {
-        var data = _exampleService.GetExampleData();
-        return Ok(data);
-    }
-}
-```
-
-### 4.3 配置日志
-
-JeezFoundation 提供了内建的日志系统，你可以在 `appsettings.json` 中配置日志级别：
-
-```json
-{
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information"
-    }
-  }
-}
-```
-
-你可以通过以下方式在代码中使用日志：
-
-```csharp
-private readonly ILogger<ExampleController> _logger;
-
-public ExampleController(ILogger<ExampleController> logger)
-{
-    _logger = logger;
-}
-
-_logger.LogInformation("This is an information log.");
-```
-
-## 5. 高级功能
-
-### 5.1 数据库支持
-
-JeezFoundation 提供了对多种数据库的支持。你可以通过配置 `DbContext` 来连接你的数据库：
-
-```csharp
-public class ApplicationDbContext : DbContext
-{
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) 
-        : base(options) { }
-
-    public DbSet<User> Users { get; set; }
-}
-```
-
-在 `Startup.cs` 中配置数据库连接：
-
-```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-    services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-}
-```
-
-### 5.2 定时任务
-
-如果项目包含定时任务或调度功能，可以使用相关的工具来配置定时执行的操作。
-
-## 6. 测试
-
-JeezFoundation 项目支持单元测试和集成测试。可以使用 xUnit、NUnit 或 MSTest 来编写测试用例。
-
-```bash
-dotnet test
-```
-
-## 7. 常见问题
-
-### 7.1 如何处理数据库连接问题？
-
-确保在 `appsettings.json` 中正确配置了数据库连接字符串，并检查数据库是否可用。如果数据库连接失败，可以参考 [连接错误日志](https://docs.microsoft.com/en-us/ef/core/miscellaneous/logging) 来解决问题。
-
-### 7.2 如何更新项目依赖？
-
-运行以下命令来更新所有项目依赖：
-
+3. 恢复 NuGet 包：
 ```bash
 dotnet restore
 ```
 
+使用说明
+JeezFoundation.Consul
+Consul 模块提供了服务发现和配置管理的功能。你可以通过以下方式使用：
+
+```bash
+var serviceDiscoveryOptions = new ServiceDiscoveryOptions
+{
+    Service = new ServiceOptions(),
+    Consul = new ConsulOptions()
+};
+```
+JeezFoundation.WorkFlow
+工作流模块提供了流程节点扩展和会签功能。你可以通过以下方式使用：
+
+```bash
+var chatData = new ChatData
+{
+    ChatType = ChatType.Parallel,
+    ParallelCalcType = ChatParallelCalcType.OneHundredPercent
+};
+```
+
+JeezFoundation.WeChat
+微信模块提供了微信消息和事件的处理功能。你可以通过以下方式使用：
+```bash
+var shortVideoMsg = new RequestShortVideoMsg
+{
+    MediaId = "media_id",
+    ThumbMediaId = "thumb_media_id"
+};
+```
+
+依赖项
+以下是项目的主要依赖项：
+
+```bash
+Consul: 1.7.14.6
+Dapper: 2.1.35
+Redis: 2.8.22
+Newtonsoft.Json: 13.0.3
+System.ComponentModel.Annotations: 4.5.0
+```
+贡献指南
+Fork 项目仓库。
+创建新的分支：
+```bash
+git checkout -b feature/your-feature
+```
+提交你的更改：
+```bash
+git commit -m "Add some feature"
+```
+推送到分支：
+```bash
+git push origin feature/your-feature
+```
+提交 Pull Request。
+许可证
+本项目采用 MIT 许可证。
+
+### 说明
+- **项目结构**：根据你提供的代码文件，列出了主要子项目和文件结构。
+- **安装指南**：提供了基本的安装和编译步骤。
+- **使用说明**：简要介绍了如何使用 Consul、WorkFlow 和 WeChat 模块。
+- **依赖项**：列出了项目的主要依赖项。
+- **贡献指南**：提供了如何为项目做出贡献的步骤。
+
+你可以根据项目的实际情况进一步扩展和修改这个文档。
