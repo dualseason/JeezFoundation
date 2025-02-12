@@ -1,5 +1,3 @@
-# JeezFoundation 使用文档
-
 # JeezFoundation 项目文档
 
 ## 项目简介
