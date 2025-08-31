@@ -10,3 +10,15 @@ C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\JeezFounda
 C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\refint\JeezFoundation.Horoscope.dll
 C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\JeezFoundation.Horoscope.pdb
 C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\ref\JeezFoundation.Horoscope.dll
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\bin\Debug\net8.0\JeezFoundation.Horoscope.deps.json
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\bin\Debug\net8.0\JeezFoundation.Horoscope.dll
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\bin\Debug\net8.0\JeezFoundation.Horoscope.pdb
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\JeezFoundation.Horoscope.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\JeezFoundation.Horoscope.AssemblyInfoInputs.cache
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\JeezFoundation.Horoscope.AssemblyInfo.cs
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\JeezFoundation.Horoscope.csproj.CoreCompileInputs.cache
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\JeezFoundation.Horoscope.sourcelink.json
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\JeezFoundation.Horoscope.dll
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\refint\JeezFoundation.Horoscope.dll
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\JeezFoundation.Horoscope.pdb
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\net8.0\ref\JeezFoundation.Horoscope.dll

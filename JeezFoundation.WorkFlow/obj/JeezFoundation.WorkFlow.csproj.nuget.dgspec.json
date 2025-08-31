@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj": {}
+    "D:\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj": {}
   },
   "projects": {
-    "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj": {
+    "D:\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj",
+        "projectUniqueName": "D:\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj",
         "projectName": "JeezFoundation.Core",
-        "projectPath": "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj",
+        "projectPath": "D:\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj",
         "packagesPath": "C:\\Users\\duals\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.Core\\obj\\",
+        "outputPath": "D:\\Code\\JeezFoundation\\JeezFoundation.Core\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\duals\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,7 +50,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         },
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
@@ -111,22 +111,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj": {
+    "D:\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
+        "projectUniqueName": "D:\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
         "projectName": "JeezFoundation.WorkFlow",
-        "projectPath": "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
+        "projectPath": "D:\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\JeezFoundation.WorkFlow.csproj",
         "packagesPath": "C:\\Users\\duals\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\obj\\",
+        "outputPath": "D:\\Code\\JeezFoundation\\JeezFoundation.WorkFlow\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\duals\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,16 +145,16 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj": {
-                "projectPath": "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj"
+              "D:\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj": {
+                "projectPath": "D:\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj"
               }
             }
           },
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj": {
-                "projectPath": "C:\\Data\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj"
+              "D:\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj": {
+                "projectPath": "D:\\Code\\JeezFoundation\\JeezFoundation.Core\\JeezFoundation.Core.csproj"
               }
             }
           }
@@ -169,7 +169,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -196,7 +196,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         },
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
@@ -222,7 +222,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

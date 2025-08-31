@@ -8,3 +8,13 @@ C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\Je
 C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.sourcelink.json
 C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.dll
 C:\Data\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.pdb
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\bin\Debug\netstandard2.1\JeezFoundation.Horoscope.deps.json
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\bin\Debug\netstandard2.1\JeezFoundation.Horoscope.dll
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\bin\Debug\netstandard2.1\JeezFoundation.Horoscope.pdb
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.AssemblyInfoInputs.cache
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.AssemblyInfo.cs
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.csproj.CoreCompileInputs.cache
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.sourcelink.json
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.dll
+D:\Code\JeezFoundation\JeezFoundation.Horoscope\obj\Debug\netstandard2.1\JeezFoundation.Horoscope.pdb
